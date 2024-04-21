@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Ample Bold';
+    src: url('AmpleSoftPro-Bold.woff2') format('woff2'),
+        url('AmpleSoftPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ample Regular';
+    src: url('AmpleSoftPro-Regular.woff2') format('woff2'),
+        url('AmpleSoftPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ample Light';
+    src: url('AmpleSoftPro-Light.woff2') format('woff2'),
+        url('AmpleSoftPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ample Medium';
+    src: url('AmpleSoftPro-Medium.woff2') format('woff2'),
+        url('AmpleSoftPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ample Ex Light';
+    src: url('AmpleSoftPro-ExtraLight.woff2') format('woff2'),
+        url('AmpleSoftPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ample Thin';
+    src: url('AmpleSoftPro-Thin.woff2') format('woff2'),
+        url('AmpleSoftPro-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

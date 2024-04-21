@@ -1,0 +1,1679 @@
+
+/* min-width: 993px start */
+
+@media screen and (min-width: 1151px) {
+    #navregbtn {
+      margin-right: -60px;
+    }
+
+    #introportion {
+        background: url("../img/1st%20Image.png") no-repeat;
+        background-size: cover;
+        margin-top: 118px;
+    }
+
+    #mainHeading {
+        padding-top: 20px;
+    }
+
+    #suppo {
+        padding-top: 50px;
+        font-size: 50px;
+    }
+
+    #runner1 {
+        margin-top: -100px;
+        padding-right: 100px;
+    }
+
+    #runner2 {
+        margin-top: -100px;
+        padding-left: 100px;
+    }
+
+    #runners45{
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+
+    #fourth {
+        margin-right: -140px;
+    }
+
+    #fifth {
+        margin-left: -140px;
+    }
+    #fourthBox {
+        height: 30px;
+    }
+      
+    #fifthBox {
+        height: 30px;
+    }
+
+    .slider {
+        padding-bottom: 100px;
+        width: 90%;
+    }
+
+    #phase5line {
+        display: none;
+    }
+
+    #bullets {
+        padding-top: 50px;
+    }  
+    
+    #mainLogo {
+        width: 380px;
+        margin-right: 0;
+        margin-left: 200px;
+        padding-top: 2px;
+    }
+
+    #overviewHeading {
+        margin-top: -58px;
+        margin-left: -13px;
+    }
+    
+    #overviewPara {
+        margin-left: -12px;
+        margin-top: -8px;
+    }
+
+    #regNowBtn {
+        padding-left: 180px;
+    }
+    
+    #question {
+        padding-left: 180px;
+        padding-top: 2px;
+    }
+    
+    #deadline {
+        padding-left: 180px;
+    }
+
+
+    /* rules start */
+
+    #rulesHeading {
+        margin-top: 20px;
+        padding-bottom: 2px;
+        font-size: 58px;
+    }
+
+    #rulesHead {
+        font-size: 22px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    #horiRed {
+        margin: 1.5rem;
+    }
+
+    #rules {
+        font-family: 'Ample Regular';
+        padding-top: 0;
+        font-size: 20px;
+        padding-right: 8px;
+        margin-left: -60px;
+    }
+    #rules2 {
+        font-size: 20px;
+    }
+      
+    #round {
+        font-weight: bold;
+        font-size: 50px;
+        padding-bottom: 30px;
+        margin-left: 50px;
+    }
+    #eligi {
+        padding-top: 40px;
+    }
+
+    #rulesCon {
+        margin-left: 70px;
+    }
+
+    #regi {
+        padding-top: 30px;
+    }
+
+    #regiRound {
+        padding-top: 10px;
+    }
+
+    #onlRound {
+        padding-top: 0;
+        margin-top: -12px;
+    }
+
+    #natRound {
+        padding-top: 20px;
+    }
+
+    #misce {
+        padding-top: 0;
+        margin-top: -10px;
+    }
+    /* rules end */
+
+    #footer {
+        padding-top: 46px;
+        padding-bottom: 24px;
+    }
+      
+}
+
+/* min-width: 1151px end */
+@media screen and (min-width: 800px) {
+    .footerIcons {
+        float: right;
+    }
+
+    #f1 {
+        margin-top: -44px;
+        margin-right: 80px;
+    }
+    #f2 {
+        margin-top: -44px;
+        margin-right: 130px;
+    }
+    #f3 {
+        margin-top: -44px;
+        margin-right: 180px;
+    }
+} 
+
+@media screen and (max-width: 799px) {
+    .footerIcons {
+        margin:4px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1150px) {
+    #fourth {
+        margin-right: -100px;
+    }
+
+    #fifth {
+        margin-left: -100px;
+    }
+
+    #runners {
+        margin-top: -20px;
+    }
+
+    #runner1 {
+        padding-right: 100px;
+    }
+
+    #runner2 {
+        padding-left: 100px;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    #fourth {
+        margin-right: -50px;
+    }
+
+    #fifth {
+        margin-left: -50px;
+    }
+}
+
+
+
+/* max-width: 1150px start */
+
+@media screen and (max-width: 1150px) {
+    html {
+        scroll-padding-top: 12%;
+    }
+    
+    #logo {
+      height: 80px;
+      margin-left: -20px;
+    }
+
+    #navregbtn {
+        border-radius: 13px;
+        width: 150px;
+        height: 36px;
+        font-size: 20px;
+        padding-top: 2px;
+        margin-top: 4px;
+        margin-right: -30px;
+    }
+
+    #navItem {
+        font-size: 16px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    #introportion {
+        padding-top: 20px;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    #mainHeading {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        padding-top: 60px;
+        margin-left: 0;
+    }
+
+    #introPara {
+        font-family: 'Ample Light';
+        font-size: 18px;
+        padding-top: 10px;
+        text-align: center !important;
+        margin-left: 0;
+        line-height: 18px;
+    }
+
+    #mainLogo {
+        width: 330px;
+        margin-top: 40px;
+    }
+
+    #overviewHeading {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 0rem;
+        margin-top: -20px;
+    }
+
+    #overviewPara {
+        line-height: 19px;
+        text-align: center;
+        font-size: 17px;
+    }
+    #question {
+        padding-top: 35px;
+    }
+
+    #deadline {
+        font-size: 15px !important;
+    }
+
+    #regnowbtn {
+        border-radius: 10px;
+        width: 160px;
+        height: 40px;
+        padding-top: 2px;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 22px !important;
+        margin-left: -10px;
+    }
+
+    /* suppoerted by start */
+    #supportedBy {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .slider {
+        width: 80%;
+    }
+    /* suppoerted by end */
+
+
+
+
+    /* prize money start*/
+    #prizeHeading {
+        font-size: 42px;
+        padding-top: 38px;
+        line-height: 36px;
+    }
+
+    #prizeMonPara {
+        font-size: 19px;
+        line-height: 19px;
+    }
+
+    #bdt {
+        font-size: 26px;
+    }
+
+    #champ {
+        width: 150px;
+        font-size: 28px;
+    }
+    #champtaka {
+        width: 240px;
+        height: 66px;
+        font-size: 42px;
+        margin-top: -18px;
+        padding-top: 1px;
+        border-radius: 12px;
+    }
+
+    #runnersup1 {
+        width: 170px;
+        height: 32px;
+        font-size: 22px;
+        font-family: 'Ample Medium';
+    }
+
+    #runnersup2 {
+        width: 170px;
+        height: 32px;
+        font-size: 22px;
+        font-family: 'Ample Medium';
+    }
+
+    #hori {
+        max-width: 180px;
+    }
+
+    #horibot {
+        max-width: 180px;
+    }
+
+    #taka {
+        font-size: 29px;
+        text-shadow: 2px 2px rgba(0,0,0,.6);
+    }
+
+    #taka45 {
+        font-size: 24px;
+        text-shadow: 2px 2px rgba(0,0,0,.6);
+    }
+
+    #fourthBox {
+        width: 62px;
+        border-radius: 6px;
+        margin: auto;
+        height: 24px;
+        padding-top: 0;
+        font-size: 18px !important;
+        text-align: center;
+    }
+
+    #fifthBox {
+        width: 62px;
+        border-radius: 6px;
+        margin: auto;
+        height: 24px;
+        padding-top: 0;
+        font-size: 18px !important;
+        text-align: center;
+    }
+
+    #runners45 {
+        margin-top: 40px !important;
+    }
+
+    #hori45 {
+        max-width: 120px;
+    }
+
+    #horibot45 {
+        max-width: 120px;
+    }
+
+    #sixthBox {
+        font-size: 16px;
+        width: 56px;
+        height: 22px;
+    }
+
+    #sixthRow {
+        margin-top: 40px;
+    }
+
+    #hori6 {
+        max-width: 95px;
+    }
+
+    #taka6 {
+        font-size: 20px;
+        text-shadow: 2px 2px rgba(0,0,0,.6);
+    }
+
+    #horibot6 {
+        max-width: 95px;
+    }
+
+    /* prize money end*/
+
+
+
+
+
+
+    #bullets {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 21px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+
+
+    /* phases start*/
+    #phaseNum {
+        padding-top: 0;
+        font-size: 18px;
+        margin-left: 72px;
+    }
+
+    #dateAnnounce {
+        font-size: 15px;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    #phaseIcon {
+        height: 55px;
+        width: 55px;
+        text-align: center;
+        padding-top: 4px;
+        margin-top: -70px;
+        margin-left: 50px;
+    }
+
+    #phasesRow {
+        padding-top: 45px;
+        padding-bottom: 55px;
+    }
+    
+    #phasePara {
+        margin: auto;
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 0;
+        margin-left: -62px;
+    }
+
+    #phaseHeading {
+        margin-left: -62px;
+    }
+
+    #hori2 {
+        max-width: 350px;
+        margin-top: 20px;
+    }
+
+    #smallCircle {
+        color: white;
+        margin-left: 210px;
+        margin-top: -70px;
+    }
+
+    #mentHeading {
+        font-size: 20px;
+    }
+
+    #tableContent {
+        font-size: 15px;
+    }
+
+    #tableHeaders {
+        font-size: 22px;
+    }
+
+    #phaseRegHeading {
+        font-size: 24px;
+    }
+    
+    #ment {
+        width: 130px;
+        font-size: 15px;
+        height: 28px;
+    }
+    .verline {
+        margin-left: 214px;
+        margin-top: -40px;
+    }
+    /* phases end */
+
+
+
+
+    /* rules start */
+    #rulesCon {
+        height: 70px;
+        padding-left: 40px;
+    }
+
+    #rulesHeading {
+        padding-bottom: 2px;
+        font-size: 50px;
+    }
+
+    #rulesHead {
+        font-size: 18px;
+        line-height: 20px;
+        padding-left: 4px;
+        text-align: center;
+    }
+
+    #rules {
+        font-family: 'Ample Regular';
+        padding-top: 0;
+        font-size: 16px;
+        padding-right: 8px;
+    }
+
+    #rules2 {
+        font-size: 16px;
+    }
+      
+    #round {
+        font-weight: bold;
+        font-size: 40px;
+        padding-bottom: 30px;
+        margin-left: 40px;
+    }
+    #eligi {
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+
+    #regi {
+        padding-top: 26px;
+    }
+
+    #regiRound {
+        padding-top: 20px;
+    }
+
+    #onlRound {
+        padding-top: 10px;
+    }
+
+    #natRound {
+        padding-top: 50px;
+    }
+
+    #misce {
+        padding-top: 0;
+    }
+    /* rules end */
+
+    #footer {
+        font-size: 18px;
+        padding-top: 28px;
+        padding-bottom: 14px;
+    }
+      
+
+}
+
+/* max-width: 1150px end */
+
+
+
+
+
+
+
+/* max-width: 864px start */
+@media screen and (max-width: 864px) {
+    html {
+        scroll-padding-top: 15%;
+    }
+    #mainHeading {
+        font-size: 43px;
+        line-height: 43px;
+        text-align: center;
+        padding-top: 54px;
+        margin-left: 0;
+    }
+
+    #introPara {
+        font-family: 'Ample Light';
+        font-size: 17px;
+        padding-top: 10px;
+        text-align: center !important;
+        margin-left: 0;
+        line-height: 18px;
+    }
+
+    #mainLogo {
+        width: 310px;
+        margin-top: 20px;
+    }
+
+    #overviewHeading {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 0rem;
+        margin-top: -20px;
+    }
+
+    #overviewPara {
+        line-height: 19px;
+        text-align: center;
+        font-size: 16px;
+    }
+    #question {
+        padding-top: 35px;
+    }
+
+    #timeLine {
+        text-align: center;
+        margin-left: 0;
+        font-size: 30px;
+        margin-bottom: 10px;
+        padding-top: 14px;
+    }
+
+    .verline {
+        margin-left: 194px;
+        margin-top: -76px;
+    }
+
+    #round {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+}
+
+/* max-width: 850px end */
+
+
+
+
+
+
+
+/* max-width: 768px start */
+
+@media screen and (max-width: 768px) {
+    #navregbtn {
+      border-radius: 10px;
+      width: 140px;
+      height: 30px;
+      font-size: 18px;
+      margin-bottom: 20px;
+      padding-top: 0;
+      margin-left: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-top: 10px;
+    }
+
+    .nav-link {
+        padding: 0;
+        padding-top: 6px;
+    }
+
+    #navItem {
+        font-size: 16px;
+    }
+
+    #introportion {
+        padding-top: 45px;
+        padding-left: .5rem !important;
+        padding-right: .5rem !important;
+    }
+
+    #mainHeading {
+        font-size: 42px;
+        line-height: 34px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 0;
+    }
+
+    #introPara {
+        font-family: 'Ample Light';
+        font-size: 17px;
+        padding-top: 10px;
+        text-align: center !important;
+        margin-left: 0;
+        line-height: 20px;
+    }
+
+    #mainLogo {
+        width: 300px;
+        margin-top: 2px;
+    }
+
+    #overviewHeading {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+
+    #overviewPara {
+        line-height: 18px;
+        text-align: center;
+        font-size: 16px;
+    }
+    #question {
+        padding-top: 50px;
+        font-size: 20px !important;
+    }
+
+    #supportedBy {
+        padding-top: 16px;
+    }
+
+
+
+
+    /* prize money start*/
+
+    #prizeHeading {
+        font-size: 42px;
+        padding-top: 38px;
+        line-height: 36px;
+    }
+
+    #prizeMonPara {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+
+
+    #champtaka {
+        width: 220px;
+        height: 60px;
+        font-size: 37px;
+        margin-top: -18px;
+        padding-top: 1px;
+        border-radius: 12px;
+    }
+
+    #runnersup1 {
+        width: 158px;
+        height: 32px;
+        font-size: 22px;
+        font-family: 'Ample Medium';
+    }
+
+    #runnersup2 {
+        width: 158px;
+        height: 32px;
+        font-size: 22px;
+        font-family: 'Ample Medium';
+    }
+
+    #hori {
+        max-width: 160px;
+    }
+
+    #taka {
+        font-size: 24px;
+        text-shadow: 2px 2px rgba(0,0,0,.6);
+    }
+
+    #taka45 {
+        font-size: 22px;
+        text-shadow: 2px 2px rgba(0,0,0,.6);
+    }
+
+    #runners {
+        margin-top: 40px;
+    }
+
+    #horibot {
+        max-width: 160px;
+    }
+
+    #fourthBox {
+        width: 64px;
+        border-radius: 6px;
+        margin: auto;
+        height: 26px;
+        padding-top: 0;
+    }
+
+    #fifthBox {
+        width: 64px;
+        border-radius: 6px;
+        margin: auto;
+        height: 26px;
+        padding-top: 0;
+    }
+
+    #runners45 {
+        margin-top: 40px !important;
+    }
+
+    #hori45 {
+        max-width: 110px;
+    }
+
+    #horibot45 {
+        max-width: 110px;
+    }
+
+    #sixthBox {
+        font-size: 18px;
+        width: 52px;
+        height: 24px;
+    }
+
+    #hori6 {
+        max-width: 95px;
+    }
+
+    #taka6 {
+        font-size: 20px;
+        text-shadow: 2px 2px rgba(0,0,0,.6);
+    }
+
+    #horibot6 {
+        max-width: 95px;
+    }
+
+    #prizeMoneyContainer {
+        padding-bottom: 1.5rem !important;
+    }
+
+    /* Prize money end */
+
+
+
+    /* bullets start */
+    #bullets {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    /* bullets end */   
+
+
+
+
+
+    /* phases start*/
+    #phaseNum {
+        padding-top: 0;
+        margin-left: 10px;
+        font-size: 18px;
+        padding-left: 30px;
+    }
+
+    #dateAnnounce {
+        margin-left: 10px;
+        font-size: 15px;
+        margin-top: 0;
+        padding-left: 30px;
+    }
+
+    #phaseIcon {
+        height: 55px;
+        width: 55px;
+        text-align: center;
+        padding-top: 4px;
+        margin-top: -70px;
+        margin-left: 60px;
+    }
+
+    #phasePara {
+        margin: auto;
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 0;
+        margin-left: -62px;
+    }
+
+    #phaseHeading {
+        margin-left: -62px;
+    }
+
+    #hori2 {
+        max-width: 350px;
+        margin-top: 20px;
+    }
+    .verline {
+        margin-left: 140px;
+        margin-top: -100px;
+    }
+    /* phases end */
+    
+
+
+
+
+    /* Rules start */
+
+    #rulesHeading {
+        font-size: 42px;
+        text-align: center;
+        padding-top: 2rem !important;
+        margin-left: 0 !important;
+    }
+
+    .child1 {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px !important;
+    }
+
+    .child2 {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #rules {
+        font-family: 'Ample Regular';
+        padding-top: 4px;
+        font-size: 17px;
+    }
+        
+    #rules2 {
+        font-family: 'Ample Regular';
+        text-align:right ;
+        font-size: 17px;
+    }
+    
+    ul {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    #horiRed {
+        margin-top: 4px;
+    }
+
+    #round {
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -18px;
+        padding-bottom: 20px;
+    }
+
+    #rules {
+        font-size: 16px;
+    }
+
+    #rules2 {
+        font-size: 16px;
+    }
+
+    #regi {
+        margin-top: -24px;
+    }
+    #onlRound {
+        margin-top: -24px;
+        margin-left: 0;
+    }
+
+    #nationalRound {
+        padding-top: 0;
+        margin-top: -20px;
+    }
+
+    #misce {
+        margin-top: -20px;
+        margin-left: 0;
+    }
+
+    /* Rules end */
+    
+
+    .slider {
+        width: 80%;
+    }
+}
+ 
+/* max-width: 768px end */
+
+
+
+
+
+
+/* max-width: 715px start */
+@media screen and (max-width: 715px) {
+    
+    #mainHeading {
+        font-size: 36px;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 0;
+    }
+
+    #overviewHeading {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+
+    #overviewPara {
+        line-height: 18px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #phaseNum {
+
+        padding-left: 10px;
+    }
+
+    #dateAnnounce {
+        margin-left: 10px;
+        font-size: 15px;
+        margin-top: 0;
+        padding-left: 12px;
+    }
+
+    #phasePara {
+        margin: auto;
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 0;
+        margin-left: -52px;
+    }
+
+    #phaseHeading {
+        margin-left: -52px;
+    }
+
+    .verline {
+        margin-left: 130px;
+        margin-top: -98px;
+    }
+
+}
+
+/* max-width: 715px end */
+
+
+
+
+
+
+/* max-width: 630px start */
+@media screen and (max-width: 630px) {
+    
+    #mainHeading {
+        font-size: 32px;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 0;
+    }
+
+    .verline {
+        margin-left: 120px;
+        margin-top: -100px;
+    }
+
+    #phasePara {
+        margin: auto;
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 0;
+        margin-left: -46px;
+    }
+
+    #footer {
+        font-size: 16px;
+        padding-top: 22px;
+        padding-bottom: 10px;
+    }
+}
+
+/* max-width: 630px end */
+
+
+
+
+
+
+/* max-width: 576px start */
+
+@media screen and (max-width: 576px) {
+
+    html {
+        scroll-padding-top: 8%;
+    }
+
+    /* Intro start */
+    #logo {
+        height: 70px;
+        margin-right: 4px;
+    }
+
+    .nav-link {
+        padding: 0;
+        padding-top: 6px;
+    }
+    #navregbtn {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 122px;
+        margin-bottom: 18px;
+    }
+
+    #mainHeading {
+        font-size: 56px;
+        line-height: 52px;
+        text-align: center;
+        margin-left: -2px;
+        letter-spacing: 0;
+        padding-top: 1px !important;
+    }
+
+    #introPara {
+        font-family: 'Ample Light';
+        font-size: 17px;
+        padding-top: 6px;
+        text-align: center !important;
+        margin-left: 0;
+        line-height: 20px;
+    }
+
+    #mainLogo {
+        width: 270px;
+        margin-top: -28px;
+    }
+
+    #overviewHeading {
+        font-size: 28px;
+        text-align: center;
+        margin-top: -4px;
+        margin-bottom: 0rem;
+    }
+
+    #overviewPara {
+        line-height: 18px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #question {
+        padding-top: 15px;
+    }
+
+    #supportedBy {
+        padding-bottom: 2px;
+    }
+    /* Intro end */
+    
+
+    
+    
+    
+    
+    
+    /* Prize money start */
+    
+    #prizeHeading {
+        font-size: 38px;
+        padding-top: 30px;
+        line-height: 36px;
+    }
+
+    #prizeMonPara {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #bdt {
+        font-size: 20px;
+    }
+
+    #champ {
+        width: 130px;
+        font-size: 26px;
+        box-shadow: 2px 3px 2px 0 rgba(0,0,0,.6);
+        font-family: 'Ample Bold' ;
+    }
+
+    #champtaka {
+        width: 220px;
+        height: 60px;
+        font-size: 38px;
+        margin-top: -18px;
+        padding-top: 1px;
+        border-radius: 12px;
+    }
+
+    #runnersup1 {
+        width: 146px;
+        height: 30px;
+        font-size: 20px;
+        font-family: 'Ample Medium';
+    }
+
+    #runnersup2 {
+        width: 146px;
+        height: 30px;
+        font-size: 20px;
+        font-family: 'Ample Medium';
+    }
+
+    #hori {
+        max-width: 160px;
+    }
+
+    #taka {
+        font-size: 24px;
+        text-shadow: 2px 2px rgba(0,0,0,.6);
+    }
+
+    #taka45 {
+        font-size: 22px;
+        text-shadow: 2px 2px rgba(0,0,0,.6);
+    }
+
+    #runners {
+        margin-top: 40px;
+    }
+
+    #horibot {
+        max-width: 160px;
+    }
+
+    #runner2 {
+        margin-top: 10px;
+    }
+
+    #fourthBox {
+        width: 64px;
+        border-radius: 6px;
+        margin: auto;
+        height: 26px;
+        padding-top: 0;
+    }
+
+    #fifthBox {
+        width: 64px;
+        border-radius: 6px;
+        margin: auto;
+        height: 26px;
+        padding-top: 0;
+    }
+
+    #runners45 {
+        margin-top: 40px !important;
+    }
+
+    #hori45 {
+        max-width: 110px;
+    }
+
+    #horibot45 {
+        max-width: 110px;
+    }
+
+    #fifth {
+        padding-top: 12px;
+    }
+
+    #sixthBox {
+        font-size: 18px;
+        width: 52px;
+        height: 22px;
+    }
+
+    #sixthRow {
+        padding-bottom: 10px;
+    }
+
+    #hori6 {
+        max-width: 95px;
+    }
+
+    #taka6 {
+        font-size: 20px;
+        text-shadow: 2px 2px rgba(0,0,0,.6);
+    }
+
+    #horibot6 {
+        max-width: 95px;
+    }
+
+    #prizeMoneyContainer {
+        padding-bottom: 1.5rem !important;
+    }
+
+    /* Prize money end */
+
+
+
+
+
+
+    /* bullets start */
+    #bullets {
+        font-size: 17px;
+        margin-left: 4px;
+        margin-right: 4px;
+        line-height: 21px;
+    }
+    /* bullets end */   
+
+
+
+
+
+
+
+    /* Phases start */
+
+    #phases {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    #phase {
+        width: 100%;
+        text-align: center;
+    }
+
+    #phaseHeading {
+        margin-left: 0px !important;
+    }
+    #phaseICon {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #phaseDetail {
+        width: 100%;
+        text-align: center;
+    }
+
+    #phaseNum {
+        padding-left: 0;
+        padding-top: 0;
+        margin-left: 6px;
+        font-size: 18px;
+    }
+
+    #dateAnnounce {
+        margin-left: 0;
+        font-size: 15px;
+        margin-top: -16px;
+        padding-left: 0;
+    }
+
+    #phaseIcon {
+        height: 55px;
+        width: 55px;
+        text-align: center;
+        padding-top: 8px;
+        margin-top: 2px;
+        margin-left: 0;
+    }
+
+    #phasePara {
+        margin: auto;
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 0;
+    }
+
+    #phasesRow {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    #phaseHeading5 {
+        padding-left: 2px;
+        margin-left: 0;
+    }
+
+    #phase5 {
+        padding-top: 18px;
+        padding-bottom: 24px;
+    }
+
+    #hori2 {
+        max-width: 250px;
+        margin-top: 2px;
+    }
+    #phaseRegHeading {
+        font-size: 22px;
+    }
+
+    #tableHeaders {
+        font-size: 18px;
+    }
+
+    #tableContent {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .verline {
+        display: none;
+    }
+
+    .table {
+        margin-bottom: 0 !important;
+    }
+
+    /* Phases end */
+
+
+
+
+
+
+    /* Rules start */
+
+    #rulesHeading {
+        font-size: 42px;
+        text-align: center;
+        padding-top: 1.5rem !important;
+        margin-left: 0 !important;
+    }
+
+    .child1 {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px !important;
+    }
+
+    .child2 {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #rules {
+        font-family: 'Ample Regular';
+        padding-top: 4px;
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    #rules li {
+        padding-bottom: 8px;
+    }
+
+    #rules2 {
+        font-family: 'Ample Regular';
+        text-align:right ;
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    #rules2 li {
+        padding-bottom: 8px;
+    }
+    
+    ul {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    #horiRed {
+        margin-top: 4px;
+    }
+
+    #round {
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -18px;
+        padding-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    #eligi {
+        padding-left: 0px !important;
+        margin-top: -20px;
+    }
+
+    #onlRound {
+        margin-top: -24px;
+        margin-left: 0;
+    }
+
+    #nationalRound {
+        padding-top: 0;
+        margin-top: -20px;
+    }
+
+    #misce {
+        margin-top: -20px;
+        margin-left: 0;
+    }
+
+    /* Rules end */
+
+
+
+
+
+    /*  slider start*/
+
+    #suppo {
+        margin-bottom: 0rem;
+    }
+
+    .slider {
+        width: 70%;
+    }
+
+    .slick-prev:before, .slick-next:before {
+        font-size: 60px;
+        line-height: 2.0;
+    }
+
+    .slick-slide {
+        margin: 0px 10px;
+    }
+
+    .slick-slide img {
+        height: 110px;
+        width: 100%;
+    }
+
+    /*  slider end*/
+}
+
+/* max-width: 576px end */
+
+
+
+
+
+
+
+
+
+
+/* max-width: 480px start */
+
+@media screen and (max-width: 480px) {
+
+    #mainHeading {
+        font-size: 44px;
+        line-height: 42px;
+        text-align: center;
+        margin-left: -2px;
+        letter-spacing: 0;
+    }
+    #prizeHeading {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #rulesHeading {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    /* slider start */
+    #suppo {
+        margin-bottom: 0rem;
+    }
+
+    .slider {
+        width: 70%;
+    }
+
+    .slick-prev:before, .slick-next:before {
+        font-size: 60px;
+        line-height: 2.0;
+    }
+
+    .slick-slide {
+        margin: 0px 10px;
+    }
+
+    .slick-slide img {
+        height: 110px;
+        width: 100%;
+    }
+    /*  slider end*/
+}
+
+/* max-width: 400px end */
+
+
+
+
+
+
+
+
+
+/* max-width: 300px start */
+@media screen and (max-width: 300px) {
+    #runners {
+        margin-top: 40px !important;
+    }
+
+    #mainHeading {
+        font-size: 31px;
+        line-height: 24px;
+        text-align: center;
+        margin-left: -2px;
+        letter-spacing: 0;
+    }
+
+
+    #rulesHeading {
+        font-size: 28px;
+        text-align: center;
+        padding-top: 1rem !important;
+        margin-left: 0 !important;
+    }
+
+    .slider {
+        width: 60%;
+    }
+}
+/* max-width: 300px end */
