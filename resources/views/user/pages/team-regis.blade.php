@@ -81,7 +81,7 @@
                     <div class="col-md-6">
                         <div class="mb-3 mt-1">
                             <label for="mobile_number" class="form-label">Mobile Number</label>
-                            <input type="text" name="mobile_number" class="form-control" placeholder="8801xxxxxxxxx" value="{{old('mobile_number')}}" required>
+                            <input type="text" name="mobile_number" class="form-control" placeholder="01xxxxxxxxx" value="{{old('mobile_number')}}" required>
                         </div>
                     </div>
 
@@ -135,7 +135,7 @@
                     <div class="mb-3 mt-1">
                         <label for="educational_background" class="form-label">Educational Background</label>
                         <textarea class="form-control" rows="5" name="educational_background"
-                        placeholder="Bachelors in CS laid the foundation, while bootcamps provided practical skills. Projects offered hands-on experience, with a commitment to continuous learning ensuring mastery of HTML ...">{{ trim(old('educational_background')) }}</textarea>
+                        placeholder="Bachelors in CS laid the foundation, while bootcamps provided practical skills. Projects offered hands-on experience, with a commitment to continuous learning ensuring mastery of HTML ..." required>{{ trim(old('educational_background')) }}</textarea>
                     </div>
 
                     <div class="mb-3 mt-1">
@@ -161,15 +161,15 @@
                             </div>
                         </div>
 
-                        <div class="mb-3 mt-1 programming_experience">
+                        <div class="mb-3 mt-1 programming_experience_fld">
                             <label for="programming_experience" class="form-label">
                             Describe your programming experience (if above answer is yes)
                             </label>
-                            <textarea class="form-control" rows="5" name="programming_experience"
-                            placeholder="Your programming experience ...">{{ trim(old('programming_experience')) }}</textarea>
+                            <textarea class="form-control" rows="5" id="programming_experience" name="programming_experience"
+                            placeholder="Your programming experience ..." required>{{ trim(old('programming_experience')) }}</textarea>
                         </div>
 
-                        <div class="mb-3 mt-1 programming_experience">
+                        <div class="mb-3 mt-1 programming_experience_fld">
                             <label for="programming_experience_rate" class="form-label">Rate your programming experience</label>
                             <select id="programming_experience_rate" name="programming_experience_rate"  class="form-control"> 
                                 <option value="1" @if (old('programming_experience_rate') == "1") {{ 'selected' }} @endif>1</option>
@@ -191,15 +191,15 @@
                             </div>
                         </div>
 
-                        <div class="mb-3 mt-1 android_experience">
+                        <div class="mb-3 mt-1 android_experience_fld">
                             <label for="android_experience" class="form-label">
                             Describe your android app development (if above answer is yes)
                             </label>
-                            <textarea class="form-control" rows="5" name="android_experience"
-                            placeholder="Your programming experience ...">{{ trim(old('android_experience')) }}</textarea>
+                            <textarea class="form-control" rows="5" id="android_experience" name="android_experience"
+                            placeholder="Your programming experience ..." required>{{ trim(old('android_experience')) }}</textarea>
                         </div>
 
-                        <div class="mb-3 mt-1 android_experience">
+                        <div class="mb-3 mt-1 android_experience_fld">
                             <label for="android_experience_rate" class="form-label">Rate your android app development experience</label>
                             <select id="android_experience_rate" name="android_experience_rate"  class="form-control"> 
                                 <option value="1" @if (old('android_experience_rate') == "1") {{ 'selected' }} @endif>1</option>
@@ -251,9 +251,11 @@
             // console.log(value);
 
             if (value == 'no') {
-                $(".programming_experience").fadeOut(700);
+                $(".programming_experience_fld").fadeOut(700);
+                $('#programming_experience').removeAttr('required');
             } else {
-                $(".programming_experience").fadeIn(700);
+                $(".programming_experience_fld").fadeIn(700);
+                $('#programming_experience').attr('required', true);
             }
         })
         
@@ -263,9 +265,11 @@
             // console.log(value);
 
             if (value == 'no') {
-                $(".android_experience").fadeOut(700);
+                $(".android_experience_fld").fadeOut(700);
+                $('#android_experience').removeAttr('required');
             } else {
-                $(".android_experience").fadeIn(700);
+                $(".android_experience_fld").fadeIn(700);
+                $('#android_experience').attr('required', true);
             }
         })
         
