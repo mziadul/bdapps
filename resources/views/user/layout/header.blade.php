@@ -20,7 +20,7 @@
 
                         <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 4 ? 'active':'' }}" href="{{route('user.home', ['tab' => 4] )}}#ruleS">Rules and guidelines</a></li>
 
-                        <a class="btn btn-light fw-bold" id="navregbtn" type="button" href="">Registration Closed</a>
+                        <a class="btn btn-light fw-bold" id="navregbtn" type="button" href="{{route('user.registration')}}">Register Now</a>
                     </ul>
                 </div>
             </div>

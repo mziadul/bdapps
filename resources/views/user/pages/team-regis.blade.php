@@ -22,6 +22,22 @@
     .btn-nah:hover {
         background: #872b62
     }
+    .form-switch {
+        padding-left: 0px !important;
+    }
+    .form-check-input {
+        float: right !important;
+        width: 4rem !important;
+        height: 2rem !important;
+    }
+
+    .group3 {
+        background: #eef8ff;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        border-radius: 10px;
+    }
+    
 </style>
 @endsection
 
@@ -30,15 +46,9 @@
 <div class="team-regis">
     <div class="container">
 
-        <div class="pt-4" style="padding: 22% 0%">
-            <h1 class="heading-one pt-4 text-center">Registration closed!</h1>
-            <h6 class="text-center pt-4">Shortlisted teams for regional rounds will be notified soon.</h6>
-        </div>
+        <h1 class="heading-one pt-4 text-center">Registration Form</h1>
 
-        @if (0)
-        <h1 class="heading-one pt-4 text-center">Team Registration</h1>
-
-        <form method="post" action="{{route('team.registration.store')}}">
+        <form method="post" action="{{route('user.registration.store')}}">
 
             @if ($errors->any())
             <div class="alert alert-warning alert-dismissible fade show" role="alert">
@@ -59,181 +69,163 @@
             <input type="hidden" value="{{csrf_token()}}" name="_token" />
             
             <div class="mt-4 mt-lg-5">
-                <h3 class="heading-three">Part 1:</h3>
+                <!-- <h3 class="heading-three">Part 1:</h3> -->
                 <div class="row mt-2 mt-lg-4 box-div">
 
-                    <div class="mb-3">
-                        <label for="team_name" class="form-label">Team Name</label>
-                        <input type="text" name="team_name" class="form-control" placeholder="Your team name" value="{{old('team_name')}}" required>
-                    </div>
-
                     <div class="col-md-6">
-                        <div class="mb-3">
-                            <label for="team_contact_number" class="form-label">Team Contact Number</label>
-                            <input type="text" name="team_contact_number" class="form-control" placeholder="Contact number: 018xxxxxxxx" value="{{old('team_contact_number')}}" required>
+                        <div class="mb-3 mt-1">
+                            <label for="full_name" class="form-label">Full Name</label>
+                            <input type="text" name="full_name" class="form-control" placeholder="Enter your name" value="{{old('full_name')}}" required>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="mb-3">
-                            <label for="team_alt_contact_number" class="form-label">Team Alternate Contact Number</label>
-                            <input type="text" name="team_alt_contact_number" class="form-control" placeholder="Provide number of another team member: 018xxxxxxxx" value="{{old('team_alt_contact_number')}}" required>
+                        <div class="mb-3 mt-1">
+                            <label for="mobile_number" class="form-label">Mobile Number</label>
+                            <input type="text" name="mobile_number" class="form-control" placeholder="8801xxxxxxxxx" value="{{old('mobile_number')}}" required>
                         </div>
                     </div>
 
                     <div class="col-md-6">
-                        <div class="mb-3">
-                            <label for="team_email" class="form-label">Team Email</label>
-                            <input type="text" name="team_email" class="form-control" placeholder="Team email" value="{{old('team_email')}}" required>
+                        <div class="mb-3 mt-1">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" placeholder="info@xyz.com" value="{{old('email')}}" required>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="mb-3">
-                            <label for="team_alt_email" class="form-label">Team Alternate Email</label>
-                            <input type="text" name="team_alt_email" class="form-control" placeholder="Team alternate email" value="{{old('team_alt_email')}}" required>
+                        <div class="mb-3 mt-1">
+                            <label for="home_address" class="form-label">Home Address</label>
+                            <input type="text" name="home_address" class="form-control" placeholder="Manirampur Jessore" value="{{old('home_address')}}" required>
                         </div>
                     </div>
 
-                    <div class="mb-3">
-                        <label for="team_mailing_address" class="form-label">Team Mailing Address</label>
-                        <input type="text" name="team_mailing_address" class="form-control" placeholder="Your team mailing address" value="{{old('team_mailing_address')}}" required>
+                    <div class="col-md-6">
+                        <div class="mb-3 mt-1">
+                            <label for="current_address" class="form-label">Current Address</label>
+                            <input type="text" name="current_address" class="form-control" placeholder="House 8, Road 11, Banani Dhaka" value="{{old('current_address')}}" required>
+                        </div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="mb-3 mt-1">
+                            <label for="division" class="form-label">Division</label>
+                            <select id="division" name="division"  class="form-control"> 
 
-                </div>
+                                <option value="Barishal" @if (old('division') == "Barishal") {{ 'selected' }} @endif>Barishal</option>
 
+                                <option value="Chattogram" @if (old('division') == "Chattogram") {{ 'selected' }} @endif
+                                >Chattogram</option>
 
-                <h3 class="heading-three pt-4 mt-4">Part 2:</h3>
-                <div class="row mt-2 mt-lg-4 box-div">
+                                <option value="Dhaka" @if (old('division') == "Dhaka") {{ 'selected' }} @endif>Dhaka</option>
 
-                    <div class="mb-3">
-                        <label for="zone" class="form-label">Regional Round Venue (Select Zone)</label>
-                        <select id="regional_zone" name="zone"  class="form-control"> 
+                                <option value="Khulna" @if (old('division') == "Khulna") {{ 'selected' }} @endif>Khulna</option>
 
-                          <option value="Zone 1: Rajshahi & Rangpur" @if (old('zone') == "Zone 1: Rajshahi & Rangpur") {{ 'selected' }} @endif>Zone 1: Rajshahi & Rangpur</option>
+                                <option value="Mymensingh" @if (old('division') == "Mymensingh") {{ 'selected' }} @endif>Mymensingh</option>
 
-                          <option value="Zone 2: Sylhet" @if (old('zone') == "Zone 2: Sylhet") {{ 'selected' }} @endif
-                            >Zone 2: Sylhet</option>
+                                <option value="Rajshahi" @if (old('division') == "Rajshahi") {{ 'selected' }} @endif>Rajshahi</option>
 
-                          <option value="Zone 3: Khulna & Barishal" @if (old('zone') == "Zone 3: Khulna & Barishal") {{ 'selected' }} @endif>Zone 3: Khulna & Barishal</option>
+                                <option value="Rangpur" @if (old('division') == "Rangpur") {{ 'selected' }} @endif>Rangpur</option>
 
-                          <option value="Zone 4: Chattogram" @if (old('zone') == "Zone 4: Chattogram") {{ 'selected' }} @endif
-                           >Zone 4: Chattogram</option>
+                                <option value="Sylhet" @if (old('division') == "Sylhet") {{ 'selected' }} @endif
+                                    >Sylhet</option>
 
-                          <option value="Zone 5: Dhaka & Mymensingh" @if (old('zone') == "Zone 5: Dhaka & Mymensingh") {{ 'selected' }} @endif>Zone 5: Dhaka & Mymensingh</option>
-                        </select>
-                    </div>
-
-                    <div class="mb-3 ms-3 form-check">
-                        <input type="checkbox" class="form-check-input" name="incentive" value="1" @if( old('incentive')) == 1 ) checked @endif>
-                        <label class="form-check-label" for="check1">Apply for a travel incentive for your team (Only applicable for teams participating from outside of the host district)</label>
-                    </div>
-
-                </div>
-
-
-
-                <h3 class="heading-three pt-4 mt-4">Part 3:</h3>
-                <div class="row  mt-3 mt-lg-4 box-div">
-                    @for ($i = 1; $i <= 4; $i++)
-                    <div class="row mt-3 mt-lg-4 box-div2">
-                        <h5>Member: {{$i}} {{ in_array($i, [3,4]) ? '(optional)' : '*' }}</h5>
-
-                        <div class="mb-3">
-                            <label for="name-{{$i}}" class="form-label">Name</label>
-                            <input type="text" name="name-{{$i}}" class="form-control" placeholder="Your Name" value="{{old('name-'.$i)}}" @if ( in_array($i, [1,2]) ) {{'required'}} @endif>
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="institution-{{$i}}" class="form-label">Institution</label>
-                            <input type="text" name="institution-{{$i}}" class="form-control" placeholder="Your Institution Name" value="{{old('institution-'.$i)}}" @if ( in_array($i, [1,2]) ) {{'required'}} @endif>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <label for="gender-{{$i}}" class="form-label">Gender</label>
-                                <select name="gender-{{$i}}"  class="form-control"> 
-
-                                    <option value="Male" @if (old('gender-'.$i) == "Male") {{ 'selected' }} @endif>Male</option>
-
-                                    <option value="Female" @if (old('gender-'.$i) == "Female") {{ 'selected' }} @endif>Female</option>
-
-                                    <option value="Other" @if (old('gender-'.$i) == "Other") {{ 'selected' }} @endif>Other</option>
-
-                                </select>
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="mb-3">
-                                <label for="t_shirt_size-{{$i}}" class="form-label">T-Shirt Size</label>
-                                <select name="t_shirt_size-{{$i}}"  class="form-control"> 
-
-                                    <!-- <option value="S" @if (old('t_shirt_size-'.$i) == "S") {{ 'selected' }} @endif>S</option> -->
-
-                                    <option value="M" @if (old('t_shirt_size-'.$i) == "M") {{ 'selected' }} @endif>M</option>
-
-                                    <option value="L" @if (old('t_shirt_size-'.$i) == "L") {{ 'selected' }} @endif>L</option>
-
-                                    <option value="XL" @if (old('t_shirt_size-'.$i) == "XL") {{ 'selected' }} @endif>XL</option>
-
-                                    <option value="XXL" @if (old('t_shirt_size-'.$i) == "XXL") {{ 'selected' }} @endif>XXL</option>
-
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-1">
-                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" style="margin-top: 37px">
-                                Size
-                            </button>
+                            </select>
                         </div>
                         
                     </div>
-                    @endfor
-                </div>
 
-
-                <h3 class="heading-three pt-4 mt-4">Part 4:</h3>
-                <div class="row mt-2 mt-lg-4 box-div">
-
-                    <div class="mb-3">
-                        <label for="application_title" class="form-label">Application Title</label>
-                        <input type="text" name="application_title" class="form-control" placeholder="Your application title" value="{{old('application_title')}}" required>
+                    <div class="mb-3 mt-1">
+                        <label for="educational_background" class="form-label">Educational Background</label>
+                        <textarea class="form-control" rows="5" name="educational_background"
+                        placeholder="Bachelors in CS laid the foundation, while bootcamps provided practical skills. Projects offered hands-on experience, with a commitment to continuous learning ensuring mastery of HTML ...">{{ trim(old('educational_background')) }}</textarea>
                     </div>
 
-                    <div class="mb-3">
-                        <label for="application_category" class="form-label">Application Category</label>
-                        <select id="application_category" name="application_category"  class="form-control"> 
+                    <div class="mb-3 mt-1">
+                        <div class="form-check form-switch">
+                            <label class="form-check-label" for="has_pc">Do you have your personal Laptop/Desktop PC:</label>
+                            <input class="form-check-input" type="checkbox" id="has_pc" name="has_pc" value="yes" checked>
+                        </div>
+                    </div>
 
-                          <option value="Educational" @if (old('application_category') == "Educational") {{ 'selected' }} @endif>Educational</option>
-                          <option value="Lifestyle" @if (old('application_category') == "Lifestyle") {{ 'selected' }} @endif>Lifestyle</option>
-                          <option value="Social Media" @if (old('application_category') == "Social Media") {{ 'selected' }} @endif>Social Media</option>
-                          <option value="Productivity" @if (old('application_category') == "Productivity") {{ 'selected' }} @endif>Productivity</option>
-                          <option value="Entertainment" @if (old('application_category') == "Entertainment") {{ 'selected' }} @endif>Entertainment</option>
-                          <option value="Games" @if (old('application_category') == "Games") {{ 'selected' }} @endif>Games</option>
-                          <option value="Service" @if (old('application_category') == "Service") {{ 'selected' }} @endif>Service</option>
-                          <option value="Other" @if (old('application_category') == "Other") {{ 'selected' }} @endif>Other</option>
+                    <div class="mb-3 mt-1">
+                        <div class="form-check form-switch">
+                            <label class="form-check-label" for="has_wifi">Do you have wifi/ broadband internet connection:</label>
+                            <input class="form-check-input" type="checkbox" id="has_wifi" name="has_wifi" value="yes" checked>
+                        </div>
+                    </div>
+
+                    <!-- programming experience: -->
+                    <div class="group3">
+                        <div class="mb-3 mt-1">
+                            <div class="form-check form-switch">
+                                <label class="form-check-label" for="has_programming_experience">Do you have programming experience:</label>
+                                <input class="form-check-input" type="checkbox" id="has_programming_experience" name="has_programming_experience" value="yes" checked>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 mt-1 programming_experience">
+                            <label for="programming_experience" class="form-label">
+                            Describe your programming experience (if above answer is yes)
+                            </label>
+                            <textarea class="form-control" rows="5" name="programming_experience"
+                            placeholder="Your programming experience ...">{{ trim(old('programming_experience')) }}</textarea>
+                        </div>
+
+                        <div class="mb-3 mt-1 programming_experience">
+                            <label for="programming_experience_rate" class="form-label">Rate your programming experience</label>
+                            <select id="programming_experience_rate" name="programming_experience_rate"  class="form-control"> 
+                                <option value="1" @if (old('programming_experience_rate') == "1") {{ 'selected' }} @endif>1</option>
+                                <option value="2" @if (old('programming_experience_rate') == "2") {{ 'selected' }} @endif>2</option>
+                                <option value="3" @if (old('programming_experience_rate') == "3") {{ 'selected' }} @endif>3</option>
+                                <option value="4" @if (old('programming_experience_rate') == "4") {{ 'selected' }} @endif>4</option>
+                                <option value="5" @if (old('programming_experience_rate') == "5") {{ 'selected' }} @endif>5</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <!-- android app development experience: -->
+                    <div class="group3">
+                        <div class="mb-3 mt-1">
+                            <div class="form-check form-switch">
+                                <label class="form-check-label" for="has_android_experience">Do you have android app development experience:</label>
+                                <input class="form-check-input" type="checkbox" id="has_android_experience" name="has_android_experience" value="yes" checked>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 mt-1 android_experience">
+                            <label for="android_experience" class="form-label">
+                            Describe your android app development (if above answer is yes)
+                            </label>
+                            <textarea class="form-control" rows="5" name="android_experience"
+                            placeholder="Your programming experience ...">{{ trim(old('android_experience')) }}</textarea>
+                        </div>
+
+                        <div class="mb-3 mt-1 android_experience">
+                            <label for="android_experience_rate" class="form-label">Rate your android app development experience</label>
+                            <select id="android_experience_rate" name="android_experience_rate"  class="form-control"> 
+                                <option value="1" @if (old('android_experience_rate') == "1") {{ 'selected' }} @endif>1</option>
+                                <option value="2" @if (old('android_experience_rate') == "2") {{ 'selected' }} @endif>2</option>
+                                <option value="3" @if (old('android_experience_rate') == "3") {{ 'selected' }} @endif>3</option>
+                                <option value="4" @if (old('android_experience_rate') == "4") {{ 'selected' }} @endif>4</option>
+                                <option value="5" @if (old('android_experience_rate') == "5") {{ 'selected' }} @endif>5</option>
+                            </select>
+                        </div>
+                    </div>
+
                     
-                        </select>
+                    <div class="mb-3 mt-1">
+                        <div class="form-check form-switch">
+                            <label class="form-check-label" for="allocate_time">Do you agree to allocate 6 hours per week for 3 months to complete the training program:</label>
+                            <input class="form-check-input" type="checkbox" id="allocate_time" name="allocate_time" value="yes" checked>
+                        </div>
                     </div>
 
-
-                    <div class="mb-3">
-                        <label for="application_development_stage" class="form-label">Application Development Stage</label>
-                        <select id="application_development_stage" name="application_development_stage"  class="form-control"> 
-
-                          <option value="Idea" @if (old('application_development_stage') == "Idea") {{ 'selected' }} @endif>Idea</option>
-                          <option value="Prototype" @if (old('application_development_stage') == "Prototype") {{ 'selected' }} @endif>Prototype</option>
-                          <option value="MVP" @if (old('application_development_stage') == "MVP") {{ 'selected' }} @endif>MVP</option>
-                          <option value="Final Product" @if (old('application_development_stage') == "Final Product") {{ 'selected' }} @endif>Final Product</option>
-                    
-                        </select>
+                    <div class="mb-3 mt-1">
+                        <div class="form-check form-switch">
+                            <label class="form-check-label" for="bear_cost">Do you agree to bear any cost necessary to host your developed application developed during the program:</label>
+                            <input class="form-check-input" type="checkbox" id="bear_cost" name="bear_cost" value="yes" checked>
+                        </div>
                     </div>
-
-                    <div class="mb-3">
-                        <label for="application_desc" class="form-label">Application Description</label>
-                        <textarea class="form-control" rows="5" name="application_desc"
-                        placeholder="Why you think your application will be used by a lot of people?">{{ trim(old('application_desc')) }}</textarea>
-                    </div>
-
+            
                 </div>
 
             </div>
@@ -244,122 +236,41 @@
             </div>
         </form>
 
-
-        <!-- The Modal -->
-        <div class="modal fade" id="myModal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h5 class="modal-title text-center">T-Shirt Size</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <table class="table table-striped table-hover">
-                        <thead>
-                            <tr>
-                                <th>Size</th>
-                                <th>Chest(Wi)</th>
-                                <th>Sleeve(Le)</th>
-                                <th>Body(Le)</th>
-                                <th>Shoulder(Le)</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="text-center">M</td>
-                                <td class="text-center">40</td>
-                                <td class="text-center">8.5</td>
-                                <td class="text-center">28</td>
-                                <td class="text-center">17</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">L</td>
-                                <td class="text-center">42</td>
-                                <td class="text-center">9</td>
-                                <td class="text-center">29</td>
-                                <td class="text-center">18</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">XL</td>
-                                <td class="text-center">44</td>
-                                <td class="text-center">9.5</td>
-                                <td class="text-center">30</td>
-                                <td class="text-center">19</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">XXL</td>
-                                <td class="text-center">46</td>
-                                <td class="text-center">10</td>
-                                <td class="text-center">31</td>
-                                <td class="text-center">20</td>
-                            </tr>
-                            
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Modal footer -->
-                <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                </div> -->
-
-                </div>
-            </div>
-        </div>
-        @endif
-
     </div>
 </div>
 
 @endsection
 
 @section('extra-foot-script')
-<script type="text/javascript">
+<script>
+    $(document).ready(function() {
 
-    console.log('Team Registration Page');
-    // fbq('track', 'PageView');
-    fbq('track', 'ViewContent', {
-        content_type: "Registration Page View",
-        content_name: "RegistrationPage",
+        $('#has_programming_experience').change(function(){
+            var isChecked = $(this).prop('checked');
+            var value = isChecked ? $(this).val() : 'no';
+            // console.log(value);
+
+            if (value == 'no') {
+                $(".programming_experience").fadeOut(700);
+            } else {
+                $(".programming_experience").fadeIn(700);
+            }
+        })
+        
+        $('#has_android_experience').change(function(){
+            var isChecked = $(this).prop('checked');
+            var value = isChecked ? $(this).val() : 'no';
+            // console.log(value);
+
+            if (value == 'no') {
+                $(".android_experience").fadeOut(700);
+            } else {
+                $(".android_experience").fadeIn(700);
+            }
+        })
+        
     });
 
-    $('#team-reg-submit').click(function() {
-        console.log('submit team reg page');
-        var application_development_stage = $("#application_development_stage option:selected").val(); 
-        console.log(application_development_stage);
 
-        var application_category = $("#application_category option:selected").val();
-        console.log(application_category);
-
-        var regional_zone = $("#regional_zone option:selected").val();
-        console.log(regional_zone);
-
-        const ua = navigator.userAgent;
-        let device = '';
-        if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
-            device = "tablet";
-        } else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
-            device = "mobile";
-        } else {
-            device = "desktop";
-        }
-        console.log(device);
-
-
-        fbq('track', 'CompleteRegistration', {
-            registration_method: device,
-            user_carrier: 'wifi',
-            regional_round_venue: regional_zone,
-            application_category: application_category,
-            application_development_stage: application_development_stage,
-        });
-
-
-    });
-   
 </script>
 @endsection
