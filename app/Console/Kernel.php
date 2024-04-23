@@ -16,6 +16,15 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
+
+        // ::: 1st send mail :::
+        if (!\File::exists(storage_path('logs/sendMailToDev/'))) {
+            \File::makeDirectory(storage_path('logs/sendMailToDev/'), 0777, true);
+        }
+        $schedule->command('sendMailToDev:process')
+            ->everyMinute()
+            ->runInBackground()
+            ->appendOutputTo(storage_path('logs/sendMailToDev/' . date('Ymd') . '.log'));
     }
 
     /**

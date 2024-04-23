@@ -4,14 +4,14 @@
 
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="bdapps National Hackathon 2022">
-    <meta name="keywords" content="bdapps,National,Hackathon 2022">
-    <title>{{ !isset($title) ? 'bdapps National Hackathon 2022' : $title }}</title>
+    <meta name="description" content="bdapps Android Academy">
+    <meta name="keywords" content="bdapps,Android,Academy 2024">
+    <title>{{ !isset($title) ? 'bdapps Android Academy' : 'bdapps Android Academy - '.$title }}</title>
     <link rel="icon" type="image" href="{{ asset('assets/user/Icons/Favicon.png') }}">
 
-    <meta property="og:title" content="bdapps National Hackathon 2022">
+    <meta property="og:title" content="bdapps Android Academy">
     <meta property="og:url" content="http://nh22.bdapps.com/">
-    <meta property="og:description" content="bdapps National Hackathon 2022">
+    <meta property="og:description" content="bdapps Android Academy">
     <meta property="og:image" content="http://nh22.bdapps.com/v2/assets/logos/main-logo.png">
     <meta property="og:type" content="website" />
 

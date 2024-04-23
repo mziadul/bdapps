@@ -44,6 +44,7 @@ class CreateUsersTable extends Migration
             $table->date('date')->nullable();
             $table->tinyInteger('status')->nullable();
             $table->tinyInteger('mail_status')->default(0); // 1=>mail sent, 0=>pending, -1=>failed
+            $table->text('mail_response')->nullable();
 
             $table->timestamps();
         });

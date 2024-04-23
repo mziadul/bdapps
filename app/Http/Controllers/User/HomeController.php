@@ -24,8 +24,9 @@ class HomeController extends Controller
 
     public function registration(Request $request) {
         // dd('Registration');
+        $title = 'Registration';
         $tabIndex = 7;
-        return view('user.pages.team-regis', compact('tabIndex'));
+        return view('user.pages.team-regis', compact('tabIndex', 'title'));
     }
 
     public function storeRegistration(Request $request) {
@@ -65,7 +66,7 @@ class HomeController extends Controller
 
         $user->has_pc = $request->has_pc;
         $user->has_wifi = $request->has_wifi;
-        $user->has_programming_experience =  ($request->has_programming_experience == 'yes') ? $request->programming_experience : 'no' ;
+        $user->has_programming_experience =  ($request->has_programming_experience == 'yes') ? $request->has_programming_experience : 'no' ;
         $user->programming_experience = ($request->has_programming_experience == 'yes') ? $request->programming_experience : null;
         $user->programming_experience_rate = ($request->has_programming_experience == 'yes') ? $request->programming_experience_rate : null;
 
