@@ -6,11 +6,18 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Validator;
 
+use App\Models\Traffic;
 use App\Models\User;
 
 class HomeController extends Controller
 {
     public function index(Request $request) {
+        $traffic = new Traffic;
+        $traffic->date = date('Y-m-d');
+        $traffic->user_ip = $_SERVER['REMOTE_ADDR'];
+        $traffic->user_agent = $_SERVER['HTTP_USER_AGENT'];
+        $traffic->save();
+
         $tabIndex = $request->tab;
         return view('user.pages.home', compact('tabIndex'));
     }
@@ -58,16 +65,19 @@ class HomeController extends Controller
 
         $user->has_pc = $request->has_pc;
         $user->has_wifi = $request->has_wifi;
-        $user->has_programming_experience = $request->has_programming_experience;
+        $user->has_programming_experience =  ($request->has_programming_experience == 'yes') ? $request->programming_experience : 'no' ;
         $user->programming_experience = ($request->has_programming_experience == 'yes') ? $request->programming_experience : null;
         $user->programming_experience_rate = ($request->has_programming_experience == 'yes') ? $request->programming_experience_rate : null;
 
-        $user->has_android_experience = $request->has_android_experience;
-        $user->android_experience = ($request->has_android_experience) ? $request->android_experience : null;
-        $user->android_experience_rate = ($request->has_android_experience) ? $request->android_experience_rate : null;
+        $user->has_android_experience = ($request->has_android_experience == 'yes') ? $request->has_android_experience : 'no';
+        $user->android_experience = ($request->has_android_experience == 'yes') ? $request->android_experience : null;
+        $user->android_experience_rate = ($request->has_android_experience == 'yes') ? $request->android_experience_rate : null;
 
         $user->allocate_time = $request->allocate_time;
         $user->bear_cost = $request->bear_cost;
+        $user->date = date('Y-m-d');
+        $user->user_ip = $_SERVER['REMOTE_ADDR'];
+        $user->user_agent = $_SERVER['HTTP_USER_AGENT'];
         $user->save();
 
         $message = "Congratulations $user->full_name, Your registration done. You will get an email soon.";

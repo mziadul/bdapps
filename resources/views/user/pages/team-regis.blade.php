@@ -81,7 +81,7 @@
                     <div class="col-md-6">
                         <div class="mb-3 mt-1">
                             <label for="mobile_number" class="form-label">Mobile Number</label>
-                            <input type="text" name="mobile_number" class="form-control" placeholder="01xxxxxxxxx" value="{{old('mobile_number')}}" required>
+                            <input type="text" name="mobile_number" class="form-control" placeholder="01xxxxxxxxx" value="{{old('mobile_number')}}" minlength="11" maxlength="11" required>
                         </div>
                     </div>
 
