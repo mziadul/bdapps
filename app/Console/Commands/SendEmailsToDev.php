@@ -52,7 +52,7 @@ class SendEmailsToDev extends Command
                 
                 $details = [
                     'email' => $data->email,
-                    'subject' => 'bdapps Android Academy',
+                    'subject' => 'Confirmation of Registration for bdapps Android Academy 2024',
                     'name' => $data->full_name,
                 ];
 

@@ -81,7 +81,7 @@ class HomeController extends Controller
         $user->user_agent = $_SERVER['HTTP_USER_AGENT'];
         $user->save();
 
-        $message = "Congratulations $user->full_name, Your registration done. You will get an email soon.";
+        $message = "Congratulations $user->full_name, Your registration complete. You will get an email shortly.";
         return redirect()->back()->with('message', $message)->with('classs', 'success');
     }
 }
