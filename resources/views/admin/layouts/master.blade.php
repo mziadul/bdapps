@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bdapps Android Academy | Dashboard</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{{ asset('assets/admin/lte3/plugins/fontawesome-free/css/all.min.css') }}">
+  <!-- Ionicons -->
+  <!-- <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> -->
+   <!-- Tempusdominus Bootstrap 4 -->
+   <!-- <link rel="stylesheet" href="{{ asset('assets/admin/lte3/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}"> -->
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- iCheck -->
+  <!-- <link rel="stylesheet" href="{{ asset('assets/admin/lte3/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}"> -->
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{ asset('assets/admin/lte3/dist/css/adminlte.min.css') }}">
+  <!-- my custom css -->
+  <link rel="stylesheet" href="{{ asset('assets/admin/lte3/dist/css/style.css') }}">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="{{ asset('assets/admin/lte3/plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="{{ asset('assets/admin/lte3/plugins/daterangepicker/daterangepicker.css') }}">
+
+
+  @yield('extra-head-scripts')
+
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Preloader -->
+  <!-- @include('admin.layouts.pre-loader') -->
+
+  <!-- Navbar / topbar -->
+  @include('admin.layouts.topbar')
+
+  <!-- Main Sidebar Container -->
+  @include('admin.layouts.sidebar')
+
+  
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    @yield('content')
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- footer -->
+  @include('admin.layouts.footer')
+
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="{{ asset('assets/admin/lte3/plugins/jquery/jquery.min.js') }}"></script>
+
+<!-- jQuery UI 1.11.4 -->
+<script src="{{ asset('assets/admin/lte3/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<!-- <script src="{{ asset('assets/admin/lte3/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script> -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- jQuery Knob Chart -->
+<!-- <script src="{{ asset('assets/admin/lte3/plugins/jquery-knob/jquery.knob.min.js') }}"></script> -->
+<!-- daterangepicker -->
+<!-- <script src="{{ asset('assets/admin/lte3/plugins/moment/moment.min.js') }}"></script> -->
+<!-- <script src="{{ asset('assets/admin/lte3/plugins/daterangepicker/daterangepicker.js') }}"></script> -->
+
+<!-- overlayScrollbars -->
+<script src="{{ asset('assets/admin/lte3/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
+<!-- AdminLTE App -->
+<script src="{{ asset('assets/admin/lte3/dist/js/adminlte.js') }}"></script>
+<script src="{{ asset('assets/admin/custom_jquery.js') }}"></script>
+<!-- Page scripts -->
+ @yield('page-scripts')
+
+<script>
+
+</script>
+
+
+@yield('extra-foot-scripts')
+
+</body>
+</html>
