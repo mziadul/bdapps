@@ -29,6 +29,7 @@ Route::namespace ('App\Http\Controllers\Admin')->name('admin.')->prefix('admin')
 
         Route::get('/dev_user', [AndroidDevListController::class, 'list'])->name('dev_user');
         Route::get('/dev_user/detail/{id}', [AndroidDevListController::class, 'detail'])->name('dev_user.detail');
+        Route::get('/dev_user/export', [AndroidDevListController::class, 'export'])->name('dev_user.export');
 
     });
 
