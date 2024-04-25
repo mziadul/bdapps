@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="{{ route('admin.home') }}" class="brand-link">
-        <img src="{{ asset('assets/admin/lte3/dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo"
+        <img src="{{ asset('assets/admin/lte3/dist/img/bdapps.jpg') }}" alt="AdminLTE Logo"
             class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">bdapps</span>
     </a>
@@ -67,29 +67,25 @@
                     </ul>
                 </li>
 
-                
-                <li
-                    class="nav-item {{ $is_active == 'bdapps_dev' || $is_active == 'affiliate_create' ? 'bdapps_dev' : '' }}">
+
+                <li class="nav-item {{ $is_active == 'dev_list' ? 'menu-open' : '' }}">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-user"></i>
                         <p>
-                            bdapps Developer
+                        bdapps Developer
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="{{ route('admin.dev_user') }}"
-                                class="nav-link {{ $is_active == 'bdapps_dev' ? 'active' : '' }}">
+                                class="nav-link {{ $is_active == 'dev_list' ? 'active' : '' }}">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>List</p>
                             </a>
                         </li>
                     </ul>
                 </li>
-
-               
-
 
             </ul>
         </nav>

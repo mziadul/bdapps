@@ -85,6 +85,7 @@
 <!-- AdminLTE App -->
 <script src="{{ asset('assets/admin/lte3/dist/js/adminlte.js') }}"></script>
 <script src="{{ asset('assets/admin/custom_jquery.js') }}"></script>
+<script src="https://cdn.ckeditor.com/4.17.2/standard-all/ckeditor.js"></script>
 <!-- Page scripts -->
  @yield('page-scripts')
 

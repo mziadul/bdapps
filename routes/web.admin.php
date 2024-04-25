@@ -28,6 +28,7 @@ Route::namespace ('App\Http\Controllers\Admin')->name('admin.')->prefix('admin')
         Route::post('/admin_user/update/{id}', [AdminUserController::class, 'update'])->name('admin_user.update');
 
         Route::get('/dev_user', [AndroidDevListController::class, 'list'])->name('dev_user');
+        Route::get('/dev_user/detail/{id}', [AndroidDevListController::class, 'detail'])->name('dev_user.detail');
 
     });
 

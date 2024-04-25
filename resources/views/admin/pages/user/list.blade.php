@@ -62,6 +62,7 @@
                                 <th>Cost Bearing</th>
 
                                 <th>Mail</th>
+                                <th>Detail</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -95,6 +96,11 @@
                                     @else
                                         <span style="color:blue">Pending</span>
                                     @endif
+                                </td>
+                                <td class="text-center">
+                                    <a href="{{route('admin.dev_user.detail', $dev_user->id)}}">
+                                        <i class="fas fa-edit text-primary"></i>
+                                    </a>
                                 </td>
                             </tr>   
                             @endforeach

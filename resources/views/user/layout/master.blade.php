@@ -53,7 +53,8 @@
     <script src="{{ asset('assets/user/slick/slick.js') }}" type="text/javascript" charset="utf-8"></script>
 
     <script src="{{ asset('assets/user/js/slick-slider.js') }}"></script>
-
+    <script src="https://cdn.ckeditor.com/4.17.2/standard-all/ckeditor.js"></script>
+    
     @yield('extra-foot-script')
     
   </body>

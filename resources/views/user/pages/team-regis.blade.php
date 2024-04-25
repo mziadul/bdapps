@@ -134,7 +134,7 @@
 
                     <div class="mb-3 mt-1">
                         <label for="educational_background" class="form-label">Educational Background</label>
-                        <textarea class="form-control" rows="5" name="educational_background"
+                        <textarea class="form-control" id="editor2" name="educational_background"
                         placeholder="Bachelors in CS laid the foundation, while bootcamps provided practical skills. Projects offered hands-on experience, with a commitment to continuous learning ensuring mastery of HTML ..." required>{{ trim(old('educational_background')) }}</textarea>
                     </div>
 
@@ -165,7 +165,7 @@
                             <label for="programming_experience" class="form-label">
                             Describe your programming experience (if above answer is yes)
                             </label>
-                            <textarea class="form-control" rows="5" id="programming_experience" name="programming_experience"
+                            <textarea class="form-control" id="editor3" id="programming_experience" name="programming_experience"
                             placeholder="Your programming experience ..." required>{{ trim(old('programming_experience')) }}</textarea>
                         </div>
 
@@ -195,7 +195,7 @@
                             <label for="android_experience" class="form-label">
                             Describe your android app development (if above answer is yes)
                             </label>
-                            <textarea class="form-control" rows="5" id="android_experience" name="android_experience"
+                            <textarea class="form-control" id="editor1" id="android_experience" name="android_experience"
                             placeholder="Your programming experience ..." required>{{ trim(old('android_experience')) }}</textarea>
                         </div>
 
@@ -275,6 +275,21 @@
         
     });
 
+        CKEDITOR.replace('editor1', {
+            // height: 260,
+            // width: 700,
+            removeButtons: 'PasteFromWord'
+        });
+        CKEDITOR.replace('editor2', {
+            // height: 260,
+            // width: 700,
+            removeButtons: 'PasteFromWord'
+        });
+        CKEDITOR.replace('editor3', {
+            // height: 260,
+            // width: 700,
+            removeButtons: 'PasteFromWord'
+        });
 
 </script>
 @endsection
