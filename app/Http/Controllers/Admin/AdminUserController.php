@@ -13,7 +13,7 @@ class AdminUserController extends Controller
     public function list() 
     {
         $is_active = 'admin_list';
-        $admins = Admin::orderBy('id', 'desc')->paginate(2);
+        $admins = Admin::orderBy('id', 'desc')->paginate(15);
         return view('admin.pages.admin.list', compact('admins', 'is_active'));
     }
 
