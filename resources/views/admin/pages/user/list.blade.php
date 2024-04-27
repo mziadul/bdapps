@@ -10,6 +10,9 @@
         text-align: center !important;
         white-space: nowrap;
     }
+    .download {
+        float: right;
+    }
 </style>
 @endsection
 
@@ -19,7 +22,7 @@
         <div class="col-md-12">
             <div class="card p-4 mt-4">
 
-                <h4 class="pb-2">Developer List</h4>
+                <h4 class="pb-2">Developer List <a class="btn btn-primary download" href="{{ route('admin.dev_user.export') }}">Download</a></h4>
                 <div class="">
                     @if ($errors->any())
                         @foreach ($errors->all() as $error)
