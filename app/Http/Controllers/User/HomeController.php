@@ -50,10 +50,20 @@ class HomeController extends Controller
             'educational_background'=>'required',
         ],
         [
-            'mobile_number.chkoperator' => 'Mobile Number must be valid',
-            'mobile_number.min' => 'Mobile Number must be 11 characters long',
+            'mobile_number.chkoperator' => 'Mobile Number should be valid',
+            'mobile_number.min' => 'Mobile Number should be 11 characters long',
             'mobile_number.max' => 'Mobile Number cannot be more than 11 characters',
         ]);
+
+        // dd($request->all());
+
+        if ($request->has_programming_experience == 'yes' && strlen(trim($request->programming_experience)) <= 0) {
+            return redirect()->back()->withInput()->withErrors(['The Programming Experience field is required.']);
+        }
+
+        if ($request->has_android_experience == 'yes' && strlen(trim($request->android_experience)) <= 0) {
+            return redirect()->back()->withInput()->withErrors(['The Android App Development field is required.']);
+        }
 
         $user = new User;
         $user->full_name = $request->full_name;
