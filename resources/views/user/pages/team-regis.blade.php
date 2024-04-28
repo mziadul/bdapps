@@ -288,9 +288,24 @@
 
 @section('extra-foot-script')
 <script>
-    CKEDITOR.replace('editor11');
-    CKEDITOR.replace('editor22');
-    CKEDITOR.replace('editor33');
+    CKEDITOR.replace('editor11', {
+        toolbar: [
+            { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline', 'Strike'] },
+            { name: 'styles', items: ['Format'] }
+        ]
+    });
+    CKEDITOR.replace('editor22', {
+        toolbar: [
+            { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline', 'Strike'] },
+            { name: 'styles', items: ['Format'] }
+        ]
+    });
+    CKEDITOR.replace('editor33', {
+        toolbar: [
+            { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline', 'Strike'] },
+            { name: 'styles', items: ['Format'] }
+        ]
+    });
 
     $(document).ready(function() {
 
