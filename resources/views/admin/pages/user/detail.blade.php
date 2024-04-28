@@ -179,7 +179,7 @@
                                 </div>
 
                                 <div class="mb-3 mt-1 android_experience_fld">
-                                    <label for="android_experience_rate" class="form-label">Rate your android app development experience: <span class="yes_no">{{ $dev_user->programming_experience_rate }}</span></label>
+                                    <label for="android_experience_rate" class="form-label">Rate your android app development experience: <span class="yes_no">{{ $dev_user->android_experience_rate }}</span></label>
                                 </div>
                             </div>
 

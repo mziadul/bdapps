@@ -37,7 +37,9 @@
         margin-bottom: 8px;
         border-radius: 10px;
     }
-    
+    .res-star {
+        color: red;
+    }
 </style>
 @endsection
 
@@ -74,39 +76,57 @@
 
                     <div class="col-md-6">
                         <div class="mb-3 mt-1">
-                            <label for="full_name" class="form-label">Full Name</label>
+                            <label for="full_name" class="form-label">
+                                Full Name 
+                                <span class="res-star">*</span>
+                            </label>
                             <input type="text" name="full_name" class="form-control" placeholder="Enter your name" value="{{old('full_name')}}" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="mb-3 mt-1">
-                            <label for="mobile_number" class="form-label">Mobile Number</label>
+                            <label for="mobile_number" class="form-label">
+                                Mobile Number
+                                <span class="res-star">*</span>
+                            </label>
                             <input type="text" name="mobile_number" class="form-control" placeholder="01xxxxxxxxx" value="{{old('mobile_number')}}" minlength="11" maxlength="11" required>
                         </div>
                     </div>
 
                     <div class="col-md-6">
                         <div class="mb-3 mt-1">
-                            <label for="email" class="form-label">Email</label>
+                            <label for="email" class="form-label">
+                                Email
+                                <span class="res-star">*</span>
+                            </label>
                             <input type="email" name="email" class="form-control" placeholder="info@xyz.com" value="{{old('email')}}" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="mb-3 mt-1">
-                            <label for="home_address" class="form-label">Home Address</label>
+                            <label for="home_address" class="form-label">
+                                Home Address
+                                <span class="res-star">*</span>
+                            </label>
                             <input type="text" name="home_address" class="form-control" placeholder="Manirampur Jessore" value="{{old('home_address')}}" required>
                         </div>
                     </div>
 
                     <div class="col-md-6">
                         <div class="mb-3 mt-1">
-                            <label for="current_address" class="form-label">Current Address</label>
+                            <label for="current_address" class="form-label">
+                                Current Address
+                                <span class="res-star">*</span>
+                            </label>
                             <input type="text" name="current_address" class="form-control" placeholder="House 8, Road 11, Banani Dhaka" value="{{old('current_address')}}" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="mb-3 mt-1">
-                            <label for="division" class="form-label">Division</label>
+                            <label for="division" class="form-label">
+                                Division
+                                <span class="res-star">*</span>
+                            </label>
                             <select id="division" name="division"  class="form-control"> 
 
                                 <option value="Barishal" @if (old('division') == "Barishal") {{ 'selected' }} @endif>Barishal</option>
@@ -133,21 +153,30 @@
                     </div>
 
                     <div class="mb-3 mt-1">
-                        <label for="educational_background" class="form-label">Educational Background</label>
-                        <textarea class="form-control" id="editor2" name="educational_background"
+                        <label for="educational_background" class="form-label">
+                            Educational Background
+                            <span class="res-star">*</span>
+                        </label>
+                        <textarea class="form-control" id="editor11" name="educational_background"
                         placeholder="Bachelors in CS laid the foundation, while bootcamps provided practical skills. Projects offered hands-on experience, with a commitment to continuous learning ensuring mastery of HTML ..." required>{{ trim(old('educational_background')) }}</textarea>
                     </div>
 
                     <div class="mb-3 mt-1">
                         <div class="form-check form-switch">
-                            <label class="form-check-label" for="has_pc">Do you have your personal Laptop/Desktop PC:</label>
+                            <label class="form-check-label" for="has_pc">
+                                Do you have your personal Laptop/Desktop PC:
+                                <span class="res-star">*</span>
+                            </label>
                             <input class="form-check-input" type="checkbox" id="has_pc" name="has_pc" value="yes" checked>
                         </div>
                     </div>
 
                     <div class="mb-3 mt-1">
                         <div class="form-check form-switch">
-                            <label class="form-check-label" for="has_wifi">Do you have wifi/ broadband internet connection:</label>
+                            <label class="form-check-label" for="has_wifi">
+                                Do you have wifi/ broadband internet connection:
+                                <span class="res-star">*</span>
+                            </label>
                             <input class="form-check-input" type="checkbox" id="has_wifi" name="has_wifi" value="yes" checked>
                         </div>
                     </div>
@@ -156,7 +185,10 @@
                     <div class="group3">
                         <div class="mb-3 mt-1">
                             <div class="form-check form-switch">
-                                <label class="form-check-label" for="has_programming_experience">Do you have programming experience:</label>
+                                <label class="form-check-label" for="has_programming_experience">
+                                    Do you have programming experience:
+                                    <span class="res-star">*</span>
+                                </label>
                                 <input class="form-check-input" type="checkbox" id="has_programming_experience" name="has_programming_experience" value="yes" checked>
                             </div>
                         </div>
@@ -165,12 +197,14 @@
                             <label for="programming_experience" class="form-label">
                             Describe your programming experience (if above answer is yes)
                             </label>
-                            <textarea class="form-control" id="editor3" id="programming_experience" name="programming_experience"
+                            <textarea class="form-control programming_experience" id="editor22" name="programming_experience"
                             placeholder="Your programming experience ..." required>{{ trim(old('programming_experience')) }}</textarea>
                         </div>
 
                         <div class="mb-3 mt-1 programming_experience_fld">
-                            <label for="programming_experience_rate" class="form-label">Rate your programming experience</label>
+                            <label for="programming_experience_rate" class="form-label">
+                                Rate your programming experience
+                            </label>
                             <select id="programming_experience_rate" name="programming_experience_rate"  class="form-control"> 
                                 <option value="1" @if (old('programming_experience_rate') == "1") {{ 'selected' }} @endif>1</option>
                                 <option value="2" @if (old('programming_experience_rate') == "2") {{ 'selected' }} @endif>2</option>
@@ -186,7 +220,10 @@
                     <div class="group3">
                         <div class="mb-3 mt-1">
                             <div class="form-check form-switch">
-                                <label class="form-check-label" for="has_android_experience">Do you have android app development experience:</label>
+                                <label class="form-check-label" for="has_android_experience">
+                                    Do you have android app development experience:
+                                    <span class="res-star">*</span>
+                                </label>
                                 <input class="form-check-input" type="checkbox" id="has_android_experience" name="has_android_experience" value="yes" checked>
                             </div>
                         </div>
@@ -195,12 +232,14 @@
                             <label for="android_experience" class="form-label">
                             Describe your android app development (if above answer is yes)
                             </label>
-                            <textarea class="form-control" id="editor1" id="android_experience" name="android_experience"
+                            <textarea class="form-control android_experience" id="editor33" name="android_experience"
                             placeholder="Your programming experience ..." required>{{ trim(old('android_experience')) }}</textarea>
                         </div>
 
                         <div class="mb-3 mt-1 android_experience_fld">
-                            <label for="android_experience_rate" class="form-label">Rate your android app development experience</label>
+                            <label for="android_experience_rate" class="form-label">
+                                Rate your android app development experience
+                            </label>
                             <select id="android_experience_rate" name="android_experience_rate"  class="form-control"> 
                                 <option value="1" @if (old('android_experience_rate') == "1") {{ 'selected' }} @endif>1</option>
                                 <option value="2" @if (old('android_experience_rate') == "2") {{ 'selected' }} @endif>2</option>
@@ -214,14 +253,20 @@
                     
                     <div class="mb-3 mt-1">
                         <div class="form-check form-switch">
-                            <label class="form-check-label" for="allocate_time">Do you agree to allocate 6 hours per week for 3 months to complete the training program:</label>
+                            <label class="form-check-label" for="allocate_time">
+                                Do you agree to allocate 6 hours per week for 3 months to complete the training program:
+                                <span class="res-star">*</span>
+                            </label>
                             <input class="form-check-input" type="checkbox" id="allocate_time" name="allocate_time" value="yes" checked>
                         </div>
                     </div>
 
                     <div class="mb-3 mt-1">
                         <div class="form-check form-switch">
-                            <label class="form-check-label" for="bear_cost">Do you agree to bear any cost necessary to host your developed application developed during the program:</label>
+                            <label class="form-check-label" for="bear_cost">
+                                Do you agree to bear any cost necessary to host your developed application developed during the program:
+                                <span class="res-star">*</span>
+                            </label>
                             <input class="form-check-input" type="checkbox" id="bear_cost" name="bear_cost" value="yes" checked>
                         </div>
                     </div>
@@ -243,6 +288,10 @@
 
 @section('extra-foot-script')
 <script>
+    CKEDITOR.replace('editor11');
+    CKEDITOR.replace('editor22');
+    CKEDITOR.replace('editor33');
+
     $(document).ready(function() {
 
         $('#has_programming_experience').change(function(){
@@ -252,10 +301,10 @@
 
             if (value == 'no') {
                 $(".programming_experience_fld").fadeOut(700);
-                $('#programming_experience').removeAttr('required');
+                $('.programming_experience').removeAttr('required');
             } else {
                 $(".programming_experience_fld").fadeIn(700);
-                $('#programming_experience').attr('required', true);
+                $('.programming_experience').attr('required', true);
             }
         })
         
@@ -266,30 +315,17 @@
 
             if (value == 'no') {
                 $(".android_experience_fld").fadeOut(700);
-                $('#android_experience').removeAttr('required');
+                $('.android_experience').removeAttr('required');
             } else {
                 $(".android_experience_fld").fadeIn(700);
-                $('#android_experience').attr('required', true);
+                $('.android_experience').attr('required', true);
             }
         })
+
         
     });
 
-        CKEDITOR.replace('editor1', {
-            // height: 260,
-            // width: 700,
-            removeButtons: 'PasteFromWord'
-        });
-        CKEDITOR.replace('editor2', {
-            // height: 260,
-            // width: 700,
-            removeButtons: 'PasteFromWord'
-        });
-        CKEDITOR.replace('editor3', {
-            // height: 260,
-            // width: 700,
-            removeButtons: 'PasteFromWord'
-        });
+        
 
 </script>
 @endsection
