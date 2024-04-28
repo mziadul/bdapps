@@ -50,8 +50,8 @@ class HomeController extends Controller
             'educational_background'=>'required',
         ],
         [
-            'mobile_number.chkoperator' => 'Mobile Number must be valid',
-            'mobile_number.min' => 'Mobile Number must be 11 characters long',
+            'mobile_number.chkoperator' => 'Mobile Number should be valid',
+            'mobile_number.min' => 'Mobile Number should be 11 characters long',
             'mobile_number.max' => 'Mobile Number cannot be more than 11 characters',
         ]);
 
