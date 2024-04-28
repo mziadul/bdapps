@@ -1,7 +1,19 @@
 <section id="footer">
-        <div id="foot"><p>Developed by MIAKI</p></div>
+        <div class="row">
+                <div class="col-md-12">
+                        <div class="text-center"> 
+                                <a href="#">
+                                        <img id="footerIcons" src="{{ asset('assets/user/Icons/facebook.png') }}" alt="Facebook Icon">
+                                </a>
+                                <a href="#">
+                                        <img id="footerIcons" src="{{ asset('assets/user/Icons/instagram.png') }}" alt="Instagram Icon">
+                                </a>
+                                <a href="#">
+                                        <img id="footerIcons" src="{{ asset('assets/user/Icons/linkedin.png') }}" alt="Linkedin Icon">
+                                </a>
+                                
+                        </div>       
+                 </div>   
+        </div>
 
-        <div class="footerIcons" id="f1"><a target="_blank" href="https://www.miaki.co" ><i class="fa-solid fa-envelope"></a></i></div>
-        <div class="footerIcons" id="f2"><a target="_blank" href="https://www.youtube.com/channel/UCqvfVsEehWz896qeWIEvFVg"><i class="fab fa-youtube"></a></i></div>
-        <div class="footerIcons" id="f3"><a target="_blank" href="https://web.facebook.com/bdapps.user"><i class="fa-brands fa-facebook-f"></a></i></div>
 </section>
