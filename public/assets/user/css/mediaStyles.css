@@ -7,14 +7,20 @@
     }
 
     #introportion {
-        background: url("../img/1st%20Image.png") no-repeat;
+        background: url("../img/background_image.png") no-repeat;        
         background-size: cover;
         margin-top: 118px;
+        padding-bottom: 100px;
     }
 
-    #mainHeading {
-        padding-top: 20px;
+    #aboutOfBdapps {
+        background: url("../img/background_image.png") no-repeat;        
+        background-size: cover;
+        margin-top: 118px;
+        padding-bottom: 100px;
     }
+
+
 
     #suppo {
         padding-top: 50px;
@@ -22,12 +28,12 @@
     }
 
     #runner1 {
-        margin-top: -100px;
+        margin-top: -250px;
         padding-right: 100px;
     }
 
     #runner2 {
-        margin-top: -100px;
+        margin-top: -250px;
         padding-left: 100px;
     }
 
@@ -104,7 +110,15 @@
     }
 
     #rulesHead {
-        font-size: 22px;
+        font-size: 33px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    #miscellaneous {
+        font-size: 33px;
+        font-weight: 500;
         line-height: 20px;
         text-align: center;
     }
@@ -115,8 +129,8 @@
 
     #rules {
         font-family: 'Ample Regular';
-        padding-top: 0;
-        font-size: 20px;
+        padding-top: 27px;
+        font-size: 18px;
         padding-right: 8px;
         margin-left: -60px;
     }
@@ -131,11 +145,14 @@
         margin-left: 50px;
     }
     #eligi {
-        padding-top: 40px;
+        /* padding-top: 40px; */
     }
 
     #rulesCon {
-        margin-left: 70px;
+        margin-left: 86px;
+        margin-top: 16px;
+        height: 100px;
+        width: 107px;
     }
 
     #regi {
@@ -162,7 +179,7 @@
     /* rules end */
 
     #footer {
-        padding-top: 46px;
+        padding-top: 24px;
         padding-bottom: 24px;
     }
       
@@ -258,6 +275,12 @@
     }
 
     #introportion {
+        padding-top: 20px;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    #aboutOfBdapps {
         padding-top: 20px;
         padding-left: 1.5rem !important;
         padding-right: 1.5rem !important;
@@ -559,6 +582,7 @@
         line-height: 20px;
         padding-left: 4px;
         text-align: center;
+
     }
 
     #rules {
@@ -718,6 +742,12 @@
     }
 
     #introportion {
+        padding-top: 45px;
+        padding-left: .5rem !important;
+        padding-right: .5rem !important;
+    }
+
+    #aboutOfBdapps {
         padding-top: 45px;
         padding-left: .5rem !important;
         padding-right: .5rem !important;

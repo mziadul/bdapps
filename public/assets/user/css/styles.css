@@ -6,9 +6,9 @@ html {
 
 /* Navigation Bar start*/
 #logo {
-  height: 140px;
-  margin-left: -60px;
-  width: auto;
+  height: 60px;
+  margin-left: -95px;
+  width: 200px;
 }
 
 
@@ -27,29 +27,48 @@ html {
 
 .navbar {
   background-image: linear-gradient(to bottom, rgb(132,44,99), rgb(184,36,78));
-  box-shadow: 0 3px 3px 0 rgba(0,0,0,.6);
+  /* box-shadow: 0 3px 3px 0 rgba(0,0,0,.6); */
   padding: 0;
+  height: 118px;
 }
 
 #navcol-1 {
   text-decoration-color: var(--bs-white);
+  margin-left: 3rem;
 }
 
 #navregbtn {
-  border-radius: 16px;
-  color: #B6234D;
+  border-radius: 8px;
+  color: #8F1D43;
   box-shadow: 2px 2px 8px var(--bs-gray-dark);
   height: 48px;
-  margin-left: 8px;
+  margin-left: 80px;
   font-family: 'Ample Bold';
   font-size: 24px;
+  width: 220px;
+}
+
+#heading-registration-btn {
+  border-radius: 8px;
+  color: #8F1D43;
+  box-shadow: 2px 2px 8px var(--bs-gray-dark);
+  height: 48px;
+  font-family: 'Ample Bold';
+  font-size: 24px;
+  width: 220px;
+  margin-top: 0.5rem;
 }
 
 #navItem {
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   font-family: 'Ample Regular';
   font-size: 19px;
+}
+
+#navItem a{
+  color: #FFFFFF;
+  font-weight: bold;
 }
 
 /* Navigation Bar end */
@@ -63,26 +82,49 @@ html {
 /* Intro portion start*/
 
 #introportion {
-  background: url("../img/1st%20Image.png") no-repeat;
+  background: url("../img/background_image.png") no-repeat;
   background-size: cover;
+
+}
+
+#introportion_icon_head{
+  margin-top: 4rem;
+}
+
+#introportion_icon_row{
+  background-color: #8f1d4338;
+  margin-top: 2px;
+}
+
+#introportion_icon_row img{
+  margin-top: 0.7rem;
+}
+
+#introportion_icon_row p{
+  margin-top: 0.4rem;
 }
 
 #mainHeading {
   padding-top: 4rem;
   font-family: 'Ample Bold';
   font-size: 66px;
-  margin-left: -12px;
+  margin-left: -4rem;
   line-height: 66px;
   padding-top: 0;
   margin-top: 0;
   letter-spacing: 1px;
+  text-align: center;
+}
+
+#main-heading-text{
+  color: #FFFFFF;
+  font-size: 18px;
 }
 
 #introPara {
   font-family: 'Ample Light';
   font-size: 22px;
   padding-top: 12px;
-  margin-left: -8px;
   line-height: 28px;
 }
 
@@ -155,18 +197,47 @@ html {
   font-family: 'Ample Bold';
   text-align: center;
   font-size: 36px;
-  color: #B8244E;
+  color: #444444;
+}
+
+#support-image{
+  width: 300px;
+}
+
+
+#overview{
+  color: #444444;
+  margin-top: 23px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#overview-text{
+  color: #444444;
+  width: 91%;
+  text-align: justify;
+}
+
+#watch_video_icon{
+  margin-top: -2.8rem;
+  width: 12rem;
 }
 
 /* Overview end */
 
-
+#registrationSelectionText{
+    text-align: right;
+    font-size: 33px;
+    font-weight: 500;
+    color: #444444;
+    margin-right: 69px;
+}
 
 
 /*  Prize money section */
 
 #prizeMoney {
-  background: url("../img/2nd%20Image.png") no-repeat;
+  background: url("../img/pricemoneyimg.png") no-repeat;
   background-size: cover;
 }
 
@@ -187,56 +258,92 @@ html {
 
 #champ {
   color: #B8244E;
-  font-family: 'Ample Bold' ;
+  font-family: 'Ample Bold';
   background-color: white;
-  border-radius: 10px;
-  width: 190px;
-  font-size: 34px;
-  box-shadow: 2px 3px 2px 0 rgba(0,0,0,.6);
+  width: 148px;
+  font-size: 23px;
   margin: auto;
   position: relative;
   z-index: 1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+
 }
 
 #champtaka {
   color: var(--bs-white);
-  padding-top: 6px;
+  padding-top: 0px;
   font-family: 'Ample Medium';
   border-radius: 16px;
-  width: 280px;
-  background-color: #B8244E;
-  border: 1.5px solid white;
+  width: 248px;
+  background-color: #8F1D43;
+  border: 1.5px solid #E6E7E8;
   margin: auto;
-  height: 86px;
-  font-size: 50px;
+  height: 67px;
+  font-size: 42px;
   margin-top: -18px;
-  box-shadow: 2px 2px 2px 0 rgba(0,0,0,.6);
-  text-shadow: 2px 2px rgba(0,0,0,.6);
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .6);
+  text-shadow: 2px 2px rgba(0, 0, 0, .6);
 }
 
+#promotionalBandwidth{
+  color: #E6E7E8;
+}
+
+#runnerSupTakaBox {
+  color: var(--bs-white);
+  padding-top: 0px;
+  font-family: 'Ample Medium';
+  border-radius: 16px;
+  width: 289px;
+  border: 1.5px solid #E6E7E8;
+  margin: auto;
+  height: 62px;
+  margin-top: 1px;
+}
+
+#takaBox4th5th6th_10th{
+  color: var(--bs-white);
+  margin: auto;
+  font-size: 18px;
+  font-family: 'Ample Medium';
+}
 
 #runnersup1 {
   color: var(--bs-white);
   font-family: 'Ample Bold';
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
   font-size: 28px;
   width: 210px;
-  background-color: #B8244E;
-  box-shadow: 2px 3px 2px 0 rgba(0,0,0,.6);
+  background-color: #8F1D43;
   margin: auto;
   height: 42px;
+  border-top: 1px solid #E6E7E8;
+  border-right: 1px solid #E6E7E8; 
+  border-left: 1px solid #E6E7E8;  
+
 }
 
 #runnersup2 {
   color: var(--bs-white);
   font-family: 'Ample Bold';
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
   font-size: 28px;
   width: 210px;
-  background-color: #B8244E;
-  box-shadow: 2px 3px 2px 0 rgba(0,0,0,.6);
+  background-color: #8F1D43;
   height: 42px;
   margin: auto;
+  border-top: 1px solid #E6E7E8;
+  border-right: 1px solid #E6E7E8; 
+  border-left: 1px solid #E6E7E8; 
 }
 
 
@@ -281,23 +388,35 @@ html {
 }
 
 #fourthBox {
-  color: #B8244E;
+  color: var(--bs-white);
   font-family: 'Ample Bold' ;
-  background-color: white;
+  background-color: #8F1D43;
   width: 86px;
-  border-radius: 6px;
   margin: auto;
   height: 34px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top: 1px solid #E6E7E8;
+  border-right: 1px solid #E6E7E8; 
+  border-left: 1px solid #E6E7E8; 
 }
 
 #fifthBox {
-  color: #B8244E;
+  color: var(--bs-white);
   font-family: 'Ample Bold' ;
-  background-color: white;
+  background-color: #8F1D43;
   width: 86px;
-  border-radius: 6px;
   margin: auto;
   height: 34px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top: 1px solid #E6E7E8;
+  border-right: 1px solid #E6E7E8; 
+  border-left: 1px solid #E6E7E8;
 }
 
 #fourth {
@@ -311,14 +430,19 @@ html {
 }
 
 #sixthBox {
-  color: #B8244E;
+  color: var(--bs-white);
   font-family: 'Ample Bold' ;
-  font-size: 22px;
-  background-color: white;
-  width: 74px;
-  height: 30px;
-  border-radius: 6px;
+  background-color: #8F1D43;
+  width: 89px;
   margin: auto;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top: 1px solid #E6E7E8;
+  border-right: 1px solid #E6E7E8; 
+  border-left: 1px solid #E6E7E8; 
 }
 
 #sixth {
@@ -343,6 +467,19 @@ html {
   font-family: 'Ample Medium';
   color: var(--bs-white);
   text-shadow: 3px 3px rgba(0,0,0,.6);
+}
+
+#prize-money-benefit{
+  color: #FFFFFF;
+  margin-top: 23px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#prize-money-text{
+  font-size: 18px;
+  color: #FFFFFF;
+
 }
 
 /*  Prize money section end */
@@ -370,11 +507,56 @@ html {
 /* Phases start */
 
 #phases {
-  background: url("../img/3rd\ Image.png") no-repeat;
+  background: url("../img/background_roadshow.png") no-repeat;
   background-size: cover;
   padding-top: 34px;
   padding-bottom: 40px;
+  color: #FFFFFF;
+
 }
+
+#roadshow_april{
+  text-align: right;
+}
+
+#roadshows_heading{
+  margin-left: 1rem;
+}
+
+#roadshows_heading p{
+  color: #FFFFFF;
+  font-size: 59px;
+  font-weight: bold;
+  font-family: 'Ample Bold';
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  line-height: 4.5rem;
+
+}
+
+#roadshows_timeline{
+  transform: rotate(90deg);
+  margin-top: 76px;
+}
+
+
+
+
+#roadshows_phase p{
+  font-size: 18px;
+}
+
+/* #roadshow_june{
+  
+}
+
+#roadshow_august{
+  
+}
+
+#roadshow_september{
+  
+} */
 
 #timeLine {
   font-family: 'Ample Bold';
@@ -487,26 +669,48 @@ html {
   font-size: 22px;
 }
 
-table{
-  border-collapse: collapse; /* Remove cell spacing */
-}
-table, thead, td, tr, th{
-  border: 2px solid white;
+.table>thead{
+  background-color: #FFFFFF;
+  color: #941C22;
+
 }
 
-tr td{
-  padding: 0 !important;
-  margin: 0 !important;
+thead th:first-child {
+  border-radius: 10px 0 0 0;
+}
+thead th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+table{
+  color: white !important;
+}
+
+td:first-child {
+  border-left: 1px solid #FFFFFF;
+}
+
+td:last-child {
+  border-right: 1px solid #FFFFFF;
 }
 
 th {
-  padding: 0 !important;
-  margin: 0 !important;
+  border: 0;
 }
 
-table td{
-  padding:0; /* Apply cell padding */
+
+table tr td {
+  color: #E6E7E8;
+  
 }
+
+
+
+
+
+
+
+
 
 #mentHeading {
   color: white;
@@ -541,6 +745,43 @@ table td{
 /* Phases end */
 
 
+/* about of bdapps start */
+
+#aboutOfBdapps-image{
+  width: 300px;
+}
+
+#aboutOfBdapps {
+  background: url("../img/background_image.png") no-repeat;
+  background-size: cover;
+
+}
+
+#aboutOfBdappsHeading{
+  color: #FFFFFF;
+  margin-top: 98px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 80px;
+}
+
+#aboutOfBdappsHeading-text{
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-left: 80px;
+}
+
+#aboutOfBdapps-image{
+  width: 300px;
+  margin-top: 75px;
+}
+
+
+
+/* about of bdapps end */
+
+
+
 
 /* Rules start */
 
@@ -557,10 +798,11 @@ table td{
 }
 
 #rulesHeading {
-  color: #B9244E;
+  color: #8F1D43;
   font-family: 'Ample Bold';
   font-size: 61px;
   padding-bottom: 2px;
+  text-align: center;
 }
 
 #rules {
@@ -576,16 +818,17 @@ table td{
   font-size: 19px;
 }
 
-#horiRed {
-  color: #B8244E;
-  opacity: .6;
-  min-width: 20%;
-  margin: 0;
-}
+
 
 #rulesHead {
   font-family: 'Ample Medium';
-  color: #B8244E;
+  color: #444444;
+}
+
+#miscellaneous {
+  font-family: 'Ample Medium';
+  color: #444444;
+  margin-left: 30px;
 }
 
 #round {
@@ -643,6 +886,8 @@ table td{
 
 
 
+/* Add hover effect */
+
 #footer {
   background-image: linear-gradient(to right, #B6244F, rgb(132,44,99));
   text-align: center;
@@ -651,27 +896,27 @@ table td{
   color: #FFFFFF;
 }
 
-.footerIcons {
-  display: inline-block;
-  vertical-align: middle;
-  background-color:#FFFFFF;
-  color: #B6244F;
-  width: 30px;
-  height: 26px;
-  /* height: 30px; */
-  border-radius: 8px;
-  font-size: 20px;
+#footer a{
+  text-decoration: none;
 }
 
-.footerIcons a {
-  color:#832C61;
+#footerIcons{
+  height: 45px;
+  width: 46px;
+  margin-right: 0.6rem;
 }
 
-@media screen and (max-width: 799px) {
-  .footerIcons a {
-    color:#B9244E;
-  }
+#line_div{
+  float: right;
+  margin-right: 3px;
+
 }
+
+
+#support_img_div{
+  margin-left: 4rem;
+}
+
 
 /* Slick Slider start */
 
@@ -686,8 +931,8 @@ margin: 0px 20px;
 }
 
 .slick-slide img {
-height: 120px;
-width: 100%;
+  height: 90px;
+  width: 12.7rem;
 }
 
 .slick-slide {
