@@ -214,6 +214,13 @@ html {
 
 #overview-text{
   color: #444444;
+  width: 91%;
+  text-align: justify;
+}
+
+#watch_video_icon{
+  margin-top: -2.8rem;
+  width: 12rem;
 }
 
 /* Overview end */
@@ -255,7 +262,6 @@ html {
   background-color: white;
   width: 148px;
   font-size: 23px;
-  box-shadow: 2px 3px 2px 0 rgba(0, 0, 0, .6);
   margin: auto;
   position: relative;
   z-index: 1;
@@ -295,6 +301,7 @@ html {
   border: 1.5px solid #E6E7E8;
   margin: auto;
   height: 62px;
+  margin-top: 1px;
 }
 
 #takaBox4th5th6th_10th{
@@ -314,7 +321,6 @@ html {
   font-size: 28px;
   width: 210px;
   background-color: #8F1D43;
-  box-shadow: 2px 3px 2px 0 rgba(0,0,0,.6);
   margin: auto;
   height: 42px;
   border-top: 1px solid #E6E7E8;
@@ -333,7 +339,6 @@ html {
   font-size: 28px;
   width: 210px;
   background-color: #8F1D43;
-  box-shadow: 2px 3px 2px 0 rgba(0, 0, 0, .6);
   height: 42px;
   margin: auto;
   border-top: 1px solid #E6E7E8;
@@ -393,7 +398,6 @@ html {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
-  box-shadow: 2px 3px 2px 0 rgba(0, 0, 0, .6);
   border-top: 1px solid #E6E7E8;
   border-right: 1px solid #E6E7E8; 
   border-left: 1px solid #E6E7E8; 
@@ -410,7 +414,6 @@ html {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
-  box-shadow: 2px 3px 2px 0 rgba(0, 0, 0, .6);
   border-top: 1px solid #E6E7E8;
   border-right: 1px solid #E6E7E8; 
   border-left: 1px solid #E6E7E8;
@@ -437,7 +440,6 @@ html {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
-  box-shadow: 2px 3px 2px 0 rgba(0, 0, 0, .6);
   border-top: 1px solid #E6E7E8;
   border-right: 1px solid #E6E7E8; 
   border-left: 1px solid #E6E7E8; 
@@ -901,11 +903,19 @@ table tr td {
 #footerIcons{
   height: 45px;
   width: 46px;
+  margin-right: 0.6rem;
+}
+
+#line_div{
+  float: right;
+  margin-right: 3px;
+
 }
 
 
-
-
+#support_img_div{
+  margin-left: 4rem;
+}
 
 
 /* Slick Slider start */
@@ -921,8 +931,8 @@ margin: 0px 20px;
 }
 
 .slick-slide img {
-height: 120px;
-width: 100%;
+  height: 90px;
+  width: 12.7rem;
 }
 
 .slick-slide {

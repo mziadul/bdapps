@@ -7,7 +7,14 @@
         <div class="text-white px-5" id="introportion">
             <div class="row justify-content-center">
                 <div class="col-md-7 " id="introportion_icon_head">
+
+                    {{-- <div class="col-md-2">
+                        <img id="" src="{{ asset('assets/user/img/abstract_line.png') }}">
+                    </div> --}}
+
                     <div class="row" id="introportion_icon_row">
+                        
+
                         <div class="col-md-2">
                             <img id="" src="{{ asset('assets/user/img/icon_container.png') }}">
                         </div>
@@ -27,6 +34,8 @@
                         <a class="btn btn-light fw-bold" id="heading-registration-btn" type="button" href="{{route('user.registration')}}">Register Now</a>
                     </div>
                 </div>
+
+                
                 
             </div>
             
@@ -41,8 +50,17 @@
     <div id="supportedBy">
 
         <div class="row justify-content-center">
+
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <img id="watch_video_icon" src="{{ asset('assets/user/logos/watch_video_icon.png') }}">
+                    </div>
+                </div>
+            </div>
+            
             <div class="col-md-4">
-                <div class="text-center">
+                <div id="support_img_div">
                     <img id="support-image" src="{{ asset('assets/user/img/support-images.png') }}">
                 </div>
             </div>
@@ -59,61 +77,61 @@
 
         <div class="regular slider">
 
-            <div>
+            {{-- <div>
                 <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Digital-Bangladesh.png') }}">
-            </div>
+            </div> --}}
             
             <div>
-                <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/ICT.png') }}">
+                <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/ict.png') }}">
             </div>
 
             <div>
-                <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Mobile-Game-App.png') }}">
+                <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/mobile_game.png') }}">
             </div>
 
-            <div>
+            {{-- <div>
                 <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Startup-BD.png') }}">
-            </div>
+            </div> --}}
 
-            <div>
+            {{-- <div>
                 <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/BASIS.png') }}">
-            </div>
+            </div> --}}
 
             <div>
-                <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Robi.png') }}">
+                <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/robi.png') }}">
             </div>
 
-            <div>
+            {{-- <div>
                 <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/MIAKI.png') }}">
-            </div>
+            </div> --}}
 
-            <div>
+            {{-- <div>
                 <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/hSenid.png') }}">
-            </div>
+            </div> --}}
 
-            <div>
+            {{-- <div>
                 <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/BDOSN.png') }}">
-            </div>
+            </div> --}}
           
-            <div>
+            {{-- <div>
                 <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Preneur-Lab.png') }}">
-            </div>
+            </div> --}}
 
-            <div>
+            {{-- <div>
                 <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Innovation-Forum.png') }}">
-            </div>
+            </div> --}}
             
-            <div>
+            {{-- <div>
                 <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/JCI.png') }}">
-            </div>
+            </div> --}}
 
-            <div>
+            {{-- <div>
                 <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Sikhbe-Sobai.png') }}">
-            </div>
+            </div> --}}
 
-            <div>
+            {{-- <div>
                 <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Creative-IT.png') }}">
-            </div>
+            </div> --}}
          
         </div>
     </div>
@@ -141,7 +159,7 @@
 
             <div class="row justify-content-center mt-4">
                 <div class="col-sm-12 justify-content-center text-center">
-                    <div><img src="{{ asset('assets/user/Icons/trophy.png') }}"></div>
+                    <div><img src="{{ asset('assets/user/icons/trophy.png') }}"></div>
                     <div id="champ"><p>CHAMPION</p></div>
                     <div id="champtaka"><p>&#2547 50,000</p></div>
                     <div id="promotionalBandwidth"><span>+ 50,000 BDT worth <br> Promotional Bandwidth</span></div>
@@ -247,11 +265,11 @@
             </div>
         </div>
 
-        {{-- <div class="row mt-4">
+        <div class="row mt-4">
             <div class="col-sm-12">
-                <div><img src="{{ asset('assets/user/img/line.png') }}"></div>
+                <div id="line_div"><img src="{{ asset('assets/user/img/line.png') }}"></div>
             </div>
-        </div> --}}
+        </div>
 
         
         <div class="row justify-content-center">
@@ -294,21 +312,40 @@
                       </tr>
 
                       <tr>
-                        <td>Rajshahi</td>
+                        <td>Rangpur</td>
                         <td>????</td>
-                        <td>Rajshahi University</td>
+                        <td>Bangladesh Army University of Science and Technology</td>
                       </tr>
 
                       <tr>
-                        <td>Rajshahi</td>
+                        <td>Chittagong</td>
                         <td>????</td>
-                        <td>Rajshahi University</td>
+                        <td>Chittagong Independent University</td>
                       </tr>
 
                       <tr>
-                        <td>Rajshahi</td>
+                        <td>Sylhet</td>
                         <td>????</td>
-                        <td>Rajshahi University</td>
+                        <td>Shahjalal University of Science & Technology (SUST)</td>
+                      </tr>
+
+                      <tr>
+                        <td>Khulna</td>
+                        <td>????</td>
+                        <td>Khulna University</td>
+                      </tr>
+
+
+                      <tr>
+                        <td>Barisal</td>
+                        <td>????</td>
+                        <td>Barisal University</td>
+                      </tr>
+
+                      <tr>
+                        <td>Dhaka & Mymansingh</td>
+                        <td>????</td>
+                        <td>United International University</td>
                       </tr>
 
                     
@@ -339,7 +376,7 @@
                 <div class="child1" id="eligi">
                     <p id="rulesHead">Eligibility</p>
 
-                    <img id="rulesCon" src="{{ asset('assets/user/Icons/group.png') }}">
+                    <img id="rulesCon" src="{{ asset('assets/user/icons/group.png') }}">
                 </div>
 
                 <div class="child2 fs-5">
@@ -370,7 +407,7 @@
                 </div>
 
                 <div class="child1 fs-5" id="regi">
-                    <img id="rulesCon" src="{{ asset('assets/user/Icons/Online Registration-02.png') }}">
+                    <img id="rulesCon" src="{{ asset('assets/user/icons/reg_selection.png') }}">
                 </div>
             </div>
 
@@ -378,7 +415,7 @@
                 <div class="child1" id="eligi">
                     <p id="miscellaneous" class="ml-3">Miscellaneous</p>
 
-                    <img id="rulesCon" src="{{ asset('assets/user/Icons/group1.png') }}">
+                    <img id="rulesCon" src="{{ asset('assets/user/icons/group1.png') }}">
                 </div>
 
                 <div class="child2 fs-5 mt-4">
@@ -399,7 +436,7 @@
             <div class="Parent d-flex pt-3">
                 <div class="child1" id="eligi">
                     <h5 id="rulesHead">Eligibility</h5>
-                    <img src="{{ asset('assets/user/Icons/Eligibility-res.png') }}">
+                    <img src="{{ asset('assets/user/icons/Eligibility-res.png') }}">
                 </div>
 
                 <div class="child2 fs-5">
@@ -433,7 +470,7 @@
 
             <div class="Parent d-flex pt-3">
                 <div class="child1 fs-5" id="regi">
-                    <img src="{{ asset('assets/user/Icons/Online Registration-res.png') }}">
+                    <img src="{{ asset('assets/user/icons/Online Registration-res.png') }}">
                     <h5 id="rulesHead">Registration</h5>
                 </div>
 
@@ -457,7 +494,7 @@
             <div class="Parent d-flex pt-3">
                 <h4 id="round">Round Details</h4>
                 <div class="child1">
-                    <img src="{{ asset('assets/user/Icons/Regional Round-res.png') }}">
+                    <img src="{{ asset('assets/user/icons/Regional Round-res.png') }}">
                     <h5 id="rulesHead">Regional Round</h5>
                 </div>
 
@@ -483,7 +520,7 @@
 
             <div class="Parent d-flex pt-3">
                 <div class="child1 fs-5" id="onlRound">
-                    <img src="{{ asset('assets/user/Icons/Online Round-res.png') }}">
+                    <img src="{{ asset('assets/user/icons/Online Round-res.png') }}">
                     <h5 id="rulesHead">Online Round</h5>
                 </div>
 
@@ -507,7 +544,7 @@
 
             <div class="Parent d-flex pt-3">
                 <div class="child1" id="nationalRound">
-                    <img src="{{ asset('assets/user/Icons/National Round-res.png') }}">
+                    <img src="{{ asset('assets/user/icons/National Round-res.png') }}">
                     <h5 id="rulesHead">National Round</h5>
                 </div>
 
@@ -535,7 +572,7 @@
 
             <div class="Parent d-flex pt-3">
                 <div class="child1 fs-5" id="misce">
-                    <img src="{{ asset('assets/user/Icons/Miscellaneous-res.png') }}">
+                    <img src="{{ asset('assets/user/icons/Miscellaneous-res.png') }}">
                     <h5 id="rulesHead">Miscellaneous</h5>
                 </div>
 
