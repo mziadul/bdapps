@@ -47,8 +47,7 @@
     #bdapps_android_logo{
         margin-top: 4rem;
         margin-bottom: 2rem;
-        width: 20rem;
-
+        width: 70%;
     }
 
 

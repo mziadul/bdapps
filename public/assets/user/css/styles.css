@@ -201,7 +201,7 @@ html {
 }
 
 #support-image{
-  width: 300px;
+  width: 65%;
 }
 
 
@@ -214,7 +214,7 @@ html {
 
 #overview-text{
   color: #444444;
-  width: 91%;
+  width: 86%;
   text-align: justify;
 }
 
@@ -230,7 +230,8 @@ html {
     font-size: 33px;
     font-weight: 500;
     color: #444444;
-    margin-right: 69px;
+    margin-right: 6rem;
+    margin-bottom: 4px;
 }
 
 
@@ -290,6 +291,7 @@ html {
 
 #promotionalBandwidth{
   color: #E6E7E8;
+  margin-top: 5px;
 }
 
 #runnerSupTakaBox {
@@ -443,6 +445,7 @@ html {
   border-top: 1px solid #E6E7E8;
   border-right: 1px solid #E6E7E8; 
   border-left: 1px solid #E6E7E8; 
+  padding-top: 3px;
 }
 
 #sixth {
@@ -515,12 +518,30 @@ html {
 
 }
 
+#phase_timeline p{
+  font-size: 16px;
+}
+
+#roadshow_june p{
+  float: right;
+}
+#roadshow_september p{
+  margin-left: 3rem;
+}
+
+#line_div{
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
 #roadshow_april{
   text-align: right;
 }
 
 #roadshows_heading{
-  margin-left: 1rem;
+  margin-left: 4rem;
 }
 
 #roadshows_heading p{
@@ -860,6 +881,9 @@ table tr td {
   margin-top: 20px;
 }
 
+.eligibility{
+  margin-left: 3.3rem;
+}
 
 .Parent {
   flex-direction: row;
@@ -889,7 +913,8 @@ table tr td {
 /* Add hover effect */
 
 #footer {
-  background-image: linear-gradient(to right, #B6244F, rgb(132,44,99));
+  /* background-image: linear-gradient(to right, #B6244F, rgb(132,44,99)); */
+  background: linear-gradient(to right, #AF1E52, #A11E4B);
   text-align: center;
   font-family: 'Ample Regular';
   font-size: 20px;
@@ -914,7 +939,7 @@ table tr td {
 
 
 #support_img_div{
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
 
 
@@ -932,7 +957,6 @@ margin: 0px 20px;
 
 .slick-slide img {
   height: 90px;
-  width: 12.7rem;
 }
 
 .slick-slide {

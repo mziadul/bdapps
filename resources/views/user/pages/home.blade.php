@@ -43,29 +43,26 @@
     </section>    
     <!-- Intro portion end -->
 
-
-
-
     <!-- Supported by start -->
     <div id="supportedBy">
 
-        <div class="row justify-content-center">
-
-            <div class="row justify-content-center">
+         <div class="row justify-content-center">
                 <div class="col-md-4">
                     <div class="text-center">
                         <img id="watch_video_icon" src="{{ asset('assets/user/logos/watch_video_icon.png') }}">
                     </div>
                 </div>
             </div>
-            
-            <div class="col-md-4">
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-5">
                 <div id="support_img_div">
                     <img id="support-image" src="{{ asset('assets/user/img/support-images.png') }}">
                 </div>
             </div>
 
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <p id="overview">Overview</p>
                 <div>
                     <p id="overview-text">The goal of the program is to create pioneer app developers who will lead the charge of creating a digitally enabled ecosystem for Smart Bangladesh. Individuals from any background, with a knack for app development can apply for the program. Through the program we will provide training for 150 shortlisted app developers from around the country.  The individual will receive  a two month long technical and business training on developing and monetizing mobile applications. <br><br>Participants will not only receive government sponsored certificates which will be a great addition to any developer’s portfolio but also, top performers will earn Prize Money, Promotional Bandwidth and Awards.</p>
@@ -143,10 +140,7 @@
     <section id="prizeMoney">
         <div class="container-fluid pb-5" id="prizeMoneyContainer">
 
-            
-
             <div class="row justify-content-center">
-
                 <div class="col-md-8">
                     <p class="text-center" id="prize-money-benefit">Prize Money and Benefits</p>
                     <div>
@@ -154,18 +148,16 @@
                          <strong> My Robi and My Airtel App's</strong> showcase section.</p>
                     </div>
                 </div>
-
             </div>
 
             <div class="row justify-content-center mt-4">
                 <div class="col-sm-12 justify-content-center text-center">
-                    <div><img src="{{ asset('assets/user/icons/trophy.png') }}"></div>
+                    <div><img src="{{ asset('assets/user/icon/trophy.png') }}"></div>
                     <div id="champ"><p>CHAMPION</p></div>
                     <div id="champtaka"><p>&#2547 50,000</p></div>
                     <div id="promotionalBandwidth"><span>+ 50,000 BDT worth <br> Promotional Bandwidth</span></div>
                 </div>
             </div>
-
 
             <div class="row justify-content-center" id="runners">
 
@@ -180,11 +172,8 @@
                     <p class="text-white text-center" id="runnersup2">2nd Runner Up</p>
                     <div id="runnerSupTakaBox"><p id="taka">&#2547 20,000</p></div>
                     <div id="promotionalBandwidth"><span>+ 50,000 BDT worth <br> Promotional Bandwidth</span></div>
-
                 </div>
             </div>
-
-
 
             <div class="row justify-content-center" id="runners45">
 
@@ -199,8 +188,6 @@
                 </div>
             </div>
 
-
-
             <div class="row justify-content-center" id="sixthRow">
                 <div class="col justify-content-center text-center" id="sixth">
                     <p class="text-center" id="sixthBox">6th-10th</p>
@@ -211,11 +198,6 @@
     </section>
     
     <!-- prize money and benefits end -->
-    
-    
-
-
-
     
     <!-- bullet points start -->
 
@@ -232,48 +214,44 @@
 
     <!-- bullet points end -->
 
-
-
-
-
     <!-- Phases start -->
 
     <section id="phases">
-        <div class="row justify-content-center">
-            <div class="col-md-4">
+        <div class="row justify-content-center" id="phase_timeline">
+            <div class="col-md-5 ">
                 <div class="" id="roadshow_april">
                     <p>1 April 2024 - <br> 31 May 2024</p>
                 </div>
             </div>
 
-            <div class="col-md-2">
+            <div class="col-md-2 ">
                 <div class="text-center" id="roadshow_june">
                     <p>1 June 2024 - <br> 31 July 2024</p>
                 </div>
             </div>
 
-            <div class="col-md-2">
+            <div class="col-md-2 ">
                 <div class="text-center" id="roadshow_august">
                     <p>1 August 2024 - <br> 31 August 2024</p>
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="text-center" id="roadshow_september">
+            <div class="col-md-3 ">
+                <div class="" id="roadshow_september">
                     <p>September 2024</p>
                 </div>
             </div>
         </div>
 
-        <div class="row mt-4">
+        <div class="row">
             <div class="col-sm-12">
                 <div id="line_div"><img src="{{ asset('assets/user/img/line.png') }}"></div>
             </div>
         </div>
 
         
-        <div class="row justify-content-center">
-            <div class="col-md-4">
+        <div class="row ">
+            <div class="col-md-5">
                 <div id="roadshows_heading">
                     <p id="">Roadshows <br> and Online <br> Registration</p>
                 </div>
@@ -285,7 +263,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mt-4">
+            <div class="col-md-4 mt-5">
                 <div class="" id="roadshows_phase">
                     <h4>Phase 1</h4>
                     <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program.</p>
@@ -295,7 +273,7 @@
 
         <div class="row justify-content-center">
             <h1 class="text-center mt-4">Roadshow Dates</h1>
-            <div class="col-md-10">
+            <div class="col-md-11">
                 <table class="table mt-2 text-center">
                     <thead class="">
                       <tr>
@@ -335,7 +313,6 @@
                         <td>Khulna University</td>
                       </tr>
 
-
                       <tr>
                         <td>Barisal</td>
                         <td>????</td>
@@ -348,15 +325,9 @@
                         <td>United International University</td>
                       </tr>
 
-                    
-                      
                   </table>
-                  
-                
-                
+                                  
             </div>
-
-        
         </div> 
 
     </section>
@@ -372,11 +343,13 @@
         <div id="rulesNguides">
             <h1 id="rulesHeading" class="pt-5 ms-5">Rules and Guidelines</h1>
 
-            <div class="Parent d-flex pt-3">
-                <div class="child1" id="eligi">
-                    <p id="rulesHead">Eligibility</p>
 
-                    <img id="rulesCon" src="{{ asset('assets/user/icons/group.png') }}">
+
+            <div class="Parent d-flex pt-3" >
+                <div class="child1" id="eligi">
+                    <p id="rulesHead" class="eligibility">Eligibility</p>
+
+                    <img id="rulesCon" src="{{ asset('assets/user/icon/group.png') }}">
                 </div>
 
                 <div class="child2 fs-5">
@@ -391,7 +364,7 @@
             </div>
 
             <div class="row ">
-                <div class="col-md-12">
+                <div class="col-md-12 mt-4">
                     <p class="" id="registrationSelectionText">Registration and Selection</p>
                 </div>
             </div>
@@ -407,7 +380,7 @@
                 </div>
 
                 <div class="child1 fs-5" id="regi">
-                    <img id="rulesCon" src="{{ asset('assets/user/icons/reg_selection.png') }}">
+                    <img id="rulesCon" src="{{ asset('assets/user/icon/reg_selection.png') }}">
                 </div>
             </div>
 
@@ -415,7 +388,7 @@
                 <div class="child1" id="eligi">
                     <p id="miscellaneous" class="ml-3">Miscellaneous</p>
 
-                    <img id="rulesCon" src="{{ asset('assets/user/icons/group1.png') }}">
+                    <img id="rulesCon" src="{{ asset('assets/user/icon/group1.png') }}">
                 </div>
 
                 <div class="child2 fs-5 mt-4">
@@ -435,8 +408,8 @@
 
             <div class="Parent d-flex pt-3">
                 <div class="child1" id="eligi">
-                    <h5 id="rulesHead">Eligibility</h5>
-                    <img src="{{ asset('assets/user/icons/Eligibility-res.png') }}">
+                    <h5 class="eligibility" id="rulesHead" >Eligibility</h5>
+                    <img src="{{ asset('assets/user/icon/Eligibility-res.png') }}">
                 </div>
 
                 <div class="child2 fs-5">
@@ -460,17 +433,13 @@
                 </div>
             </div>
 
-
-
             <div class="d-flex justify-content-center">
                 <hr id="horiRed" style="width:20%", size="4"  >
             </div>
 
-
-
             <div class="Parent d-flex pt-3">
                 <div class="child1 fs-5" id="regi">
-                    <img src="{{ asset('assets/user/icons/Online Registration-res.png') }}">
+                    <img src="{{ asset('assets/user/icon/Online Registration-res.png') }}">
                     <h5 id="rulesHead">Registration</h5>
                 </div>
 
@@ -488,13 +457,10 @@
                 </div>
             </div>
 
-
-
-            
             <div class="Parent d-flex pt-3">
                 <h4 id="round">Round Details</h4>
                 <div class="child1">
-                    <img src="{{ asset('assets/user/icons/Regional Round-res.png') }}">
+                    <img src="{{ asset('assets/user/icon/Regional Round-res.png') }}">
                     <h5 id="rulesHead">Regional Round</h5>
                 </div>
 
@@ -510,17 +476,13 @@
                 </div>
             </div>
 
-
-
             <div class="d-flex justify-content-center">
                 <hr id="horiRed" style="width:20%", size="4"  >
             </div>
 
-
-
             <div class="Parent d-flex pt-3">
                 <div class="child1 fs-5" id="onlRound">
-                    <img src="{{ asset('assets/user/icons/Online Round-res.png') }}">
+                    <img src="{{ asset('assets/user/icon/Online Round-res.png') }}">
                     <h5 id="rulesHead">Online Round</h5>
                 </div>
 
@@ -536,7 +498,6 @@
                 </div>
             </div>
 
-
             <div class="d-flex justify-content-center">
                 <hr id="horiRed" style="width:20%", size="4"  >
             </div>
@@ -544,7 +505,7 @@
 
             <div class="Parent d-flex pt-3">
                 <div class="child1" id="nationalRound">
-                    <img src="{{ asset('assets/user/icons/National Round-res.png') }}">
+                    <img src="{{ asset('assets/user/icon/National Round-res.png') }}">
                     <h5 id="rulesHead">National Round</h5>
                 </div>
 
@@ -563,16 +524,13 @@
                 </div>
             </div>
 
-
             <div class="d-flex justify-content-center">
                 <hr id="horiRed" style="width:20%", size="4"  >
             </div>
 
-
-
             <div class="Parent d-flex pt-3">
                 <div class="child1 fs-5" id="misce">
-                    <img src="{{ asset('assets/user/icons/Miscellaneous-res.png') }}">
+                    <img src="{{ asset('assets/user/icon/Miscellaneous-res.png') }}">
                     <h5 id="rulesHead">Miscellaneous</h5>
                 </div>
 
@@ -592,8 +550,6 @@
         <div class="text-white px-5" id="aboutOfBdapps">
 
             <div class="row">
-
-    
                 <div class="col-md-7">
                     <p id="aboutOfBdappsHeading">About of bdapps</p>
                     <div>
@@ -613,7 +569,6 @@
         </div> 
     </section>    
     <!-- aboutOfBdapps end -->
-
 
     <!-- The Modal -->
     <div class="modal" id="myModal">
