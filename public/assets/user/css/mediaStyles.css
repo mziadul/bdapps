@@ -2,9 +2,6 @@
 /* min-width: 993px start */
 
 @media screen and (min-width: 1151px) {
-    #navregbtn {
-      margin-right: -60px;
-    }
 
     #introportion {
         background: url("../img/background_image.png") no-repeat;        
@@ -19,8 +16,6 @@
         margin-top: 118px;
         padding-bottom: 100px;
     }
-
-
 
     #suppo {
         padding-top: 50px;
@@ -119,7 +114,6 @@
         font-size: 33px;
         font-weight: 500;
         line-height: 20px;
-        text-align: center;
     }
 
     #horiRed {
@@ -135,6 +129,7 @@
     }
     #rules2 {
         font-size: 20px;
+        margin-right: 2rem;
     }
       
     #round {
@@ -145,7 +140,7 @@
     }
 
     #rulesCon {
-        margin-left: 4rem;
+        margin-left: 1rem;
         margin-top: 16px;
         height: 100px;
         width: 107px;
@@ -367,8 +362,10 @@
 
     #champ {
         width: 150px;
-        font-size: 28px;
+        font-size: 24px;
+        margin-bottom: 18px;
     }
+
     #champtaka {
         width: 240px;
         height: 66px;
@@ -861,11 +858,19 @@
     }
 
     #fifthBox {
-        width: 64px;
-        border-radius: 6px;
+        color: var(--bs-white);
+        font-family: 'Ample Bold';
+        background-color: #8F1D43;
+        width: 61px;
         margin: auto;
-        height: 26px;
-        padding-top: 0;
+        height: 27px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top: 1px solid #E6E7E8;
+        border-right: 1px solid #E6E7E8;
+        border-left: 1px solid #E6E7E8;
     }
 
     #runners45 {
@@ -1122,11 +1127,39 @@
 
 /* max-width: 630px start */
 @media screen and (max-width: 630px) {
-    
+
+    .navbar{
+        height: 71px;
+    }
+
+
+
+    #introportion_icon_row {
+        margin-top: 1rem;
+    }
+
+    #introportion_icon_row img {
+        width: 5rem;
+        padding: 8px;
+        margin-top: 1px;
+
+    }
+
+    #overview_div{
+        text-align: center;
+    }
+    #overview-text {
+        font-size: 14px;
+    }
+
+    #introportion_head_text_div {
+        width: 70%;
+        margin-top: 0.7rem;
+    }
+
     #mainHeading {
         font-size: 32px;
         line-height: 30px;
-        text-align: center;
         padding-top: 20px;
         margin-left: 0;
     }
@@ -1149,6 +1182,35 @@
         padding-top: 22px;
         padding-bottom: 10px;
     }
+
+    #aboutOfBdappsHeading {
+        margin-top: 0px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #aboutOfBdappsHeading-text {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #aboutOfBdapps-image {
+        width: 16rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+        
+    .box-div {
+        width: 94%;
+        margin-left: 0.6rem;
+    }
+
+
+    #team-reg-submit {
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
 }
 
 /* max-width: 630px end */
@@ -1162,14 +1224,76 @@
 
 @media screen and (max-width: 576px) {
 
+    .navbar{
+        height: 71px;
+    }
+    #registration_div{
+        margin-bottom: 56px;
+    }
+
+    #support_img_div{
+        text-align: center;
+    }
+
+    #overview_div{
+        text-align: center;
+    }
+    #overview-text {
+        font-size: 14px;
+    }
+    
+    #support-image {
+        width: 17rem;
+    }
+
+    #watch_video_icon {
+        margin-top: -3.0rem;
+        width: 8rem;
+    }
+
+    #container_div {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #introportion_icon_head {
+        margin-top: 1rem;
+        width: 90%;
+
+    }
+
+    #introportion_icon_row {
+        margin-top: 1rem;
+    }
+
+    #introportion_icon_row img {
+        width: 5rem;
+        padding: 8px;
+        margin-top: 1px;
+    }
+
+    #introportion_icon_div {
+        width: 30%;
+    }
+
+    #introportion_head_text_div {
+        width: 70%;
+        margin-top: 0.7rem;
+    }
+
+    #main-heading-text{
+        font-size: 14px;
+    }
+    
+
     html {
         scroll-padding-top: 8%;
     }
 
     /* Intro start */
     #logo {
-        height: 70px;
-        margin-right: 4px;
+        height: 3.2rem;
+        width: 10.5rem;
+        margin-right: 6rem;
     }
 
     .nav-link {
@@ -1185,10 +1309,8 @@
     }
 
     #mainHeading {
-        font-size: 56px;
+        font-size: 18px;
         line-height: 52px;
-        text-align: center;
-        margin-left: -2px;
         letter-spacing: 0;
         padding-top: 1px !important;
     }
@@ -1253,10 +1375,9 @@
     }
 
     #champ {
-        width: 130px;
-        font-size: 26px;
-        box-shadow: 2px 3px 2px 0 rgba(0,0,0,.6);
-        font-family: 'Ample Bold' ;
+        width: 150px;
+        font-size: 24px;
+        margin-bottom: 18px;
     }
 
     #champtaka {
@@ -1309,19 +1430,37 @@
     }
 
     #fourthBox {
-        width: 64px;
-        border-radius: 6px;
+        color: var(--bs-white);
+        font-family: 'Ample Bold';
+        background-color: #8F1D43;
+        width: 61px;
         margin: auto;
-        height: 26px;
-        padding-top: 0;
+        height: 27px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top: 1px solid #E6E7E8;
+        border-right: 1px solid #E6E7E8;
+        border-left: 1px solid #E6E7E8;
     }
 
+
+
     #fifthBox {
-        width: 64px;
-        border-radius: 6px;
+        color: var(--bs-white);
+        font-family: 'Ample Bold';
+        background-color: #8F1D43;
+        width: 61px;
         margin: auto;
-        height: 26px;
-        padding-top: 0;
+        height: 27px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top: 1px solid #E6E7E8;
+        border-right: 1px solid #E6E7E8;
+        border-left: 1px solid #E6E7E8;
     }
 
     #runners45 {
@@ -1342,8 +1481,8 @@
 
     #sixthBox {
         font-size: 18px;
-        width: 52px;
-        height: 22px;
+        width: 85px;
+        height: 29px;
     }
 
     #sixthRow {
@@ -1590,8 +1729,8 @@
     }
 
     .slick-prev:before, .slick-next:before {
-        font-size: 60px;
-        line-height: 2.0;
+        font-size: 57px;
+        line-height: 64px;
     }
 
     .slick-slide {
@@ -1599,9 +1738,85 @@
     }
 
     .slick-slide img {
-        height: 110px;
+        height: 54px;
         width: 100%;
     }
+
+    #prize-money-benefit{
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+
+    #prize-money-text {
+        font-size: 12px;
+        margin-left: 3rem;
+        text-align: justify;
+    }
+
+    
+    #prizeMoney {
+        margin-left: -3rem;
+    }
+
+    #roadshow_april{
+        margin-right: 8rem;
+
+    }
+
+    #roadshow_september p {
+        margin-left: 7rem;
+    }
+
+    #roadshows_heading p{
+        font-size: 38px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    #roadshows_timeline{
+        margin-top: 31px;
+    }
+
+    #roadshows_phase h4{
+        text-align: center;
+    }
+
+    #roadshows_phase p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #aboutOfBdappsHeading {
+        margin-top: 0px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #aboutOfBdappsHeading-text {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #aboutOfBdapps-image {
+        width: 16rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+        
+    .box-div {
+        width: 94%;
+        margin-left: 0.6rem;
+    }
+
+    #team-reg-submit {
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+
+
 
     /*  slider end*/
 }
@@ -1610,24 +1825,123 @@
 
 
 
-
-
-
-
-
-
-
 /* max-width: 480px start */
 
 @media screen and (max-width: 480px) {
 
-    #mainHeading {
-        font-size: 44px;
-        line-height: 42px;
+    .navbar{
+        height: 71px;
+    }
+
+    #support_img_div{
         text-align: center;
-        margin-left: -2px;
+    }
+    #support-image {
+        width: 17rem;
+    }
+
+    #overview_div{
+        text-align: center;
+    }
+
+    #overview-text {
+        font-size: 14px;
+    }
+
+    #registration_div{
+        margin-bottom: 56px;
+    }
+
+    #watch_video_icon {
+        margin-top: -3.0rem;
+        width: 8rem;
+    }
+
+    #introportion_icon_head {
+        margin-top: 1rem;
+        width: 90%;
+    }
+
+    #introportion_icon_row {
+        margin-top: 1rem;
+    }
+
+    #introportion_icon_row img {
+        width: 5rem;
+        padding: 8px;
+        margin-top: 1px;
+
+    }
+
+    #main-heading-text{
+        font-size: 14px;
+    }
+
+
+
+    #heading-registration-btn{
+        border-radius: 8px;
+        color: #8F1D43;
+        box-shadow: 2px 2px 8px var(--bs-gray-dark);
+        height: 2.3rem;
+        font-family: 'Ample Bold';
+        font-size: 17px;
+        width: 8rem;
+        margin-top: 0.5rem;
+
+    }
+
+    #mainHeading {
+        font-size: 17px;
+        line-height: 30px;
         letter-spacing: 0;
     }
+
+    #champ {
+        width: 150px;
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+    
+    #sixthBox {
+        font-size: 18px;
+        width: 85px;
+        height: 29px;
+    }
+
+    #fifthBox {
+        color: var(--bs-white);
+        font-family: 'Ample Bold';
+        background-color: #8F1D43;
+        width: 61px;
+        margin: auto;
+        height: 27px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top: 1px solid #E6E7E8;
+        border-right: 1px solid #E6E7E8;
+        border-left: 1px solid #E6E7E8;
+    }
+
+    #fourthBox {
+        color: var(--bs-white);
+        font-family: 'Ample Bold';
+        background-color: #8F1D43;
+        width: 61px;
+        margin: auto;
+        height: 27px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top: 1px solid #E6E7E8;
+        border-right: 1px solid #E6E7E8;
+        border-left: 1px solid #E6E7E8;
+    }
+
     #prizeHeading {
         font-size: 30px;
         line-height: 30px;
@@ -1649,8 +1963,8 @@
     }
 
     .slick-prev:before, .slick-next:before {
-        font-size: 60px;
-        line-height: 2.0;
+        font-size: 57px;
+        line-height: 64px;
     }
 
     .slick-slide {
@@ -1658,8 +1972,87 @@
     }
 
     .slick-slide img {
-        height: 110px;
+        height: 54px;      
         width: 100%;
+    }
+
+    #prize-money-benefit{
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+
+
+    #prize-money-text {
+        font-size: 12px;
+        margin-left: 3rem;
+        text-align: justify;
+    }
+
+    
+    #prizeMoney {
+        margin-left: -3rem;
+    }
+
+    #roadshow_april{
+        margin-right: 8rem;
+
+    }
+
+    #roadshow_september p {
+        margin-left: 7rem;
+    }
+
+    #roadshows_heading p{
+        font-size: 38px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    #roadshows_timeline{
+        margin-top: 31px;
+    }
+
+    #roadshows_phase h4{
+        text-align: center;
+    }
+
+    #roadshows_phase p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #aboutOfBdappsHeading {
+        margin-top: 0px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #aboutOfBdappsHeading-text {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #aboutOfBdapps-image {
+        width: 16rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .navbar-nav{
+        background-color: black;
+    }
+
+        
+    .box-div {
+        width: 94%;
+        margin-left: 0.6rem;
+    }
+
+
+    #team-reg-submit {
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
     }
     /*  slider end*/
 }
@@ -1667,24 +2060,70 @@
 /* max-width: 400px end */
 
 
-
-
-
-
-
-
-
 /* max-width: 300px start */
 @media screen and (max-width: 300px) {
+
+    .navbar{
+        height: 71px;
+    }
+
+    #registration_div{
+        margin-bottom: 56px;
+    }
+
+    #support_img_div{
+        text-align: center;
+    }
+    #support-image {
+        width: 17rem;
+    }
+
+    #overview_div{
+        text-align: center;
+    }
+    #overview-text {
+        font-size: 14px;
+    }
+
+    #watch_video_icon {
+        margin-top: -3.0rem;
+        width: 8rem;
+    }
+
+    #introportion_icon_head {
+        margin-top: 1rem;
+        width: 90%;
+    }
+
+
+
+    #introportion_icon_row {
+        margin-top: 1rem;
+    }
+
+    #introportion_icon_row img {
+        width: 5rem;
+        padding: 8px;
+        margin-top: 1px;
+
+    }
+
+    #introportion_head_text_div {
+        width: 70%;
+        margin-top: 0.7rem;
+    }
+
+    #main-heading-text{
+        font-size: 14px;
+    }
+
     #runners {
         margin-top: 40px !important;
     }
 
     #mainHeading {
-        font-size: 31px;
-        line-height: 24px;
-        text-align: center;
-        margin-left: -2px;
+        font-size: 17px;
+        line-height: 30px;
         letter-spacing: 0;
     }
 
@@ -1699,5 +2138,134 @@
     .slider {
         width: 60%;
     }
+
+    .slick-slide img {
+        height: 54px;      
+        width: 100%;
+    }
+
+    .slick-prev:before, .slick-next:before {
+        font-size: 57px;
+        line-height: 64px;
+    }
+
+    #prize-money-benefit{
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    #champ {
+        width: 150px;
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+    
+    #sixthBox {
+        font-size: 18px;
+        width: 85px;
+        height: 29px;
+    }
+
+    #fifthBox {
+        color: var(--bs-white);
+        font-family: 'Ample Bold';
+        background-color: #8F1D43;
+        width: 61px;
+        margin: auto;
+        height: 27px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top: 1px solid #E6E7E8;
+        border-right: 1px solid #E6E7E8;
+        border-left: 1px solid #E6E7E8;
+    }
+
+    #fourthBox {
+        color: var(--bs-white);
+        font-family: 'Ample Bold';
+        background-color: #8F1D43;
+        width: 61px;
+        margin: auto;
+        height: 27px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top: 1px solid #E6E7E8;
+        border-right: 1px solid #E6E7E8;
+        border-left: 1px solid #E6E7E8;
+    }
+
+    #prize-money-text {
+        font-size: 12px;
+        margin-left: 3rem;
+        text-align: justify;
+    }
+
+    #prizeMoney {
+        margin-left: -3rem;
+    }
+
+    #roadshow_april{
+        margin-right: 8rem;
+
+    }
+
+    #roadshow_september p {
+        margin-left: 7rem;
+    }
+
+    #roadshows_heading p{
+        font-size: 38px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    #roadshows_timeline{
+        margin-top: 31px;
+    }
+
+    #roadshows_phase h4{
+        text-align: center;
+    }
+
+    #roadshows_phase p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #aboutOfBdappsHeading {
+        margin-top: 0px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #aboutOfBdappsHeading-text {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #aboutOfBdapps-image {
+        width: 16rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .navbar-nav{
+        background-color: black;
+    }
+
+    .box-div {
+        width: 94%;
+        margin-left: 0.6rem;
+    }
+
+    #team-reg-submit {
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    
 }
 /* max-width: 300px end */

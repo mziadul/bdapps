@@ -7,7 +7,6 @@ html {
 /* Navigation Bar start*/
 #logo {
   height: 60px;
-  margin-left: -95px;
   width: 200px;
 }
 
@@ -21,6 +20,11 @@ html {
   text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0;
+}
+
+#container_div{
+  margin-left: 9%;
+  margin-right: 11%;
 }
 
 
@@ -60,10 +64,10 @@ html {
 }
 
 #navItem {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   font-family: 'Ample Regular';
-  font-size: 19px;
+  font-size: 18px;
 }
 
 #navItem a{
@@ -87,8 +91,18 @@ html {
 
 }
 
+
 #introportion_icon_head{
   margin-top: 4rem;
+  width: 69%;
+}
+
+#introportion_head_text_div{
+  width: 88%;
+}
+
+#introportion_icon_div{
+  width: 12%;
 }
 
 #introportion_icon_row{
@@ -107,13 +121,11 @@ html {
 #mainHeading {
   padding-top: 4rem;
   font-family: 'Ample Bold';
-  font-size: 66px;
-  margin-left: -4rem;
+  font-size: 60px;
   line-height: 66px;
   padding-top: 0;
   margin-top: 0;
   letter-spacing: 1px;
-  text-align: center;
 }
 
 #main-heading-text{
@@ -201,7 +213,7 @@ html {
 }
 
 #support-image{
-  width: 65%;
+  width: 21rem;
 }
 
 
@@ -214,7 +226,7 @@ html {
 
 #overview-text{
   color: #444444;
-  width: 86%;
+  width: 98%;
   text-align: justify;
 }
 
@@ -230,7 +242,7 @@ html {
     font-size: 33px;
     font-weight: 500;
     color: #444444;
-    margin-right: 6rem;
+    margin-right: 1rem;
     margin-bottom: 4px;
 }
 
@@ -522,9 +534,10 @@ html {
   font-size: 16px;
 }
 
-#roadshow_june p{
+/* #roadshow_june p{
   float: right;
-}
+} */
+
 #roadshow_september p{
   margin-left: 3rem;
 }
@@ -538,11 +551,12 @@ html {
 
 #roadshow_april{
   text-align: right;
+  margin-right: 5rem;
 }
 
-#roadshows_heading{
+/* #roadshows_heading{
   margin-left: 4rem;
-}
+} */
 
 #roadshows_heading p{
   color: #FFFFFF;
@@ -783,13 +797,11 @@ table tr td {
   margin-top: 98px;
   font-size: 40px;
   font-weight: 700;
-  margin-left: 80px;
 }
 
 #aboutOfBdappsHeading-text{
   color: #FFFFFF;
   font-size: 18px;
-  margin-left: 80px;
 }
 
 #aboutOfBdapps-image{
@@ -849,7 +861,7 @@ table tr td {
 #miscellaneous {
   font-family: 'Ample Medium';
   color: #444444;
-  margin-left: 30px;
+  margin-left: 0.6rem;
 }
 
 #round {
@@ -881,9 +893,9 @@ table tr td {
   margin-top: 20px;
 }
 
-.eligibility{
-  margin-left: 3.3rem;
-}
+/* .eligibility{
+  margin-left: 1.3rem;
+} */
 
 .Parent {
   flex-direction: row;
@@ -938,9 +950,7 @@ table tr td {
 }
 
 
-#support_img_div{
-  margin-left: 3rem;
-}
+
 
 
 /* Slick Slider start */
