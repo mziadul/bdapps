@@ -560,10 +560,10 @@
 
 
     /* rules start */
-    #rulesCon {
+    /* #rulesCon {
         height: 70px;
         padding-left: 40px;
-    }
+    } */
 
     #rulesHeading {
         padding-bottom: 2px;
@@ -1031,9 +1031,7 @@
         font-size: 16px;
     }
 
-    #regi {
-        margin-top: -24px;
-    }
+
     #onlRound {
         margin-top: -24px;
         margin-left: 0;
@@ -1150,6 +1148,7 @@
     }
     #overview-text {
         font-size: 14px;
+        margin-left: 9px;
     }
 
     #introportion_head_text_div {
@@ -1179,8 +1178,7 @@
 
     #footer {
         font-size: 16px;
-        padding-top: 22px;
-        padding-bottom: 10px;
+        padding-top: 17px;
     }
 
     #aboutOfBdappsHeading {
@@ -1194,10 +1192,12 @@
         text-align: justify;
     }
 
+
     #aboutOfBdapps-image {
-        width: 16rem;
-        margin-top: 2rem;
-        margin-bottom: 3rem;
+        width: 85%;
+        height: 261px;
+        margin-top: 25px;
+        margin-bottom: 35px;
     }
 
         
@@ -1240,10 +1240,13 @@
     }
     #overview-text {
         font-size: 14px;
+        margin-left: 9px;
     }
     
     #support-image {
-        width: 17rem;
+        width: 100%;
+        margin-left: 25px;
+        height: 322px;
     }
 
     #watch_video_icon {
@@ -1290,10 +1293,12 @@
     }
 
     /* Intro start */
+
     #logo {
-        height: 3.2rem;
-        width: 10.5rem;
-        margin-right: 6rem;
+        height: 3.3rem;
+        width: 9.1rem;
+        margin-right: 7rem;
+        margin-top: 11px;
     }
 
     .nav-link {
@@ -1383,7 +1388,7 @@
     #champtaka {
         width: 220px;
         height: 60px;
-        font-size: 38px;
+        font-size: 34px;
         margin-top: -18px;
         padding-top: 1px;
         border-radius: 12px;
@@ -1410,6 +1415,8 @@
     #taka {
         font-size: 24px;
         text-shadow: 2px 2px rgba(0,0,0,.6);
+        margin-top: 10px;
+
     }
 
     #taka45 {
@@ -1426,7 +1433,7 @@
     }
 
     #runner2 {
-        margin-top: 10px;
+        margin-top: 29px;
     }
 
     #fourthBox {
@@ -1475,8 +1482,13 @@
         max-width: 110px;
     }
 
+
     #fifth {
-        padding-top: 12px;
+        margin-top: 35px;
+    }
+
+    #sixth {
+        margin-top: 0px;
     }
 
     #sixthBox {
@@ -1487,6 +1499,7 @@
 
     #sixthRow {
         padding-bottom: 10px;
+        margin-top: 25px;
     }
 
     #hori6 {
@@ -1503,6 +1516,7 @@
     }
 
     #prizeMoneyContainer {
+        margin-left: 15px;
         padding-bottom: 1.5rem !important;
     }
 
@@ -1659,9 +1673,7 @@
         line-height: 22px;
     }
 
-    #rules li {
-        padding-bottom: 8px;
-    }
+  
 
     #rules2 {
         font-family: 'Ample Regular';
@@ -1721,11 +1733,16 @@
     /*  slider start*/
 
     #suppo {
-        margin-bottom: 0rem;
+        margin-bottom: 1rem;
     }
 
     .slider {
         width: 70%;
+    }
+
+    .slick-prev, .slick-next{
+        width: 28px;
+
     }
 
     .slick-prev:before, .slick-next:before {
@@ -1745,6 +1762,7 @@
     #prize-money-benefit{
         font-size: 22px;
         font-weight: 800;
+        margin-left: 38px;
     }
 
 
@@ -1798,10 +1816,12 @@
         text-align: justify;
     }
 
+
     #aboutOfBdapps-image {
-        width: 16rem;
-        margin-top: 2rem;
-        margin-bottom: 3rem;
+        width: 85%;
+        height: 261px;
+        margin-top: 25px;
+        margin-bottom: 35px;
     }
 
         
@@ -1817,6 +1837,88 @@
 
 
 
+    .navbar-nav{
+        background-color: #9f2757;
+        width: 197px;
+        height: 170px;
+    }
+
+    #navregbtn{
+        display: none;
+    }
+
+    #navcol-1{
+        margin-left: 0.5rem;
+        margin-right: 159px;
+    }
+
+    .slick-list {
+        height: 88px;
+    }
+
+    #prizeMoneyContainer {
+        margin-left: 15px;
+    }
+
+    .child1 img{
+        height: 100px;
+        width: 100px;
+        margin-top: 9px;
+    }
+
+    #rulesHead{
+        font-size: 21px;
+        line-height: 20px;
+        padding-left: -2px;
+        margin-right: 24px;
+    }
+
+    #rules li {
+        text-align: justify;
+        font-size: 15px;
+        padding: 4px;
+        margin-top: 5px;
+    }
+
+    #rules2 li {
+        text-align: justify;
+        font-size: 15px;
+        padding: 4px;
+        margin-top: 5px;
+    }
+
+    #footer {
+        font-size: 16px;
+        padding-top: 17px;
+    }
+
+    #aboutOfBdapps_image_div{
+        padding-left: 0px;
+    }
+
+    #line_div{
+        display: none;
+    }
+
+    #team-reg-submit:hover {
+        background-color: #FFFFFF !important;
+        color: #b62052 !important;
+      }
+      
+      #team-reg-submit:hover {
+        background-color: #FFFFFF !important;
+        color: #b62052 !important;
+      }
+      
+      #navregbtn:hover{
+        background-color: #FFFFFF !important;
+        color: #b62052 !important;
+      }
+      
+      #heading-registration-btn:hover{
+        background-color: #FFFFFF !important;
+        color: #b62052 !important;
+      }
 
     /*  slider end*/
 }
@@ -1829,6 +1931,13 @@
 
 @media screen and (max-width: 480px) {
 
+    #logo {
+        height: 3.3rem;
+        width: 9.1rem;
+        margin-right: 7rem;
+        margin-top: 11px;
+    }
+
     .navbar{
         height: 71px;
     }
@@ -1836,8 +1945,11 @@
     #support_img_div{
         text-align: center;
     }
+
     #support-image {
-        width: 17rem;
+        width: 100%;
+        margin-left: 25px;
+        height: 322px;
     }
 
     #overview_div{
@@ -1846,6 +1958,7 @@
 
     #overview-text {
         font-size: 14px;
+        margin-left: 9px;
     }
 
     #registration_div{
@@ -1903,11 +2016,19 @@
         margin-bottom: 18px;
     }
 
+    #sixth {
+        margin-top: 0px;
+    }
+
     
     #sixthBox {
         font-size: 18px;
         width: 85px;
         height: 29px;
+    }
+
+    #fifth {
+        margin-top: 35px;
     }
 
     #fifthBox {
@@ -1954,12 +2075,18 @@
     }
 
     /* slider start */
+
     #suppo {
-        margin-bottom: 0rem;
+        margin-bottom: 1rem;
     }
 
     .slider {
         width: 70%;
+    }
+
+    .slick-prev, .slick-next{
+        width: 28px;
+
     }
 
     .slick-prev:before, .slick-next:before {
@@ -1979,6 +2106,7 @@
     #prize-money-benefit{
         font-size: 22px;
         font-weight: 800;
+        margin-left: 38px;
     }
 
 
@@ -2033,14 +2161,18 @@
         text-align: justify;
     }
 
+
     #aboutOfBdapps-image {
-        width: 16rem;
-        margin-top: 2rem;
-        margin-bottom: 3rem;
+        width: 85%;
+        height: 261px;
+        margin-top: 25px;
+        margin-bottom: 35px;
     }
 
     .navbar-nav{
-        background-color: black;
+        background-color: #9f2757;
+        width: 197px;
+        height: 170px;
     }
 
         
@@ -2054,6 +2186,114 @@
         margin-top: 1.5rem !important;
         margin-bottom: 1.5rem !important;
     }
+
+
+    #navregbtn{
+        display: none;
+    }
+
+    #navcol-1{
+        margin-left: 0.5rem;
+        margin-right: 159px;
+    }
+
+    .slick-list {
+        height: 88px;
+    }
+
+    #champtaka {
+        font-size: 34px;
+    }
+
+
+    #taka {
+        margin-top: 10px;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    #prizeMoneyContainer {
+        margin-left: 15px;
+    }
+
+    #runner2 {
+        margin-top: 29px;
+    }
+
+    
+    #sixthRow {
+        margin-top: 25px;
+    }
+
+
+    .child1 img{
+        height: 100px;
+        width: 100px;
+        margin-top: 9px;
+    }
+
+    #rulesHead{
+        font-size: 21px;
+        line-height: 20px;
+        padding-left: -2px;
+        margin-right: 24px;
+    }
+
+    #rules li {
+        text-align: justify;
+        font-size: 15px;
+        padding: 4px;
+        margin-top: 5px;
+    }
+
+    #rules2 li {
+        text-align: justify;
+        font-size: 15px;
+        padding: 4px;
+        margin-top: 5px;
+    }
+
+    #registrationSelectionText{
+        font-size: 21px;
+        line-height: 20px;
+        padding-left: -2px;
+        margin-right: 24px;
+
+    }
+
+    #footer {
+        font-size: 16px;
+        padding-top: 17px;
+    }
+
+    #aboutOfBdapps_image_div{
+        padding-left: 0px;
+    }
+
+    #line_div{
+        display: none;
+    }
+
+    .btn-nah:hover {
+        color: #191719;
+        background: #FFFFFF;
+    }
+
+    #team-reg-submit:hover {
+        background-color: #FFFFFF !important;
+        color: #b62052 !important;
+      }
+      
+      #navregbtn:hover{
+        background-color: #FFFFFF !important;
+        color: #b62052 !important;
+      }
+      
+      #heading-registration-btn:hover{
+        background-color: #FFFFFF !important;
+        color: #b62052 !important;
+      }
+
     /*  slider end*/
 }
 
@@ -2067,15 +2307,28 @@
         height: 71px;
     }
 
+    #logo {
+        height: 3.3rem;
+        width: 9.1rem;
+        margin-right: 7rem;
+        margin-top: 11px;
+    }
+
     #registration_div{
         margin-bottom: 56px;
+    }
+
+    #suppo {
+        margin-bottom: 1rem;
     }
 
     #support_img_div{
         text-align: center;
     }
     #support-image {
-        width: 17rem;
+        width: 100%;
+        margin-left: 25px;
+        height: 322px;
     }
 
     #overview_div{
@@ -2083,6 +2336,7 @@
     }
     #overview-text {
         font-size: 14px;
+        margin-left: 9px;
     }
 
     #watch_video_icon {
@@ -2144,6 +2398,11 @@
         width: 100%;
     }
 
+    .slick-prev, .slick-next{
+        width: 28px;
+
+    }
+
     .slick-prev:before, .slick-next:before {
         font-size: 57px;
         line-height: 64px;
@@ -2152,6 +2411,7 @@
     #prize-money-benefit{
         font-size: 22px;
         font-weight: 800;
+        margin-left: 38px;
     }
 
     #champ {
@@ -2160,11 +2420,19 @@
         margin-bottom: 18px;
     }
 
+    #sixth {
+        margin-top: 0px;
+    }
+
     
     #sixthBox {
         font-size: 18px;
         width: 85px;
         height: 29px;
+    }
+
+    #fifth {
+        margin-top: 35px;
     }
 
     #fifthBox {
@@ -2249,12 +2517,17 @@
     }
 
     #aboutOfBdapps-image {
-        width: 16rem;
-        margin-top: 2rem;
-        margin-bottom: 3rem;
+        width: 85%;
+        height: 261px;
+        margin-top: 25px;
+        margin-bottom: 35px;
     }
+
+
     .navbar-nav{
-        background-color: black;
+        background-color: #9f2757;
+        width: 197px;
+        height: 170px;
     }
 
     .box-div {
@@ -2266,6 +2539,115 @@
         margin-top: 1.5rem !important;
         margin-bottom: 1.5rem !important;
     }
+
+    #navregbtn{
+        display: none;
+    }
+
+
+    #navcol-1{
+        margin-left: 0.5rem;
+        margin-right: 159px;
+    }
+
+    .slick-list {
+        height: 88px;
+    }
+
+    #taka {
+        margin-top: 10px;
+        font-size: 24px;
+        margin-top: 10px;
+    }
     
+    #champtaka {
+        font-size: 34px;
+    }
+
+    #prizeMoneyContainer {
+        margin-left: 15px;
+    }
+
+    #runner2 {
+        margin-top: 29px;
+    }
+
+    #sixthRow {
+        margin-top: 25px;
+    }
+
+    .child1 img{
+        height: 100px;
+        width: 100px;
+        margin-top: 9px;
+    }
+
+    #rulesHead{
+        font-size: 21px;
+        line-height: 20px;
+        padding-left: -2px;
+        margin-right: 24px;
+    }
+
+
+    #rules li {
+        text-align: justify;
+        font-size: 15px;
+        padding: 4px;
+        margin-top: 5px;
+    }
+
+    #rules2 li {
+        text-align: justify;
+        font-size: 15px;
+        padding: 4px;
+        margin-top: 5px;
+    }
+
+    #registrationSelectionText{
+        font-size: 21px;
+        line-height: 20px;
+        padding-left: -2px;
+        margin-right: 24px;
+
+    }
+
+    #footer {
+        font-size: 16px;
+        padding-top: 17px;
+    }
+
+    #aboutOfBdapps_image_div{
+        padding-left: 0px;
+    }
+
+    #line_div{
+        display: none;
+    }
+
+    .btn-nah:hover {
+        color: #191719;
+        background: #FFFFFF;
+    }
+
+    #team-reg-submit:hover {
+        background-color: #FFFFFF !important;
+        color: #b62052 !important;
+      }
+      
+      #navregbtn:hover{
+        background-color: #FFFFFF !important;
+        color: #b62052 !important;
+      }
+      
+      #heading-registration-btn:hover{
+        background-color: #FFFFFF !important;
+        color: #b62052 !important;
+      }
+
+
+
+
+
 }
 /* max-width: 300px end */

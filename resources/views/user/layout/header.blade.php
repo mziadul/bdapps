@@ -7,7 +7,7 @@
                     </button>
     
                     <a href="{{route('user.home')}}">
-                        <img id="logo" src="{{ asset('assets/user/logos/bdapps_android_academy_logo.png') }}">
+                        <img id="logo" src="{{ asset('assets/user/logo/bdapps_android_academy_logo.png') }}">
                     </a>
                     <div class="collapse navbar-collapse text-white" id="navcol-1">
                         <ul class="navbar-nav " >

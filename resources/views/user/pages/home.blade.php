@@ -48,7 +48,7 @@
             <div class="row justify-content-center">
                     <div class="col-md-4">
                         <div class="text-center">
-                            <img id="watch_video_icon" src="{{ asset('assets/user/logos/watch_video_icon.png') }}">
+                            <img id="watch_video_icon" src="{{ asset('assets/user/logo/watch_video_icon.png') }}">
                         </div>
                     </div>
             </div>
@@ -77,59 +77,59 @@
             <div class="regular slider">
 
                 {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Digital-Bangladesh.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Digital-Bangladesh.png') }}">
                 </div> --}}
                 
                 <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/ict.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/ict.png') }}">
                 </div>
 
                 <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/mobile_game.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/mobile_game.png') }}">
                 </div>
 
                 {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Startup-BD.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Startup-BD.png') }}">
                 </div> --}}
 
                 {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/BASIS.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/BASIS.png') }}">
                 </div> --}}
 
                 <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/robi.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/robi.png') }}">
                 </div>
 
                 {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/MIAKI.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/MIAKI.png') }}">
                 </div> --}}
 
                 {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/hSenid.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/hSenid.png') }}">
                 </div> --}}
 
                 {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/BDOSN.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/BDOSN.png') }}">
                 </div> --}}
             
                 {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Preneur-Lab.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Preneur-Lab.png') }}">
                 </div> --}}
 
                 {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Innovation-Forum.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Innovation-Forum.png') }}">
                 </div> --}}
                 
                 {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/JCI.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/JCI.png') }}">
                 </div> --}}
 
                 {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Sikhbe-Sobai.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Sikhbe-Sobai.png') }}">
                 </div> --}}
 
                 {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logos/suppoBy/Creative-IT.png') }}">
+                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Creative-IT.png') }}">
                 </div> --}}
             
             </div>
@@ -424,139 +424,65 @@
                 <div class="Parent d-flex pt-3">
                     <div class="child1" id="eligi">
                         <h5 class="eligibility" id="rulesHead" >Eligibility</h5>
-                        <img src="{{ asset('assets/user/icon/Eligibility-res.png') }}">
+                        <img src="{{ asset('assets/user/icon/group.png') }}">
                     </div>
 
                     <div class="child2 fs-5">
-
-                            <ul id="rules">
-                                <li>&#8226 The “National Appstore Hackathon 2022” is open to all Bangladeshi citizens 
-                                    irrespective of age, gender, religion, educational background.</li>
-                                <li>&#8226 Participants are required to work in teams consisting of a minimum of 2 to a 
-                                    maximum of 4 members.</li>
-                                <li>&#8226 Participants must make their own travel and accommodation arrangements and cover
-                                    all associated costs and expenses in case of the physical event. For the online 
-                                    event. 
-                                <li>&#8226 Participants must arrange their own technical requirements to participate in each
-                                    phase of the platform. (Travel incentives will be provided for few teams outside of
-                                    the host district).</li>
-                                <li>&#8226 All team members must be able to be present in the venue of the selected zone for 
-                                    the regional round.</li>
-                            </ul>
-
-
+                        <ul id="rules">
+                            <li>&#8226 The “bdapps Android Academy” is open to all Bangladeshi citizens irrespective of age, gender, religion, educational background.</li>
+                            <li>&#8226 Participants have to apply in an individual capacity.</li>
+                            <li>&#8226 Participants must have access to a personal laptop or desktop computer. </li>
+                            <li>&#8226 Participants must have access to broadband internet or wifi.</li>
+                            <li>&#8226 Participants must make their own travel and accommodation arrangements and cover all associated costs and expenses during the Gala Round.</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="d-flex justify-content-center">
-                    <hr id="horiRed" style="width:20%", size="4"  >
+
+
+                <div class="row ">
+                    <div class="col-md-12 mt-4">
+                        <p class="" id="registrationSelectionText">Registration and Selection</p>
+                    </div>
                 </div>
 
-                <div class="Parent d-flex pt-3">
-                    <div class="child1 fs-5" id="regi">
-                        <img src="{{ asset('assets/user/icon/Online Registration-res.png') }}">
-                        <h5 id="rulesHead">Registration</h5>
-                    </div>
+                <div class="child1 fs-5" id="regi">
+                    <img id="rulesCon" src="{{ asset('assets/user/icon/reg_selection.png') }}">
+                </div>
 
+                <div class="Parent d-flex">
                     <div class="child2 fs-5">
                             <ul  id="rules2">
-                                <li>&#8226 One team can include 2 to 4 members.</li>
-                                <li>&#8226 Team members can be from any educational institution/organization.</li>
-                                <li>&#8226 Registered teams must include correct information about their team on the provided 
-                                    form.</li>
-                                <li>&#8226 The registration is completely free of cost.</li>
-                                <li>&#8226 By registering in the “National Appstore Hackathon 2022” administered by bdapps, 
-                                    the participant agrees to be bound by the terms and conditions stated in these Rules
-                                    and Guidelines of the event.</li>
+                                <li>&#8226 The registration is completely free of </li>
+                                <li>&#8226 Individuals with programming experience and/ or app development experience will be given preference during the selection process</li>
+                                <li>&#8226 The Participants will have to go through an interview process and sign a consent form to ensure their participants for the full duration of the program</li>
+                                <li>&#8226 By registering in the “Android Academy” program administered by bdapps, the participant agrees to be bound by the terms and conditions stated in these Rules and Guidelines of the program</li>
                             </ul>
                     </div>
                 </div>
 
+ 
+
                 <div class="Parent d-flex pt-3">
-                    <h4 id="round">Round Details</h4>
-                    <div class="child1">
-                        <img src="{{ asset('assets/user/icon/Regional Round-res.png') }}">
-                        <h5 id="rulesHead">Regional Round</h5>
+                    <div class="child1" id="eligi">
+                        <h5 class="eligibility" id="rulesHead" >Miscellaneous</h5>
+                        <img src="{{ asset('assets/user/icon/group1.png') }}">
                     </div>
 
                     <div class="child2 fs-5">
-                            <ul id="rules">
-                                <li>&#8226 Teams can participate with an idea/prototype/MVP/Complete App.</li>
-                                <li>&#8226 The app can be of any genre including and not limited to – Games, Lifestyle, Education, 
-                                    AR/VR, Business, Communication, Entertainment, Medical, Utility etc.</li>
-                                <li>Teams have to give a presentation In front of the judges about their product. 
-                                    Judging criteria includes – feasibility, originality, Potential User Base,
-                                    Quality of planning.
-                            </ul>
+                        <ul id="rules">
+                            <li>&#8226 The intellectual property of ideas and code belongs to the participants.</li>
+                            <li>&#8226 Winners prize money and other prizes will be divided into milestones based trances.</li>
+                            <li>&#8226 bdapps reserves the right to change any provisions and regulations of the platform without prior notification.</li>                            
+                        </ul>
                     </div>
                 </div>
 
-                <div class="d-flex justify-content-center">
-                    <hr id="horiRed" style="width:20%", size="4"  >
-                </div>
 
-                <div class="Parent d-flex pt-3">
-                    <div class="child1 fs-5" id="onlRound">
-                        <img src="{{ asset('assets/user/icon/Online Round-res.png') }}">
-                        <h5 id="rulesHead">Online Round</h5>
-                    </div>
-
-                    <div class="child2 fs-5">
-                            <ul  id="rules2">
-                                <li>&#8226 Teams will be assigned mentors to help them develop a MVP of their idea or 
-                                    polish up their existing application.</li>
-                                <li>&#8226 Team members must attend all the sessions. The mentor's remarks will be 
-                                    accumulated with the judge's assessment in the final round. Teams will be judged 
-                                    based on active participation, enthusiasm and timely submission of assigned tasks by
-                                    the mentors.</li>
-                            </ul>
-                    </div>
-                </div>
-
-                <div class="d-flex justify-content-center">
-                    <hr id="horiRed" style="width:20%", size="4"  >
-                </div>
+                
 
 
-                <div class="Parent d-flex pt-3">
-                    <div class="child1" id="nationalRound">
-                        <img src="{{ asset('assets/user/icon/National Round-res.png') }}">
-                        <h5 id="rulesHead">National Round</h5>
-                    </div>
-
-                    <div class="child2 fs-5">
-                            <ul id="rules">
-                                <li>&#8226 Teams will attend a 28-hour long hackathon in a selected venue for the 
-                                    national round. This will include overnight stay in the venue. All the team 
-                                    members of the selected teams have to be present during the full duration of the 
-                                    event. Adequate food supplies and security will be provided to the participants.</li>
-                                <li>&#8226 Final round will be judged in 2 segments. First the judges will visit the
-                                    teams and view their MVP/App Firsthand. In the second segment, teams will 
-                                    pitch their idea using a presentation In front of the judges. Judging criteria 
-                                    includes Progress, Understanding of the user base, Business model, Marketing 
-                                    Strategy etc.
-                            </ul>
-                    </div>
-                </div>
-
-                <div class="d-flex justify-content-center">
-                    <hr id="horiRed" style="width:20%", size="4"  >
-                </div>
-
-                <div class="Parent d-flex pt-3">
-                    <div class="child1 fs-5" id="misce">
-                        <img src="{{ asset('assets/user/icon/Miscellaneous-res.png') }}">
-                        <h5 id="rulesHead">Miscellaneous</h5>
-                    </div>
-
-                    <div class="child2 fs-5">
-                            <ul  id="rules2">
-                                <li>&#8226 The intellectual property of your idea and code belongs to you.</li>
-                                <li>&#8226 Winners prize money will be divided into milestones based trances.</li>
-                                <li>&#8226 bdapps reserves the right to change any dates, timing, provisions and regulations of the platform without prior notification.</li>
-                            </ul>
-                    </div>
-                </div>
+               
             </div>
         </section>
 
@@ -584,7 +510,7 @@
                         </div>
 
                         <div class="col-md-4">
-                            <div class="text-center">
+                            <div class="text-center" id="aboutOfBdapps_image_div">
                                 <img id="aboutOfBdapps-image" src="{{ asset('assets/user/img/bdapps_image.png') }}">
                             </div>
                         </div>

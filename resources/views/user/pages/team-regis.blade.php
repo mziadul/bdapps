@@ -101,7 +101,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-4">
                         <div class="text-center">
-                            <img id="bdapps_android_logo" src="{{ asset('assets/user/logos/logo.png') }}">
+                            <img id="bdapps_android_logo" src="{{ asset('assets/user/logo/logo.png') }}">
                         </div>
                     </div>
                 </div>
