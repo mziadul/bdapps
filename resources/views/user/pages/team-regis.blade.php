@@ -80,7 +80,7 @@
     }
 
     .group3 {
-        background-color: #FFFFFF;     
+        background-color: #eceaeab0;     
         margin-top: 8px;
         margin-bottom: 8px;
         border-radius: 10px;
