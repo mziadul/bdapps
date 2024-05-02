@@ -1932,10 +1932,10 @@
 @media screen and (max-width: 480px) {
 
     #logo {
-        height: 3.3rem;
-        width: 9.1rem;
-        margin-right: 10rem;
-        margin-top: 11px;
+        height: 38px;
+        width: 109px;
+        margin-right: 184px;
+        margin-top: 0px;
     }
 
     #bullets {
@@ -2006,7 +2006,7 @@
         height: 2.3rem;
         font-family: 'Ample Bold';
         font-size: 17px;
-        width: 8rem;
+        width: 161px;
         margin-top: 0.5rem;
 
     }
@@ -2145,9 +2145,7 @@
         text-align: center;
     }
 
-    #roadshows_timeline{
-        margin-top: 31px;
-    }
+
 
     #roadshows_phase h4{
         text-align: center;
@@ -2264,8 +2262,7 @@
     #registrationSelectionText{
         font-size: 21px;
         line-height: 20px;
-        padding-left: -2px;
-        margin-right: 80px;
+        text-align: center;
 
     }
 
@@ -2302,6 +2299,11 @@
         color: #b62052 !important;
       }
 
+      #roadshows_timeline{
+        transform: rotate(0deg);
+        margin-top: 10px;
+    }
+
     /*  slider end*/
 }
 
@@ -2312,6 +2314,10 @@
 
     #logo {
         margin-right: 6.5rem;
+        height: 36px;
+        width: 115px;
+        margin-right: 9rem;
+        margin-top: 0px;
     }
 
     #support-image{
@@ -2340,10 +2346,36 @@
         padding: 6px;
     }
 
+    #roadshows_timeline{
+        transform: rotate(0deg);
+        margin-top: 10px;
+    }
+
+    
+    #table_size {
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+
+    #registrationSelectionText{
+        font-size: 21px;
+        line-height: 20px;
+        text-align: center;
+
+    }
+
+    #heading-registration-btn{
+        font-size: 17px;
+        width: 9rem;
+
+    }
+
 }
 
 /* max-width: 300px start */
 @media screen and (max-width: 300px) {
+
+
 
     .navbar{
         height: 71px;
@@ -2543,6 +2575,7 @@
     }
 
     #roadshows_timeline{
+        transform: rotate(90deg);
         margin-top: 31px;
     }
 
@@ -2657,8 +2690,7 @@
     #registrationSelectionText{
         font-size: 21px;
         line-height: 20px;
-        padding-left: -2px;
-        margin-right: 24px;
+        text-align: center;
 
     }
 

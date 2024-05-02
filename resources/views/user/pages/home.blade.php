@@ -6,7 +6,9 @@
     <section>
 
             <div class="text-white px-5" id="introportion">
-                <div id="container_div">
+                {{-- <div id="container_div"> --}}
+                <div class="container">
+                
             
                     <div class="row justify-content-center">
                         <div id="introportion_icon_head">
@@ -39,6 +41,8 @@
     </section>    
     <!-- Intro portion end -->
 
+
+
     <!-- Supported by start -->
     <div id="supportedBy">
 
@@ -48,7 +52,9 @@
             <div class="row justify-content-center">
                     <div class="col-md-4">
                         <div class="text-center">
-                            <img id="watch_video_icon" src="{{ asset('assets/user/logo/watch_video_icon.png') }}">
+                            <img id="watch_video_icon" src="{{ asset('assets/user/logo/watch_video_icon.png') }}" >
+
+                            
                         </div>
                     </div>
             </div>
@@ -276,7 +282,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 mt-5">
+                <div class="col-md-6 mt-5" id="roadshows_phase_1">
                     <div class="" id="roadshows_phase">
                         <h4>Phase 1</h4>
                         <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program.</p>
@@ -286,7 +292,7 @@
 
             <div class="row justify-content-center">
                 <h1 class="text-center mt-4">Roadshow Dates</h1>
-                <div class="col-md-12">
+                <div class="col-md-12" id="table_size">
                     <table class="table mt-2 text-center">
                         <thead class="">
                         <tr>
@@ -558,11 +564,17 @@
 @section('extra-foot-script')
 <script type="text/javascript">
 
-    window.onload = function () {
+    document.getElementById("watch_video_icon").addEventListener("click", function() {
         OpenBootstrapPopup();
-    };
+
+        // console.log("Image clicked!");
+    });
+
+    // window.onload = function () {
+    //     OpenBootstrapPopup();
+    // };
     function OpenBootstrapPopup() {
-       // $('#myModal').modal('show');
+        $('#myModal').modal('show');
     }
 
 
