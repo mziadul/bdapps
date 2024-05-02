@@ -230,7 +230,7 @@
                     </div>
                 </div>
     
-                <div class="col-md-2 ">
+                <div class="col-md-2">
                     <div class="text-center" id="roadshow_june">
                         <p>1 June 2024 - <br> 31 July 2024</p>
                     </div>
