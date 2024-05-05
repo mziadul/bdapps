@@ -13,8 +13,8 @@ html {
 }
 
 #table_size{
-  padding-right: 32px;
-  padding-left: 18px;
+  padding-right: 12px;
+  padding-left: 24px;
 
 
 }
@@ -240,7 +240,6 @@ html {
 
 #overview-text{
   color: #444444;
-  width: 98%;
   text-align: justify;
 }
 
@@ -260,7 +259,7 @@ html {
     font-size: 33px;
     font-weight: 500;
     color: #444444;
-    margin-right: 20px;
+    margin-right: 5px;
     margin-bottom: 4px;
 }
 
@@ -558,9 +557,7 @@ html {
   float: right;
 } */
 
-#roadshow_september p{
-  margin-left: 3rem;
-}
+
 
 #line_div{
   background-repeat: no-repeat;
@@ -571,7 +568,6 @@ html {
 
 #roadshow_april{
   text-align: right;
-  margin-right: 5rem;
 }
 
 /* #roadshows_heading{
@@ -590,8 +586,8 @@ html {
 }
 
 #roadshows_timeline{
-  transform: rotate(0deg);
-  margin-top: 12px;
+  transform: rotate(90deg);
+  margin-top: 80px;
   font-size: 20px;
   font-weight: 500;
 }
@@ -609,7 +605,6 @@ html {
 #roadshows_phase p{
   font-size: 18px;
   text-align: justify;
-  padding-right: 17px;
 }
 
 /* #roadshow_june{
@@ -817,10 +812,15 @@ table tr td {
   padding-left: 36px;
 }
 
+#bulletPoints p{
+  line-height: 22px;
+}
+
 #aboutOfBdapps-image{
-  width: 88%;
-  height: 320px;
-  margin-top: 75px;
+  width: 83%;
+  height: 310px;
+  margin-top: 77px;
+  margin-left: 60px;
 }
 
 
@@ -836,11 +836,14 @@ table tr td {
   margin-top: 98px;
   font-size: 40px;
   font-weight: 700;
+  margin-left: 10px;
 }
 
 #aboutOfBdappsHeading-text{
   color: #FFFFFF;
   font-size: 18px;
+  text-align: justify;
+  margin-left: 10px;
 }
 
 
@@ -909,6 +912,7 @@ table tr td {
 
 #rules li {
   list-style-type: none;
+  font-size: 20px;
 }
 
 #rules2 li {
