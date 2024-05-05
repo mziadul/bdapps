@@ -6,7 +6,9 @@
     <section>
 
             <div class="text-white px-5" id="introportion">
-                <div id="container_div">
+                {{-- <div id="container_div"> --}}
+                <div class="container">
+                
             
                     <div class="row justify-content-center">
                         <div id="introportion_icon_head">
@@ -39,100 +41,105 @@
     </section>    
     <!-- Intro portion end -->
 
+
+
     <!-- Supported by start -->
     <div id="supportedBy">
 
-        <div id="container_div">
+        <div class="container">
 
 
-            <div class="row justify-content-center">
+                <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img id="watch_video_icon" src="{{ asset('assets/user/logo/watch_video_icon.png') }}" >
+
+                                
+                            </div>
+                        </div>
+                </div>
+
+                
+                <div class="row justify-content-center">
+
                     <div class="col-md-4">
-                        <div class="text-center">
-                            <img id="watch_video_icon" src="{{ asset('assets/user/logo/watch_video_icon.png') }}">
+                        <div id="support_img_div">
+                            <img id="support-image" src="{{ asset('assets/user/img/support-images.png') }}">
                         </div>
                     </div>
-            </div>
 
-            
-            <div class="row justify-content-center">
-
-                <div class="col-md-4">
-                    <div id="support_img_div">
-                        <img id="support-image" src="{{ asset('assets/user/img/support-images.png') }}">
+                    <div class="col-md-8" id="overview_div">
+                        <p id="overview">Overview</p>
+                        <div>
+                            <p id="overview-text">The goal of the program is to create pioneer app developers who will lead the charge of creating a digitally enabled ecosystem for Smart Bangladesh. Individuals from any background, with a knack for app development can apply for the program. Through the program we will provide training for 150 shortlisted app developers from around the country.  The individual will receive  a two month long technical and business training on developing and monetizing mobile applications. <br><br>Participants will not only receive government sponsored certificates which will be a great addition to any developer’s portfolio but also, top performers will earn Prize Money, Promotional Bandwidth and Awards.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md-8" id="overview_div">
-                    <p id="overview">Overview</p>
+                
+                <p id="suppo">Supported By</p>
+
+                <div class="regular slider">
+
+                    {{-- <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Digital-Bangladesh.png') }}">
+                    </div> --}}
+                    
                     <div>
-                        <p id="overview-text">The goal of the program is to create pioneer app developers who will lead the charge of creating a digitally enabled ecosystem for Smart Bangladesh. Individuals from any background, with a knack for app development can apply for the program. Through the program we will provide training for 150 shortlisted app developers from around the country.  The individual will receive  a two month long technical and business training on developing and monetizing mobile applications. <br><br>Participants will not only receive government sponsored certificates which will be a great addition to any developer’s portfolio but also, top performers will earn Prize Money, Promotional Bandwidth and Awards.</p>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/ict.png') }}">
                     </div>
-                </div>
-            </div>
 
-            
+                    <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/mobile_game.png') }}">
+                    </div>
+
+                    {{-- <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Startup-BD.png') }}">
+                    </div> --}}
+
+                    {{-- <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/BASIS.png') }}">
+                    </div> --}}
+
+                    <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/robi.png') }}">
+                    </div>
+
+                    {{-- <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/MIAKI.png') }}">
+                    </div> --}}
+
+                    {{-- <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/hSenid.png') }}">
+                    </div> --}}
+
+                    {{-- <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/BDOSN.png') }}">
+                    </div> --}}
+                
+                    {{-- <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Preneur-Lab.png') }}">
+                    </div> --}}
+
+                    {{-- <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Innovation-Forum.png') }}">
+                    </div> --}}
+                    
+                    {{-- <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/JCI.png') }}">
+                    </div> --}}
+
+                    {{-- <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Sikhbe-Sobai.png') }}">
+                    </div> --}}
+
+                    {{-- <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Creative-IT.png') }}">
+                    </div> --}}
+                
+                </div>
         </div>
-        <p id="suppo">Supported By</p>
-
-            <div class="regular slider">
-
-                {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Digital-Bangladesh.png') }}">
-                </div> --}}
-                
-                <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/ict.png') }}">
-                </div>
-
-                <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/mobile_game.png') }}">
-                </div>
-
-                {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Startup-BD.png') }}">
-                </div> --}}
-
-                {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/BASIS.png') }}">
-                </div> --}}
-
-                <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/robi.png') }}">
-                </div>
-
-                {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/MIAKI.png') }}">
-                </div> --}}
-
-                {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/hSenid.png') }}">
-                </div> --}}
-
-                {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/BDOSN.png') }}">
-                </div> --}}
-            
-                {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Preneur-Lab.png') }}">
-                </div> --}}
-
-                {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Innovation-Forum.png') }}">
-                </div> --}}
-                
-                {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/JCI.png') }}">
-                </div> --}}
-
-                {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Sikhbe-Sobai.png') }}">
-                </div> --}}
-
-                {{-- <div>
-                    <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Creative-IT.png') }}">
-                </div> --}}
-            
-            </div>
+        
 
 
     </div>
@@ -142,7 +149,7 @@
 
     <!-- prize money and benefits -->
     <section id="prizeMoney">
-        <div class="container-fluid pb-5" id="prizeMoneyContainer">
+        <div class="container pb-5" id="prizeMoneyContainer">
 
             <div class="row justify-content-center">
                 <div class="col-md-8">
@@ -207,12 +214,17 @@
 
     <section id="bulletPoints">
 
-        <div class="text-center" id="bullets">
-            <p><span style="color:#B9244E"><strong> &#8226 2 months online training session </strong></span>by industry professionals and experts..</p>
-            <p><span style="color:#B9244E"><strong> &#8226 Networking </strong></span>with the largest developer community of Bangladesh.</p>
-            <p><span style="color:#B9244E"><strong> &#8226 Logistical support </strong></span>to monetize your application.</p>
-            <p><span style="color:#B9244E"><strong> &#8226 National level exposure </strong></span>in front of country’s administrative and business leaders.</p>
+        <div class="container">
+
+            <div class="text-center" id="bullets">
+                <p><span style="color:#B9244E"><strong> &#8226 2 months online training session </strong></span>by industry professionals and experts.</p>
+                <p><span style="color:#B9244E"><strong> &#8226 Networking </strong></span>with the largest developer community of Bangladesh.</p>
+                <p><span style="color:#B9244E"><strong> &#8226 Logistical support </strong></span>to monetize your application.</p>
+                <p><span style="color:#B9244E"><strong> &#8226 National level exposure </strong></span>in front of country’s administrative and business leaders.</p>
+            </div>
+
         </div>
+
 
     </section>
 
@@ -222,10 +234,11 @@
 
     <section id="phases">
 
-        <div id="container_div">
+        <div class="container">
             <div class="row justify-content-center" id="phase_timeline">
-                <div class="col-md-6 ">
-                    <div class="" id="roadshow_april">
+                
+                <div class="col-md-2 ">
+                    <div class="text-center" id="roadshow_april">
                         <p>1 April 2024 - <br> 31 May 2024</p>
                     </div>
                 </div>
@@ -243,27 +256,24 @@
                 </div>
     
                 <div class="col-md-2 ">
-                    <div class="" id="roadshow_september">
+                    <div class="text-center" id="roadshow_september">
                         <p>September 2024</p>
                     </div>
                 </div>
             </div>
 
-        </div>
-
-
-
-
-
-        <div class="row">
-            <div class="col-sm-12">
-                <div id="line_div"><img src="{{ asset('assets/user/img/line.png') }}"></div>
+            
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="line_div"><img src="{{ asset('assets/user/img/line.png') }}"></div>
+                </div>
             </div>
         </div>
+    
 
-        <div id="container_div">
+        <div class="container">
 
-            <div class="row ">
+            <div class="row mt-3">
                 <div class="col-md-4">
                     <div id="roadshows_heading">
                         <p id="">Roadshows <br> and Online <br> Registration</p>
@@ -271,12 +281,12 @@
                 </div>
 
                 <div class="col-md-2">
-                    <div class="text-center" id="">
+                    <div class="text-center" >
                         <p id="roadshows_timeline">Timeline</p>
                     </div>
                 </div>
 
-                <div class="col-md-6 mt-5">
+                <div class="col-md-6 mt-5" id="roadshows_phase_1">
                     <div class="" id="roadshows_phase">
                         <h4>Phase 1</h4>
                         <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program.</p>
@@ -286,7 +296,7 @@
 
             <div class="row justify-content-center">
                 <h1 class="text-center mt-4">Roadshow Dates</h1>
-                <div class="col-md-12">
+                <div class="col-md-12" id="table_size">
                     <table class="table mt-2 text-center">
                         <thead class="">
                         <tr>
@@ -351,7 +361,7 @@
     <!-- Phases end -->
 
 
-    <div id="container_div">
+    <div class="container">
 
         <!-- Rules & guidelines start -->
         <section id="ruleS">
@@ -494,31 +504,32 @@
 
 
     <!--  aboutOfBdapps start  -->
-    <section id="aboutOfBdappsSection">
+        <section id="aboutOfBdappsSection">
 
-            <div class="text-white" id="aboutOfBdapps">
-                <div id="container_div">
+                <div class="text-white" id="aboutOfBdapps">
+                    <div class="container">
 
-                    <div class="row">
-                        <div class="col-md-8">
-                            <p id="aboutOfBdappsHeading">About of bdapps</p>
-                            <div>
-                                <p id="aboutOfBdappsHeading-text">
-                                    bdapps is a local app store and API hub which enables content providers and application developers to monetize their applications. Besides APIs, bdapps also offers 24/7 developer and admin support along with the option to monetize both downloadable and non-downloadable apps. Currently bdapps has the largest community of developers in the country. In 2021, the platform was declared as the National App Store of Bangladesh by the ICT Division.
-                                </p>
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p id="aboutOfBdappsHeading">About of bdapps</p>
+                                <div>
+                                    <p id="aboutOfBdappsHeading-text">
+                                        bdapps is a local app store and API hub which enables content providers and application developers to monetize their applications. Besides APIs, bdapps also offers 24/7 developer and admin support along with the option to monetize both downloadable and non-downloadable apps. Currently bdapps has the largest community of developers in the country. In 2021, the platform was declared as the National App Store of Bangladesh by the ICT Division.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="text-center" id="aboutOfBdapps_image_div">
+                                    <img id="aboutOfBdapps-image" src="{{ asset('assets/user/img/bdapps_image.png') }}">
+                                </div>
                             </div>
                         </div>
-
-                        <div class="col-md-4">
-                            <div class="text-center" id="aboutOfBdapps_image_div">
-                                <img id="aboutOfBdapps-image" src="{{ asset('assets/user/img/bdapps_image.png') }}">
-                            </div>
-                        </div>
-                    </div>
+                    </div> 
 
                 </div> 
-                    
-            </div> 
+
 
     </section>    
     <!-- aboutOfBdapps end -->
@@ -558,11 +569,17 @@
 @section('extra-foot-script')
 <script type="text/javascript">
 
-    window.onload = function () {
+    document.getElementById("watch_video_icon").addEventListener("click", function() {
         OpenBootstrapPopup();
-    };
+
+        // console.log("Image clicked!");
+    });
+
+    // window.onload = function () {
+    //     OpenBootstrapPopup();
+    // };
     function OpenBootstrapPopup() {
-       // $('#myModal').modal('show');
+        $('#myModal').modal('show');
     }
 
 
