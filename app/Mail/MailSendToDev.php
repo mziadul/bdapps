@@ -33,7 +33,7 @@ class MailSendToDev extends Mailable
     {
         // return $this->view('view.name');
         return $this->from('bdappspayment@gmail.com', 'bdapps payment')
-                    ->cc('sohel.akter@miaki.co')
+                    ->cc('reaz.uddin@miaki.co')
                     ->subject($this->details['subject'])
                     ->view('user.emails.devmail')
                     ->with('details', $this->details);
