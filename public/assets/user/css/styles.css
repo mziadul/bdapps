@@ -243,6 +243,10 @@ html {
   text-align: justify;
 }
 
+#watch_video_img_div{
+  cursor: pointer;
+}
+
 #watch_video_icon{
   margin-top: -2.8rem;
   width: 12rem;

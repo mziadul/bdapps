@@ -51,7 +51,7 @@
 
                 <div class="row justify-content-center">
                         <div class="col-md-4">
-                            <div class="text-center">
+                            <div class="text-center" id="watch_video_img_div">
                                 <img id="watch_video_icon" src="{{ asset('assets/user/logo/watch_video_icon.png') }}" >
 
                                 
