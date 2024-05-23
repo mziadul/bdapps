@@ -52,6 +52,7 @@ html {
 
 #phases .tab-content{
   margin-left: 40px;
+  margin-top: -10px;
 }
 
 #phases .tab-content #menu1, #menu2, #menu3, #menu4{
@@ -542,12 +543,9 @@ html {
 #prize-money-text{
   font-size: 18px;
   color: #FFFFFF;
-
 }
 
 /*  Prize money section end */
-
-
 
 
 /* Bullets start*/
@@ -563,54 +561,35 @@ html {
 /* Bullets end*/
 
 
-
-
-
-
 /* Phases start */
 
 #phases {
   background: url("../img/background_roadshow.png") no-repeat;
   background-size: cover;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 40px;
   color: #FFFFFF;
-
 }
 
 #phase_timeline p{
   font-size: 16px;
 }
 
-/* #roadshow_june p{
-  float: right;
-} */
-
-
-
 #line_div{
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
 
 #roadshow_april{
   text-align: right;
 }
 
-/* #roadshows_heading{
-  margin-left: 4rem;
-} */
-
 #roadshows_heading p{
   color: #FFFFFF;
   font-size: 59px;
   font-weight: bold;
   font-family: 'Ample Bold';
-  /* padding-left: 50px;
-  padding-right: 50px; */
-  line-height: 4.5rem;
+  line-height: 5rem;
 
 }
 
@@ -622,31 +601,13 @@ html {
 }
 
 
-/* #roadshows_phase_1{
-  margin-top: 8px !important;
-} */
+#roadshows_phase_1{
+  margin-top: 28px;
+}
 
 #roadshows_heading{
   margin-left: 15px;
 }
-
-
-/* #roadshows_phase p{
-  font-size: 18px;
-  text-align: justify;
-} */
-
-/* #roadshow_june{
-  
-}
-
-#roadshow_august{
-  
-}
-
-#roadshow_september{
-  
-} */
 
 #timeLine {
   font-family: 'Ample Bold';
