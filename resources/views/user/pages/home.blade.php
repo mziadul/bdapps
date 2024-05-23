@@ -161,7 +161,7 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center mt-4">
+            <div class="row justify-content-center mt-4 prize_money_row">
                 <div class="col-sm-12 justify-content-center text-center">
                     <div><img src="{{ asset('assets/user/icon/trophy.png') }}"></div>
                     <div id="champ"><p>CHAMPION</p></div>
@@ -235,67 +235,76 @@
     <section id="phases">
 
         <div class="container">
-            <div class="row justify-content-center" id="phase_timeline">
-                
-                <div class="col-md-2 ">
-                    <div class="text-center" id="roadshow_april">
-                        <p>1 April 2024 - <br> 31 May 2024</p>
-                    </div>
-                </div>
-    
-                <div class="col-md-2">
-                    <div class="text-center" id="roadshow_june">
-                        <p>1 June 2024 - <br> 31 July 2024</p>
-                    </div>
-                </div>
-    
-                <div class="col-md-2 ">
-                    <div class="text-center" id="roadshow_august">
-                        <p>1 August 2024 - <br> 31 August 2024</p>
-                    </div>
-                </div>
-    
-                <div class="col-md-2 ">
-                    <div class="text-center" id="roadshow_september">
-                        <p>September 2024</p>
-                    </div>
-                </div>
-            </div>
 
-            
+
             <div class="row">
-                <div class="col-sm-12">
-                    <div id="line_div"><img src="{{ asset('assets/user/img/line.png') }}"></div>
+                <div class="col-md-3">
                 </div>
-            </div>
-        </div>
-    
 
-        <div class="container">
+                <div class="col-md-9">
+                    <ul class="nav nav-tabs " role="tablist">
+                        <li class="nav-item ">
+                          <a class="nav-link active" data-bs-toggle="tab" href="#menu1">1 April 2024 - 31 May 2024</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-bs-toggle="tab" href="#menu2">1 June 2024 - 31 July 2024</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" data-bs-toggle="tab" href="#menu3">1 August 2024 - 31 August 2024</a>
+                        </li>
 
-            <div class="row mt-3">
-                <div class="col-md-4">
+                        <li class="nav-item ">
+                            <a class="nav-link" data-bs-toggle="tab" href="#menu4">September 2024</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div> 
+
+            <div class="row">
+                <div class="col-md-3">
                     <div id="roadshows_heading">
                         <p id="">Roadshows <br> and Online <br> Registration</p>
                     </div>
                 </div>
 
-                <div class="col-md-2">
-                    <div class="text-center" >
-                        <p id="roadshows_timeline">Timeline</p>
+                <div class="col-md-9" id="roadshows_phase_1">
+                    
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div id="menu1" class="container tab-pane active"><br>
+                            <h3>Phase 1</h3>
+                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program-1.</p>
+                        </div>
+                        
+                        <div id="menu2" class="container tab-pane fade"><br>
+                            <h3>Phase 2</h3>
+                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program-2.</p>
+                          </div>
+
+                          <div id="menu3" class="container tab-pane fade"><br>
+                            <h3>Phase 3</h3>
+                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program-3.</p>
+                          </div>
+
+                          <div id="menu4" class="container tab-pane fade"><br>
+                            <h3>Phase 4</h3>
+                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program-4.</p>
+                          </div>
+
                     </div>
+
+
                 </div>
 
-                <div class="col-md-6 mt-5" id="roadshows_phase_1">
-                    <div class="" id="roadshows_phase">
-                        <h4>Phase 1</h4>
-                        <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program.</p>
-                    </div>
-                </div>
+
+                
+
+
             </div> 
 
             <div class="row justify-content-center">
-                <h1 class="text-center mt-4">Roadshow Dates</h1>
+                <h1 class="text-center mt-4 roadshow_dates_text">Roadshow Dates</h1>
                 <div class="col-md-12" id="table_size">
                     <table class="table mt-2 text-center">
                         <thead class="">
