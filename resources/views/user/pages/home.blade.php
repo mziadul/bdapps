@@ -237,7 +237,7 @@
         <div class="container">
 
 
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-md-3">
                 </div>
 
@@ -259,7 +259,7 @@
                     </ul>
                 </div>
 
-            </div> 
+            </div>  --}}
 
             <div class="row">
                 <div class="col-md-3">
@@ -269,6 +269,22 @@
                 </div>
 
                 <div class="col-md-9" id="roadshows_phase_1">
+
+                    <ul class="nav nav-tabs " role="tablist">
+                        <li class="nav-item ">
+                          <a class="nav-link active" data-bs-toggle="tab" href="#menu1">1 April 2024 - 31 May 2024</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-bs-toggle="tab" href="#menu2">1 June 2024 - 31 July 2024</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" data-bs-toggle="tab" href="#menu3">1 August 2024 - 31 August 2024</a>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a class="nav-link" data-bs-toggle="tab" href="#menu4">September 2024</a>
+                        </li>
+                    </ul>
                     
                     <!-- Tab panes -->
                     <div class="tab-content">
