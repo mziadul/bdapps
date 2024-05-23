@@ -1738,7 +1738,7 @@
     }
 
     .slider {
-        width: 70%;
+        width: 40%;
     }
 
     .slick-prev, .slick-next{
@@ -1748,7 +1748,7 @@
 
     .slick-prev:before, .slick-next:before {
         font-size: 57px;
-        line-height: 64px;
+        line-height: 83px;
     }
 
     .slick-slide {
@@ -1756,8 +1756,9 @@
     }
 
     .slick-slide img {
-        height: 54px;
-        width: 100%;
+        height: 77px;
+        width: 164px;
+        margin-left: 0%;
     }
 
     #prize-money-benefit{
@@ -1792,14 +1793,14 @@
         margin-top: 31px;
     }
 
-    #roadshows_phase h4{
+    /* #roadshows_phase h4{
         text-align: center;
-    }
+    } */
 
-    #roadshows_phase p {
+    /* #roadshows_phase p {
         font-size: 14px;
         text-align: justify;
-    }
+    } */
 
     #aboutOfBdappsHeading {
         margin-top: 0px;
@@ -1927,10 +1928,49 @@
 
 @media screen and (max-width: 480px) {
 
+    #phases .nav {
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    #phases .nav-link{
+        padding: 5px;
+    }
+
+    #phases .tab-content {
+        margin-left: 0px;
+        margin-right: 18px;
+    }
+
+    #phases .tab-content h3{
+        text-align: center;
+    }
+
+    #phases #roadshows_heading p {
+        margin-bottom: 0px;
+    }
+
+    #phases #roadshows_heading{
+        margin-left: 0px;
+        margin-top: 13px;
+    }
+
+    #phases .roadshow_dates_text{
+        margin-top: 0px !important;
+    }
+
     #logo {
         height: 38px;
         width: 109px;
-        margin-right: 184px;
+        margin-right: 174px;
         margin-top: 0px;
     }
 
@@ -2084,7 +2124,7 @@
     }
 
     .slider {
-        width: 70%;
+        width: 52%;
     }
 
     .slick-prev, .slick-next{
@@ -2093,8 +2133,8 @@
     }
 
     .slick-prev:before, .slick-next:before {
-        font-size: 57px;
-        line-height: 64px;
+        font-size: 61px;
+        line-height: 88px;
     }
 
     .slick-slide {
@@ -2102,8 +2142,9 @@
     }
 
     .slick-slide img {
-        height: 54px;      
-        width: 100%;
+        height: 77px;
+        width: 164px;
+        margin-left: 8%;
     }
 
     #prize-money-benefit{
@@ -2138,14 +2179,14 @@
 
 
 
-    #roadshows_phase h4{
+    /* #roadshows_phase h4{
         text-align: center;
-    }
+    } */
 
-    #roadshows_phase p {
+    /* #roadshows_phase p {
         font-size: 14px;
         text-align: justify;
-    }
+    } */
 
     #aboutOfBdappsHeading {
         margin-top: 0px;
@@ -2296,26 +2337,81 @@
         margin-top: 10px;
     }
 
-    /*  slider end*/
+    .prize_money_row, #runners, #runners45, #sixthRow{
+        margin-left: 15px;
+    }
+
+    #footerIcons{
+        height: 37px;
+        width: 37px;
+        margin-right: 0.5rem;
+    }
 }
 
-/* max-width: 400px end */
+@media screen and (max-width: 420px) {
+    #logo {
+        margin-right: 153px;
+    }
 
+    #support-image{
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    #logo {
+        margin-right: 139px;
+    }
+
+    #support-image{
+        height: 340px;
+    }
+}
 
 @media screen and (max-width: 380px) {
+
+    #phases .nav {
+        margin-left: 0px;
+    }
+
+    #phases .nav-link{
+        padding: 5px;
+    }
+
+    #phases .tab-content {
+        margin-left: 0px;
+        margin-right: 18px;
+    }
+
+    #phases .tab-content h3{
+        text-align: center;
+    }
+
+    #phases #roadshows_heading p {
+        margin-bottom: 0px;
+    }
+
+    #phases #roadshows_heading{
+        margin-left: 0px;
+        margin-top: 13px;
+    }
+
+    #phases .roadshow_dates_text{
+        margin-top: 0px !important;
+    }
 
     #logo {
         margin-right: 6.5rem;
         height: 36px;
         width: 115px;
-        margin-right: 9rem;
         margin-top: 0px;
     }
 
     #support-image{
         width: 100%;
         margin-left: 16px;
-        height: 310px;
+        height: 313px;
     }
 
 
@@ -2331,7 +2427,7 @@
 
     #prize-money-text {
         font-size: 13px;
-        margin-left: 2rem;
+        margin-left: 3rem;
         text-align: justify;
         padding: 6px;
     }
@@ -2364,13 +2460,107 @@
         margin-right: 37px;
     }
 
+    .slider {
+        width: 58%;
+    }
 
+    .slick-slide img {
+        height: 77px;
+        width: 164px;
+        margin-left: 0%;
+    }
 
+    .prize_money_row, #runners, #runners45, #sixthRow{
+        margin-left: 15px;
+    }
+
+    #footerIcons{
+        height: 35px;
+        width: 35px;
+        margin-right: 0.4rem;
+    }
 }
 
-/* max-width: 300px start */
+@media screen and (max-width: 350px){
+    #support-image{
+        height: 300px;
+    }
+    #introportion_head_text_div{
+        width: 70% !important;
+    }
+    #mainHeading{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 340px){
+    #aboutOfBdapps-image {
+        margin-left: 26px;
+    }
+    #introportion_head_text_div{
+        width: 70% !important;
+    }
+
+    #support-image{
+        height: 265px;
+    }
+
+    #mainHeading{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #aboutOfBdapps-image {
+        margin-left: 16px;
+    }
+    #support-image{
+        height: 265px;
+    }
+    #introportion_head_text_div{
+        width: 70%;
+    }
+    #mainHeading{
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 300px) {
 
+    #phases .nav {
+        margin-left: 0px;
+    }
+
+    #phases .nav-link{
+        padding: 5px;
+    }
+
+    #phases .tab-content {
+        margin-left: 0px;
+        margin-right: 18px;
+    }
+
+    #phases .tab-content h3{
+        text-align: center;
+    }
+
+    #phases #roadshows_heading p {
+        margin-bottom: 0px;
+    }
+
+    #phases #roadshows_heading{
+        margin-left: 0px;
+        margin-top: 13px;
+    }
+
+    #phases .roadshow_dates_text{
+        margin-top: 0px !important;
+    }
+
+    #runners, #runners45, #sixthRow{
+        margin-left: 0px;
+    }
 
 
     .navbar{
@@ -2461,12 +2651,12 @@
     }
 
     .slider {
-        width: 60%;
+        width: 55%;
     }
 
     .slick-slide img {
         height: 54px;      
-        width: 100%;
+        width: 90%;
     }
 
     .slick-prev, .slick-next{
@@ -2546,7 +2736,6 @@
 
     #prize-money-text {
         font-size: 12px;
-        margin-left: 2rem;
         text-align: justify !important;
         padding: 9px;
     }
@@ -2569,14 +2758,14 @@
         margin-top: 31px;
     }
 
-    #roadshows_phase h4{
+    /* #roadshows_phase h4{
         text-align: center;
-    }
+    } */
 
-    #roadshows_phase p {
+    /* #roadshows_phase p {
         font-size: 14px;
         text-align: justify;
-    }
+    } */
 
     #aboutOfBdappsHeading {
         margin-top: 0px;
@@ -2591,7 +2780,7 @@
 
     #aboutOfBdapps-image {
         width: 85%;
-        height: 212px;
+        height: 183px;
         margin-top: 25px;
         margin-bottom: 35px;
     }
@@ -2716,6 +2905,8 @@
         background-color: #FFFFFF !important;
         color: #b62052 !important;
       }
+
+
 
 
 
