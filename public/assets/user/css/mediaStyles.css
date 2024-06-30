@@ -1,7 +1,4 @@
 
-
-
-
 @media screen and (min-width: 1151px) {
 
     #introportion {
@@ -122,7 +119,7 @@
     }
 
     #rules {
-        font-family: 'Ample Regular';
+        font-family: 'Nunito';
         padding-top: 27px;
         font-size: 18px;
         padding-right: 8px;
@@ -278,16 +275,8 @@
         padding-right: 1.5rem !important;
     }
 
-    #mainHeading {
-        font-size: 50px;
-        line-height: 50px;
-        text-align: center;
-        padding-top: 60px;
-        margin-left: 0;
-    }
-
     #introPara {
-        font-family: 'Ample Light';
+        font-family: 'Nunito';
         font-size: 18px;
         padding-top: 10px;
         text-align: center !important;
@@ -342,9 +331,6 @@
     }
     /* suppoerted by end */
 
-
-
-
     /* prize money start*/
     #prizeHeading {
         font-size: 42px;
@@ -380,14 +366,14 @@
         width: 170px;
         height: 32px;
         font-size: 22px;
-        font-family: 'Ample Medium';
+        font-family: 'Nunito';
     }
 
     #runnersup2 {
         width: 170px;
         height: 32px;
         font-size: 22px;
-        font-family: 'Ample Medium';
+        font-family: 'Nunito';
     }
 
     #hori {
@@ -466,10 +452,6 @@
     /* prize money end*/
 
 
-
-
-
-
     #bullets {
         padding-top: 30px;
         padding-bottom: 20px;
@@ -477,8 +459,6 @@
         margin-left: 4px;
         margin-right: 4px;
     }
-
-
 
     /* phases start*/
     #phaseNum {
@@ -558,8 +538,6 @@
     /* phases end */
 
 
-
-
     /* rules start */
     /* #rulesCon {
         height: 70px;
@@ -578,7 +556,7 @@
     }
 
     #rules {
-        font-family: 'Ample Regular';
+        font-family: 'Nunito';
         padding-top: 0;
         font-size: 16px;
         padding-right: 8px;
@@ -632,26 +610,15 @@
 /* max-width: 1150px end */
 
 
-
-
-
-
-
 /* max-width: 864px start */
 @media screen and (max-width: 864px) {
     html {
         scroll-padding-top: 15%;
     }
-    #mainHeading {
-        font-size: 43px;
-        line-height: 43px;
-        text-align: center;
-        padding-top: 54px;
-        margin-left: 0;
-    }
+
 
     #introPara {
-        font-family: 'Ample Light';
+        font-family: 'Nunito';
         font-size: 17px;
         padding-top: 10px;
         text-align: center !important;
@@ -704,10 +671,6 @@
 
 
 
-
-
-
-
 /* max-width: 768px start */
 
 @media screen and (max-width: 768px) {
@@ -745,16 +708,8 @@
         padding-right: .5rem !important;
     }
 
-    #mainHeading {
-        font-size: 42px;
-        line-height: 34px;
-        text-align: center;
-        padding-top: 20px;
-        margin-left: 0;
-    }
-
     #introPara {
-        font-family: 'Ample Light';
+        font-family: 'Nunito';
         font-size: 17px;
         padding-top: 10px;
         text-align: center !important;
@@ -818,14 +773,14 @@
         width: 158px;
         height: 32px;
         font-size: 22px;
-        font-family: 'Ample Medium';
+        font-family: 'Nunito';
     }
 
     #runnersup2 {
         width: 158px;
         height: 32px;
         font-size: 22px;
-        font-family: 'Ample Medium';
+        font-family: 'Nunito';
     }
 
     #hori {
@@ -860,7 +815,7 @@
 
     #fifthBox {
         color: var(--bs-white);
-        font-family: 'Ample Bold';
+        font-family: 'Nunito';
         background-color: #8F1D43;
         width: 61px;
         margin: auto;
@@ -996,13 +951,13 @@
     }
 
     #rules {
-        font-family: 'Ample Regular';
+        font-family: 'Nunito';
         padding-top: 4px;
         font-size: 17px;
     }
         
     #rules2 {
-        font-family: 'Ample Regular';
+        font-family: 'Nunito';
         text-align:right ;
         font-size: 17px;
     }
@@ -1059,20 +1014,8 @@
 /* max-width: 768px end */
 
 
-
-
-
-
 /* max-width: 715px start */
 @media screen and (max-width: 715px) {
-    
-    #mainHeading {
-        font-size: 36px;
-        line-height: 30px;
-        text-align: center;
-        padding-top: 20px;
-        margin-left: 0;
-    }
 
     #overviewHeading {
         font-size: 28px;
@@ -1120,28 +1063,11 @@
 /* max-width: 715px end */
 
 
-
-
-
-
 /* max-width: 630px start */
 @media screen and (max-width: 630px) {
 
     .navbar{
         height: 71px;
-    }
-
-
-
-    #introportion_icon_row {
-        margin-top: 1rem;
-    }
-
-    #introportion_icon_row img {
-        width: 5rem;
-        padding: 8px;
-        margin-top: 1px;
-
     }
 
     #overview_div{
@@ -1150,18 +1076,6 @@
     #overview-text {
         font-size: 14px;
         margin-left: 9px;
-    }
-
-    #introportion_head_text_div {
-        width: 70%;
-        margin-top: 0.7rem;
-    }
-
-    #mainHeading {
-        font-size: 32px;
-        line-height: 30px;
-        padding-top: 20px;
-        margin-left: 0;
     }
 
     .verline {
@@ -1218,9 +1132,6 @@
 
 
 
-
-
-
 /* max-width: 576px start */
 
 @media screen and (max-width: 576px) {
@@ -1251,37 +1162,13 @@
     }
 
     #watch_video_icon {
-        margin-top: -3.0rem;
+        margin-top: -2.9rem;
         width: 8rem;
     }
 
     #container_div {
         margin-left: 4%;
         margin-right: 4%;
-    }
-    #introportion_icon_head {
-        margin-top: 1rem;
-        width: 90%;
-
-    }
-
-    #introportion_icon_row {
-        margin-top: 1rem;
-    }
-
-    #introportion_icon_row img {
-        width: 5rem;
-        padding: 8px;
-        margin-top: 1px;
-    }
-
-    #introportion_icon_div {
-        width: 30%;
-    }
-
-    #introportion_head_text_div {
-        width: 70%;
-        margin-top: 0.7rem;
     }
 
     #main-heading-text{
@@ -1298,8 +1185,13 @@
     #logo {
         height: 3.3rem;
         width: 9.1rem;
-        margin-right: 7rem;
-        margin-top: 11px;
+        margin-right: 11rem;
+        margin-top: -7px;
+    }
+
+    #national_andriod_bootcamp_logo img {
+        height: 111px;
+        width: 371px;
     }
 
     .nav-link {
@@ -1314,15 +1206,8 @@
         margin-bottom: 18px;
     }
 
-    #mainHeading {
-        font-size: 18px;
-        line-height: 52px;
-        letter-spacing: 0;
-        padding-top: 1px !important;
-    }
-
     #introPara {
-        font-family: 'Ample Light';
+        font-family: 'Nunito';
         font-size: 17px;
         padding-top: 6px;
         text-align: center !important;
@@ -1356,11 +1241,6 @@
         padding-bottom: 2px;
     }
     /* Intro end */
-    
-
-    
-    
-    
     
     
     /* Prize money start */
@@ -1399,14 +1279,14 @@
         width: 146px;
         height: 30px;
         font-size: 20px;
-        font-family: 'Ample Medium';
+        font-family: 'Nunito';
     }
 
     #runnersup2 {
         width: 146px;
         height: 30px;
         font-size: 20px;
-        font-family: 'Ample Medium';
+        font-family: 'Nunito';
     }
 
     #hori {
@@ -1439,7 +1319,7 @@
 
     #fourthBox {
         color: var(--bs-white);
-        font-family: 'Ample Bold';
+        font-family: 'Nunito';
         background-color: #8F1D43;
         width: 61px;
         margin: auto;
@@ -1457,7 +1337,7 @@
 
     #fifthBox {
         color: var(--bs-white);
-        font-family: 'Ample Bold';
+        font-family: 'Nunito';
         background-color: #8F1D43;
         width: 61px;
         margin: auto;
@@ -1524,10 +1404,6 @@
     /* Prize money end */
 
 
-
-
-
-
     /* bullets start */
     #bullets {
         font-size: 17px;
@@ -1536,11 +1412,6 @@
         line-height: 21px;
     }
     /* bullets end */   
-
-
-
-
-
 
 
     /* Phases start */
@@ -1642,10 +1513,6 @@
     /* Phases end */
 
 
-
-
-
-
     /* Rules start */
 
     #rulesHeading {
@@ -1668,7 +1535,7 @@
     }
 
     #rules {
-        font-family: 'Ample Regular';
+        font-family: 'Nunito';
         padding-top: 4px;
         font-size: 17px;
         line-height: 22px;
@@ -1677,7 +1544,7 @@
   
 
     #rules2 {
-        font-family: 'Ample Regular';
+        font-family: 'Nunito';
         text-align:right ;
         font-size: 17px;
         line-height: 22px;
@@ -1726,9 +1593,6 @@
     }
 
     /* Rules end */
-
-
-
 
 
     /*  slider start*/
@@ -1780,7 +1644,11 @@
     }
 
    
-
+    #powered_by_robi_logo{
+        width: 148px;
+        height: 55px;
+        margin-left: 0px !important;
+      }
 
 
     #roadshows_heading p{
@@ -1917,6 +1785,11 @@
         color: #b62052 !important;
       }
 
+      #bdapps_android_logo{
+        width: 74% !important;
+        height: 92px !important;
+    }
+
     /*  slider end*/
 }
 
@@ -1968,11 +1841,22 @@
     }
 
     #logo {
-        height: 38px;
-        width: 109px;
+        height: 49px;
+        width: 123px;
         margin-right: 174px;
         margin-top: 0px;
     }
+
+    #national_andriod_bootcamp_logo img {
+        height: 85px;
+        width: 331px;
+    }
+
+    #powered_by_robi_logo{
+        width: 127px;
+        height: 37px;
+        margin-left: 0px !important;
+      }
 
     #bullets {
         padding-top: 30px;
@@ -2006,28 +1890,17 @@
 
     #registration_div{
         margin-bottom: 56px;
+        margin-top: 20px;
     }
 
     #watch_video_icon {
-        margin-top: -3.0rem;
+        margin-top: -2.9rem;
         width: 8rem;
     }
 
-    #introportion_icon_head {
-        margin-top: 1rem;
-        width: 90%;
-    }
 
-    #introportion_icon_row {
-        margin-top: 1rem;
-    }
 
-    #introportion_icon_row img {
-        width: 5rem;
-        padding: 8px;
-        margin-top: 1px;
 
-    }
 
     #main-heading-text{
         font-size: 14px;
@@ -2040,17 +1913,11 @@
         color: #8F1D43;
         box-shadow: 2px 2px 8px var(--bs-gray-dark);
         height: 2.3rem;
-        font-family: 'Ample Bold';
+        font-family: 'Nunito';
         font-size: 17px;
         width: 161px;
         margin-top: 0.5rem;
 
-    }
-
-    #mainHeading {
-        font-size: 17px;
-        line-height: 30px;
-        letter-spacing: 0;
     }
 
     #champ {
@@ -2076,7 +1943,7 @@
 
     #fifthBox {
         color: var(--bs-white);
-        font-family: 'Ample Bold';
+        font-family: 'Nunito';
         background-color: #8F1D43;
         width: 61px;
         margin: auto;
@@ -2092,7 +1959,7 @@
 
     #fourthBox {
         color: var(--bs-white);
-        font-family: 'Ample Bold';
+        font-family: 'Nunito';
         background-color: #8F1D43;
         width: 61px;
         margin: auto;
@@ -2296,6 +2163,7 @@
         font-size: 21px;
         line-height: 20px;
         text-align: center;
+        margin-top: -18px;
 
     }
 
@@ -2320,19 +2188,19 @@
     #team-reg-submit:hover {
         background-color: #FFFFFF !important;
         color: #b62052 !important;
-      }
+    }
       
-      #navregbtn:hover{
+    #navregbtn:hover{
         background-color: #FFFFFF !important;
         color: #b62052 !important;
-      }
+    }
       
-      #heading-registration-btn:hover{
+    #heading-registration-btn:hover{
         background-color: #FFFFFF !important;
         color: #b62052 !important;
-      }
+    }
 
-      #roadshows_timeline{
+    #roadshows_timeline{
         transform: rotate(0deg);
         margin-top: 10px;
     }
@@ -2345,6 +2213,16 @@
         height: 37px;
         width: 37px;
         margin-right: 0.5rem;
+    }
+
+    #bdapps_android_logo{
+        width: 74% !important;
+        height: 75px !important;
+    }
+
+    #footer_social_section{
+        margin-top: 0px !important;
+        margin-right: 0px;
     }
 }
 
@@ -2403,10 +2281,25 @@
 
     #logo {
         margin-right: 6.5rem;
-        height: 36px;
-        width: 115px;
+        height: 49px;
+        width: 123px;
         margin-top: 0px;
     }
+
+    #national_andriod_bootcamp_logo img {
+        height: 75px;
+        width: 286px;
+    }
+
+    #registration_div{
+        margin-top: 20px;
+    }
+
+    #powered_by_robi_logo{
+        width: 118px;
+        height: 36px;
+        margin-left: 18px !important;
+      }
 
     #support-image{
         width: 100%;
@@ -2447,6 +2340,7 @@
         font-size: 21px;
         line-height: 20px;
         text-align: center;
+        margin-top: -18px;
 
     }
 
@@ -2475,21 +2369,31 @@
     }
 
     #footerIcons{
-        height: 35px;
-        width: 35px;
+        height: 32px;
+        width: 32px;
         margin-right: 0.4rem;
     }
+
+    #footer_social_section{
+        margin-top: 4px !important;
+        margin-right: 0px;
+    }
+
+    #bdapps_android_logo{
+        width: 85% !important;
+        height: 75px !important;
+    }
+
+    .team-regis {
+        margin-top: 4.4rem;        
+    }
+
+
 }
 
 @media screen and (max-width: 350px){
     #support-image{
         height: 300px;
-    }
-    #introportion_head_text_div{
-        width: 70% !important;
-    }
-    #mainHeading{
-        font-size: 15px;
     }
 }
 
@@ -2498,17 +2402,22 @@
     #aboutOfBdapps-image {
         margin-left: 26px;
     }
-    #introportion_head_text_div{
-        width: 70% !important;
-    }
 
     #support-image{
         height: 265px;
     }
 
-    #mainHeading{
-        font-size: 15px;
+    #powered_by_robi_logo {
+        width: 82px;
+        height: 30px;
     }
+
+    #footerIcons {
+        height: 30px;
+        width: 30px;
+    } 
+
+  
 }
 
 @media screen and (max-width: 320px){
@@ -2518,12 +2427,16 @@
     #support-image{
         height: 265px;
     }
-    #introportion_head_text_div{
-        width: 70%;
+
+    #powered_by_robi_logo {
+        width: 82px;
+        height: 30px;
     }
-    #mainHeading{
-        font-size: 14px;
-    }
+
+    #footerIcons {
+        height: 30px;
+        width: 30px;
+    }   
 }
 
 @media screen and (max-width: 300px) {
@@ -2568,14 +2481,20 @@
     }
 
     #logo {
-        height: 2.3rem;
-        width: 8.1rem;
+        height: 47px;
+        width: 97px;
         margin-right: 5rem;
         margin-top: 3px;
     }
 
+    #national_andriod_bootcamp_logo img {
+        height: 67px;
+        width: 246px;
+    }
+
     #registration_div{
         margin-bottom: 56px;
+        margin-top: 20px;
     }
 
     #suppo {
@@ -2600,31 +2519,8 @@
     }
 
     #watch_video_icon {
-        margin-top: -3.0rem;
+        margin-top: -2.9rem;
         width: 8rem;
-    }
-
-    #introportion_icon_head {
-        margin-top: 1rem;
-        width: 90%;
-    }
-
-
-
-    #introportion_icon_row {
-        margin-top: 1rem;
-    }
-
-    #introportion_icon_row img {
-        width: 5rem;
-        padding: 8px;
-        margin-top: 1px;
-
-    }
-
-    #introportion_head_text_div {
-        width: 70%;
-        margin-top: 0.7rem;
     }
 
     #main-heading-text{
@@ -2634,12 +2530,6 @@
 
     #runners {
         margin-top: 40px !important;
-    }
-
-    #mainHeading {
-        font-size: 13px;
-        line-height: 30px;
-        letter-spacing: 0;
     }
 
 
@@ -2698,7 +2588,7 @@
 
     #fifthBox {
         color: var(--bs-white);
-        font-family: 'Ample Bold';
+        font-family: 'Nunito';
         background-color: #8F1D43;
         width: 61px;
         margin: auto;
@@ -2714,7 +2604,7 @@
 
     #fourthBox {
         color: var(--bs-white);
-        font-family: 'Ample Bold';
+        font-family: 'Nunito';
         background-color: #8F1D43;
         width: 61px;
         margin: auto;
@@ -2870,6 +2760,7 @@
         font-size: 21px;
         line-height: 20px;
         text-align: center;
+        margin-top: -18px;
 
     }
 
@@ -2906,6 +2797,21 @@
         color: #b62052 !important;
       }
 
+      #powered_by_robi_logo{
+        width: 98px;
+        height: 30px;
+        margin-left: 0px !important;
+      }
+
+      #footerIcons{
+        height: 29px;
+        width: 29px;
+      }
+
+      #bdapps_android_logo{
+        width: 85%;
+        height: 75px;
+      }
 
 
 

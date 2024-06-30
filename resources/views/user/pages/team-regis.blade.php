@@ -47,7 +47,8 @@
     #bdapps_android_logo{
         margin-top: 4rem;
         margin-bottom: 2rem;
-        width: 70%;
+        width: 97%;
+        height: 163px;  
     }
 
 
@@ -88,6 +89,13 @@
     .res-star {
         color: red;
     }
+
+    @media screen and (max-width: 480px){
+    .team-regis {
+        margin-top: 4.4rem;        
+        }
+    }
+
 </style>
 @endsection
 
@@ -99,9 +107,11 @@
 
                 
                 <div class="row justify-content-center">
-                    <div class="col-md-4">
+                    <div class="col-md-7">
                         <div class="text-center">
-                            <img id="bdapps_android_logo" src="{{ asset('assets/user/logo/logo.png') }}">
+                            {{-- <img id="bdapps_android_logo" src="{{ asset('assets/user/logo/logo.png') }}"> --}}
+                            <img id="bdapps_android_logo" src="{{ asset('assets/user/img/national_andriod_bootcamp_logo.png') }}">
+
                         </div>
                     </div>
                 </div>
