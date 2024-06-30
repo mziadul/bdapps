@@ -11,25 +11,35 @@
                 
             
                     <div class="row justify-content-center">
-                        <div id="introportion_icon_head">
+                        {{-- <div id="introportion_icon_head">
 
                             <div class="row" id="introportion_icon_row">
                     
-                                <div id="introportion_icon_div">
+                                <div class="text-center" id="introportion_icon_div">
                                     <img src="{{ asset('assets/user/img/icon_container.png') }}">
-                                </div>
+                                </div> 
 
                                 <div id="introportion_head_text_div">
                                     <p class="fw-bold" id="mainHeading">bdapps Android Academy</p>
                                 </div>
 
                             </div>
-                        </div>
+                        </div> --}}
 
                         <div class="col-md-7">
-                            <div class="text-center mt-3">
+                            <div class="text-center" id="national_andriod_bootcamp_logo">
+                                <img src="{{ asset('assets/user/img/national_andriod_bootcamp_logo.png') }}">
+                            </div> 
+
+                        </div>
+
+
+                        <div class="col-md-7">
+                            {{-- <div class="text-center mt-3">
                                 <p id="main-heading-text"> <strong>bdapps Android Academy</strong> is a program to identify & train innovative app developers and help them launch & promote their applications to the general public.</p>
-                            </div>
+                            </div> --}}
+                           
+
                             <div class="text-center" id="registration_div">
                                 <a class="btn btn-light fw-bold" id="heading-registration-btn" type="button" href="{{route('user.registration')}}">Register Now</a>
                             </div>
@@ -53,8 +63,6 @@
                         <div class="col-md-4">
                             <div class="text-center" id="watch_video_img_div">
                                 <img id="watch_video_icon" src="{{ asset('assets/user/logo/watch_video_icon.png') }}" >
-
-                                
                             </div>
                         </div>
                 </div>
@@ -75,8 +83,10 @@
                         </div>
                     </div>
                 </div>
+        </div>
+        
+        <div class="container-fluid">
 
-                
                 <p id="suppo">Supported By</p>
 
                 <div class="regular slider">
@@ -105,13 +115,13 @@
                         <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/robi.png') }}">
                     </div>
 
-                    {{-- <div>
-                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/MIAKI.png') }}">
-                    </div> --}}
+                    <div>
+                        <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/miaki_logo.png') }}">
+                    </div>
 
-                    {{-- <div>
+                    <div>
                         <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/hSenid.png') }}">
-                    </div> --}}
+                    </div>
 
                     {{-- <div>
                         <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/BDOSN.png') }}">
@@ -290,22 +300,22 @@
                     <div class="tab-content">
                         <div id="menu1" class="container tab-pane active"><br>
                             <h3>Phase 1</h3>
-                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program-1.</p>
+                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program.</p>
                         </div>
                         
                         <div id="menu2" class="container tab-pane fade"><br>
                             <h3>Phase 2</h3>
-                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program-2.</p>
+                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program.</p>
                           </div>
 
                           <div id="menu3" class="container tab-pane fade"><br>
                             <h3>Phase 3</h3>
-                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program-3.</p>
+                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program.</p>
                           </div>
 
                           <div id="menu4" class="container tab-pane fade"><br>
                             <h3>Phase 4</h3>
-                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program-4.</p>
+                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program.</p>
                           </div>
 
                     </div>
@@ -333,43 +343,43 @@
 
                         <tr>
                             <td>Rajshahi</td>
-                            <td>????</td>
+                            <td>TBD</td>
                             <td>Rajshahi University</td>
                         </tr>
 
                         <tr>
                             <td>Rangpur</td>
-                            <td>????</td>
+                            <td>TBD</td>
                             <td>Bangladesh Army University of Science and Technology</td>
                         </tr>
 
                         <tr>
                             <td>Chittagong</td>
-                            <td>????</td>
+                            <td>TBD</td>
                             <td>Chittagong Independent University</td>
                         </tr>
 
                         <tr>
                             <td>Sylhet</td>
-                            <td>????</td>
+                            <td>TBD</td>
                             <td>Shahjalal University of Science & Technology (SUST)</td>
                         </tr>
 
                         <tr>
                             <td>Khulna</td>
-                            <td>????</td>
+                            <td>TBD</td>
                             <td>Khulna University</td>
                         </tr>
 
                         <tr>
                             <td>Barisal</td>
-                            <td>????</td>
+                            <td>TBD</td>
                             <td>Barisal University</td>
                         </tr>
 
                         <tr>
                             <td>Dhaka & Mymansingh</td>
-                            <td>????</td>
+                            <td>TBD</td>
                             <td>United International University</td>
                         </tr>
 
@@ -393,44 +403,42 @@
             <div id="rulesNguides">
                 <h1 id="rulesHeading" class="pt-5 ms-5">Rules and Guidelines</h1>
 
-
-
                 <div class="Parent d-flex pt-3" >
                     <div class="child1" id="eligi">
                         <p id="rulesHead" class="eligibility">Eligibility</p>
 
-                        <img id="rulesCon" src="{{ asset('assets/user/icon/group.png') }}">
+                        <img id="rulesCon" class="eligibility_img" src="{{ asset('assets/user/icon/group.png') }}">
                     </div>
 
                     <div class="child2 fs-5">
                             <ul id="rules">
-                                <li>&#8226 The “bdapps Android Academy” is open to all Bangladeshi citizens irrespective of age, gender, religion, educational background.</li>
+                                <li>&#8226 The “bdapps Ignite - National Android Development Bootcamp” is open to all Bangladeshi citizens irrespective of age, gender, religion, educational background.</li>
                                 <li>&#8226 Participants have to apply in an individual capacity.</li>
                                 <li>&#8226 Participants must have access to a personal laptop or desktop computer. </li>
                                 <li>&#8226 Participants must have access to broadband internet or wifi.</li>
                                 <li>&#8226 Participants must make their own travel and accommodation arrangements and cover all associated costs and expenses during the Gala Round.</li>
-                            </ul>
+                            </ul>                 
+                        </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p id="registrationSelectionText">Registration and Selection</p>
                     </div>
                 </div>
 
-                <div class="row ">
-                    <div class="col-md-12 mt-4">
-                        <p class="" id="registrationSelectionText">Registration and Selection</p>
+                <div class="Parent d-flex pt-3">
+                    <div class="child1" id="registrationSelectionImg">
+                        <img id="rulesCon" src="{{ asset('assets/user/icon/reg_selection.png') }}">
                     </div>
-                </div>
 
-                <div class="Parent d-flex">
                     <div class="child2 fs-5">
-                            <ul  id="rules2">
+                            <ul  id="rules">
                                 <li>&#8226 The registration is completely free of </li>
                                 <li>&#8226 Individuals with programming experience and/ or app development experience will be given preference during the selection process</li>
                                 <li>&#8226 The Participants will have to go through an interview process and sign a consent form to ensure their participants for the full duration of the program</li>
                                 <li>&#8226 By registering in the “Android Academy” program administered by bdapps, the participant agrees to be bound by the terms and conditions stated in these Rules and Guidelines of the program</li>
                             </ul>
-                    </div>
-
-                    <div class="child1 fs-5" id="regi">
-                        <img id="rulesCon" src="{{ asset('assets/user/icon/reg_selection.png') }}">
                     </div>
                 </div>
 
@@ -464,7 +472,7 @@
 
                     <div class="child2 fs-5">
                         <ul id="rules">
-                            <li>&#8226 The “bdapps Android Academy” is open to all Bangladeshi citizens irrespective of age, gender, religion, educational background.</li>
+                            <li>&#8226 The “bdapps Ignite - National Android Development Bootcamp” is open to all Bangladeshi citizens irrespective of age, gender, religion, educational background.</li>
                             <li>&#8226 Participants have to apply in an individual capacity.</li>
                             <li>&#8226 Participants must have access to a personal laptop or desktop computer. </li>
                             <li>&#8226 Participants must have access to broadband internet or wifi.</li>
@@ -472,8 +480,6 @@
                         </ul>
                     </div>
                 </div>
-
-
 
                 <div class="row ">
                     <div class="col-md-12 mt-4">
@@ -496,8 +502,6 @@
                     </div>
                 </div>
 
- 
-
                 <div class="Parent d-flex pt-3">
                     <div class="child1" id="eligi">
                         <h5 class="eligibility" id="rulesHead" >Miscellaneous</h5>
@@ -512,12 +516,7 @@
                         </ul>
                     </div>
                 </div>
-
-
-                
-
-
-               
+   
             </div>
         </section>
 

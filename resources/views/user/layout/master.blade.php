@@ -47,6 +47,8 @@
 
     <!-- fonts -->
     <link rel="stylesheet" href="{{ asset('assets/user/fonts/Ample Soft Pro/stylesheet.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/user/fonts/nunito/stylesheet.css') }}">
+    {{-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap" rel="stylesheet"> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
 
     <!--slick-->

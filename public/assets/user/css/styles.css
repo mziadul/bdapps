@@ -3,22 +3,44 @@ html {
   scroll-padding-top: 11%;
 }
 
+body {
+  font-family: 'Nunito';
+}
 
+#powered_by_robi_logo{
+  width: 258px;
+  height: 62px;
+  margin-left: 391px;
+}
 
+#footer_social_section {
+  margin-top: 13px !important;
+  margin-right: 103px;
+}
 
 /* Navigation Bar start*/
 #logo {
-  height: 60px;
-  width: 200px;
+  height: 77px;
+  width: 152px;
+}
+
+#footer_social_section{
+  margin-top: 8px;
 }
 
 #table_size{
   padding-right: 12px;
   padding-left: 24px;
-
-
 }
 
+#national_andriod_bootcamp_logo{
+  margin-top: 60px;
+}
+
+#national_andriod_bootcamp_logo img{
+  height: 157px;
+  width: 94%;
+}
 
 .navbar-dark .navbar-toggler {
   color: rgba(255,255,255,.55);
@@ -73,7 +95,7 @@ html {
 
 #navcol-1 {
   text-decoration-color: var(--bs-white);
-  margin-left: 5.3rem;
+  margin-left: 5.0rem;
 }
 
 #navregbtn {
@@ -82,7 +104,7 @@ html {
   box-shadow: 2px 2px 8px var(--bs-gray-dark);
   height: 48px;
   margin-left: 79px;
-  font-family: 'Ample Bold';
+  font-family: 'Nunito';
   font-size: 24px;
   width: 220px;
 }
@@ -92,16 +114,16 @@ html {
   color: #8F1D43;
   box-shadow: 2px 2px 8px var(--bs-gray-dark);
   height: 48px;
-  font-family: 'Ample Bold';
+  font-family: 'Nunito';
   font-size: 24px;
   width: 220px;
-  margin-top: 0.5rem;
+  margin-top: 3rem;
 }
 
 #navItem {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  font-family: 'Ample Regular';
+  font-family: 'Nunito';
   font-size: 18px;
 }
 
@@ -114,57 +136,11 @@ html {
 
 
 
-
-
-
-
 /* Intro portion start*/
 
 #introportion {
   background: url("../img/background_image.png") no-repeat;
   background-size: cover;
-
-
-}
-
-
-
-
-
-#introportion_icon_head{
-  margin-top: 4rem;
-  width: 69%;
-}
-
-#introportion_head_text_div{
-  width: 88%;
-}
-
-#introportion_icon_div{
-  width: 12%;
-}
-
-#introportion_icon_row{
-  background-color: #8f1d4338;
-  margin-top: 2px;
-}
-
-#introportion_icon_row img{
-  margin-top: 0.7rem;
-}
-
-#introportion_icon_row p{
-  margin-top: 0.4rem;
-}
-
-#mainHeading {
-  padding-top: 4rem;
-  font-family: 'Ample Bold';
-  font-size: 60px;
-  line-height: 66px;
-  padding-top: 0;
-  margin-top: 0;
-  letter-spacing: 1px;
 }
 
 #main-heading-text{
@@ -173,14 +149,14 @@ html {
 }
 
 #introPara {
-  font-family: 'Ample Light';
+  font-family: 'Nunito';
   font-size: 22px;
   padding-top: 12px;
   line-height: 28px;
 }
 
 #introParaStrong {
-  font-family: 'Ample Regular';
+  font-family: 'Nunito';
   letter-spacing: 1px;
 }
 
@@ -209,13 +185,13 @@ html {
   background-color: #832C61;
   padding-left: 1.2rem;
   padding-right: 1.2rem;
-  font-family: 'Ample Regular';
+  font-family: 'Nunito';
   height: 50px;
   padding-top: 2px;
 }
 
 #deadline {
-  font-family: 'Ample Regular';
+  font-family: 'Nunito';
   padding-top: 24px;
   text-align: center;
   font-size: 19px;
@@ -229,7 +205,7 @@ html {
 
 #overviewPara {
   color: #ffffff;
-  font-family: 'Ample Light';
+  font-family: 'Nunito';
   text-align: justify;
   line-height: 23px;
   font-size: 19px;
@@ -239,13 +215,9 @@ html {
 /* Intro portion end*/
 
 
-
-
-
-
 /* Overview start */
 #suppo {
-  font-family: 'Ample Bold';
+  font-family: 'Nunito';
   text-align: center;
   font-size: 36px;
   color: #444444;
@@ -261,12 +233,14 @@ html {
   color: #444444;
   margin-top: 23px;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 900;
+  font-family: 'Nunito';
 }
 
 #overview-text{
   color: #444444;
   text-align: justify;
+  font-family: 'Nunito';
 }
 
 #watch_video_img_div{
@@ -284,13 +258,22 @@ html {
   margin-left: 20px;
 }
 
+#registrationSelectionImg{
+  margin-top: 71px;
+}
 #registrationSelectionText{
-    text-align: right;
+    text-align: left;
     font-size: 33px;
     font-weight: 500;
     color: #444444;
     margin-right: 5px;
-    margin-bottom: 4px;
+    margin-bottom: -30px;
+}
+
+#registrationSelectionText2{
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 
@@ -305,12 +288,12 @@ html {
 
 #prizeHeading {
   padding-top: 50px;
-  font-family: 'Ample Bold' ;
+  font-family: 'Nunito';
   font-size: 58px;
 }
 
 #prizeMonPara {
-  font-family: 'Ample Regular';
+  font-family: 'Nunito';
   font-size: 28px;
 }
 
@@ -320,7 +303,7 @@ html {
 
 #champ {
   color: #B8244E;
-  font-family: 'Ample Bold';
+  font-family: 'Nunito';
   background-color: white;
   width: 148px;
   font-size: 23px;
@@ -337,7 +320,7 @@ html {
 #champtaka {
   color: var(--bs-white);
   padding-top: 0px;
-  font-family: 'Ample Medium';
+  font-family: 'Nunito';
   border-radius: 16px;
   width: 248px;
   background-color: #8F1D43;
@@ -358,7 +341,7 @@ html {
 #runnerSupTakaBox {
   color: var(--bs-white);
   padding-top: 0px;
-  font-family: 'Ample Medium';
+  font-family: 'Nunito';
   border-radius: 16px;
   width: 289px;
   border: 1.5px solid #E6E7E8;
@@ -371,12 +354,12 @@ html {
   color: var(--bs-white);
   margin: auto;
   font-size: 18px;
-  font-family: 'Ample Medium';
+  font-family: 'Nunito';
 }
 
 #runnersup1 {
   color: var(--bs-white);
-  font-family: 'Ample Bold';
+  font-family: 'Nunito';
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 0px;
@@ -394,7 +377,7 @@ html {
 
 #runnersup2 {
   color: var(--bs-white);
-  font-family: 'Ample Bold';
+  font-family: 'Nunito';
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 0px;
@@ -419,7 +402,7 @@ html {
 #taka {
   margin:auto;
   font-size: 40px;
-  font-family: 'Ample Medium';
+  font-family: 'Nunito';
   color: var(--bs-white);
   text-shadow: 3px 3px rgba(0,0,0,.6);
 }
@@ -427,7 +410,7 @@ html {
 #taka45 {
   margin:auto;
   font-size: 36px;
-  font-family: 'Ample Medium';
+  font-family: 'Nunito';
   color: var(--bs-white);
   text-shadow: 3px 3px rgba(0,0,0,.6);
 }
@@ -452,7 +435,7 @@ html {
 
 #fourthBox {
   color: var(--bs-white);
-  font-family: 'Ample Bold' ;
+  font-family: 'Nunito';
   background-color: #8F1D43;
   width: 86px;
   margin: auto;
@@ -468,7 +451,7 @@ html {
 
 #fifthBox {
   color: var(--bs-white);
-  font-family: 'Ample Bold' ;
+  font-family: 'Nunito';
   background-color: #8F1D43;
   width: 86px;
   margin: auto;
@@ -494,7 +477,7 @@ html {
 
 #sixthBox {
   color: var(--bs-white);
-  font-family: 'Ample Bold' ;
+  font-family: 'Nunito';
   background-color: #8F1D43;
   width: 89px;
   margin: auto;
@@ -528,7 +511,7 @@ html {
 #taka6 {
   margin:auto;
   font-size: 36px;
-  font-family: 'Ample Medium';
+  font-family: 'Nunito';
   color: var(--bs-white);
   text-shadow: 3px 3px rgba(0,0,0,.6);
 }
@@ -538,11 +521,13 @@ html {
   margin-top: 23px;
   font-size: 40px;
   font-weight: 700;
+  font-family: 'Nunito';
 }
 
 #prize-money-text{
   font-size: 18px;
   color: #FFFFFF;
+  font-family: 'Nunito';
 }
 
 /*  Prize money section end */
@@ -551,7 +536,7 @@ html {
 /* Bullets start*/
 
 #bullets {
-  font-family: 'Ample Medium';
+  font-family: 'Nunito';
   font-size: 25px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -588,7 +573,7 @@ html {
   color: #FFFFFF;
   font-size: 54px;
   font-weight: bold;
-  font-family: 'Ample Bold';
+  font-family: 'Nunito';
   line-height: 4rem;
 
 }
@@ -610,7 +595,7 @@ html {
 }
 
 #timeLine {
-  font-family: 'Ample Bold';
+  font-family: 'Nunito';
   color: #FFFFFF;
   font-size: 44px;
   margin-left: 60px;
@@ -619,16 +604,15 @@ html {
 
 #phaseNum {
   color: white;
-  font-family: 'Ample Medium' ;
+  font-family: 'Nunito';
   margin-top: 0px;
   margin-left: 190px;
   font-size: 24px;
 }
 
-
 #dateAnnounce {
   color: white;
-  font-family: 'Ample Light';
+  font-family: 'Nunito';
   margin-left: 108px;
   opacity: 1;
   font-size: 18px;
@@ -670,21 +654,21 @@ html {
 
 #phasePara {
   color: white;
-  font-family: 'Ample Light';
+  font-family: 'Nunito';
   margin-left: -44px;
   font-size: 18px;
 }
 
 #phaseHeading {
   color: white;
-  font-family: 'Ample Bold' ;
+  font-family: 'Nunito';
   margin-top: 2px;
   margin-left: -44px;
 }
 
 #phaseHeading5 {
   color: white;
-  font-family: 'Ample Bold' ;
+  font-family: 'Nunito';
   margin-top: 2px;
   margin-left: -44px;
 }
@@ -702,7 +686,7 @@ html {
 
 #phaseRegHeading {
   color: white;
-  font-family: 'Ample Bold' ;
+  font-family: 'Nunito';
   padding-top: 8px;
   font-size: 30px;
   margin-bottom: 4px;
@@ -710,13 +694,13 @@ html {
 
 #tableHeaders {
   color: white;
-  font-family: 'Ample Bold' ;
+  font-family: 'Nunito';
   font-size: 30px;
 }
 
 #tableContent {
   color: white;
-  font-family: 'Ample Medium' ;
+  font-family: 'Nunito';
   font-size: 22px;
 }
 
@@ -755,17 +739,9 @@ table tr td {
   
 }
 
-
-
-
-
-
-
-
-
 #mentHeading {
   color: white;
-  font-family: 'Ample Medium' ;
+  font-family: 'Nunito';
   padding-top: 4px;
   font-size: 26px;
   margin-bottom: 4px;
@@ -777,7 +753,7 @@ table tr td {
   width: 170px;
   margin: auto;
   height: 35px;
-  font-family: 'Ample Medium';
+  font-family: 'Nunito';
   color: white;
   font-size: 18px;
 }
@@ -788,7 +764,7 @@ table tr td {
   width: 250px;
   margin: auto;
   height: 35px;
-  font-family: 'Ample Medium';
+  font-family: 'Nunito';
   color: white;
   font-size: 18px;
 }
@@ -807,13 +783,11 @@ table tr td {
 }
 
 #aboutOfBdapps-image{
-  width: 83%;
-  height: 310px;
+  width: 100%;
+  height: 364px;
   margin-top: 77px;
   margin-left: 60px;
 }
-
-
 
 #aboutOfBdapps {
   background: url("../img/background_image.png") no-repeat;
@@ -838,12 +812,7 @@ table tr td {
 
 
 
-
-
 /* about of bdapps end */
-
-
-
 
 /* Rules start */
 
@@ -861,21 +830,21 @@ table tr td {
 
 #rulesHeading {
   color: #8F1D43;
-  font-family: 'Ample Bold';
+  font-family: 'Nunito';
   font-size: 61px;
   padding-bottom: 2px;
   text-align: center;
 }
 
 #rules {
-  font-family: 'Ample Regular';
+  font-family: 'Nunito';
   padding-top: 0;
   font-size: 20px;
 }
 
 
 #rules2 {
-  font-family: 'Ample Regular';
+  font-family: 'Nunito';
   text-align:right ;
   font-size: 19px;
 }
@@ -883,18 +852,18 @@ table tr td {
 
 
 #rulesHead {
-  font-family: 'Ample Medium';
+  font-family: 'Nunito';
   color: #444444;
 }
 
 #miscellaneous {
-  font-family: 'Ample Medium';
+  font-family: 'Nunito';
   color: #444444;
   margin-left: 0.6rem;
 }
 
 #round {
-  font-family: 'Ample Medium';
+  font-family: 'Nunito';
   font-size: 30px;
   color: #B8244E;
   margin-bottom: -20px;
@@ -913,9 +882,13 @@ table tr td {
   background-image: linear-gradient(to left, rgb(132,44,99), rgb(184,36,78));
   border-radius: 14px;
   color: white;
-  font-family: 'Ample Bold';
+  font-family: 'Nunito';
   width: 180px;
   box-shadow: 2px 3px 2px 0 rgba(0,0,0,.6);
+}
+
+.eligibility_img{
+  margin-top: 35px !important;
 }
 
 #regEnd {
@@ -958,7 +931,7 @@ table tr td {
   /* background-image: linear-gradient(to right, #B6244F, rgb(132,44,99)); */
   background: linear-gradient(to right, #AF1E52, #A11E4B);
   text-align: center;
-  font-family: 'Ample Regular';
+  font-family: 'Nunito';
   font-size: 20px;
   color: #FFFFFF;
 }
@@ -968,8 +941,8 @@ table tr td {
 }
 
 #footerIcons{
-  height: 45px;
-  width: 46px;
+  height: 43px;
+  width: 43px;
   margin-right: 0.6rem;
 }
 
@@ -1000,11 +973,6 @@ table tr td {
   background-color: #FFFFFF !important;
   color: #b62052 !important;
 }
-
-
-
-
-
 
 
 /* Slick Slider start */
