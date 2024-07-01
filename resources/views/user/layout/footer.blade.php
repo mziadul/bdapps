@@ -6,13 +6,13 @@
                         <div class="col-md-4">     
                         </div> 
 
-                        <div class="col-md-4 col-6">
+                        <div class="col-md-4 col-12">
                                 <div id="powered_by_robi"> 
                                         <img id="powered_by_robi_logo" src="{{ asset('assets/user/icon/powered_by_robi_logo.png') }}" alt="Facebook Icon">
                                 </div>       
                         </div>   
 
-                        <div class="col-md-4 col-6" >
+                        <div class="col-md-4 col-12" >
                                 <div class="text-center" id="footer_social_section"> 
                                         <a href="https://web.facebook.com/bdapps.user?_rdc=2&_rdr">
                                                 <img id="footerIcons" src="{{ asset('assets/user/icon/facebook.png') }}" alt="Facebook Icon">

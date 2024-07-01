@@ -536,7 +536,7 @@
 
                         <div class="row">
                             <div class="col-md-8">
-                                <p id="aboutOfBdappsHeading">About of bdapps</p>
+                                <p id="aboutOfBdappsHeading">About of <strong style="font-weight:800">bdapps</strong> </p>
                                 <div>
                                     <p id="aboutOfBdappsHeading-text">
                                         bdapps is a local app store and API hub which enables content providers and application developers to monetize their applications. Besides APIs, bdapps also offers 24/7 developer and admin support along with the option to monetize both downloadable and non-downloadable apps. Currently bdapps has the largest community of developers in the country. In 2021, the platform was declared as the National App Store of Bangladesh by the ICT Division.

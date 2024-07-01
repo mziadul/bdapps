@@ -12,7 +12,7 @@
         background: url("../img/background_image.png") no-repeat;        
         background-size: cover;
         margin-top: 118px;
-        padding-bottom: 100px;
+        padding-bottom: 25px;
     }
 
     #suppo {
@@ -97,19 +97,18 @@
     /* rules start */
 
     #rulesHeading {
-        margin-top: 20px;
         padding-bottom: 2px;
         font-size: 58px;
     }
 
     #rulesHead {
-        font-size: 33px;
+        font-size: 30px;
         font-weight: 700;
         line-height: 20px;
     }
 
     #miscellaneous {
-        font-size: 33px;
+        font-size: 30px;
         font-weight: 700;
         line-height: 20px;
     }
@@ -139,7 +138,7 @@
 
     #rulesCon {
         margin-left: 1rem;
-        margin-top: 16px;
+        margin-top: 1px;
         height: 100px;
         width: 107px;
     }
@@ -537,12 +536,6 @@
     }
     /* phases end */
 
-
-    /* rules start */
-    /* #rulesCon {
-        height: 70px;
-        padding-left: 40px;
-    } */
 
     #rulesHeading {
         padding-bottom: 2px;
@@ -1333,6 +1326,10 @@
         border-left: 1px solid #E6E7E8;
     }
 
+    #footer_social_section{
+        float: none;
+    }
+
 
 
     #fifthBox {
@@ -1855,7 +1852,7 @@
     #powered_by_robi_logo{
         width: 127px;
         height: 37px;
-        margin-left: 0px !important;
+        margin-right: 13px !important;
       }
 
     #bullets {
@@ -2200,8 +2197,8 @@
     }
 
     #footerIcons{
-        height: 31px;
-        width: 31px;
+        height: 28px;
+        width: 28px;
         margin-right: 0.5rem;
     }
 
@@ -2211,8 +2208,9 @@
     }
 
     #footer_social_section{
-        margin-top: 0px !important;
+        margin-top: 7px !important;
         margin-right: 0px;
+        float: none;
     }
 }
 
@@ -2288,7 +2286,7 @@
     #powered_by_robi_logo{
         width: 118px;
         height: 36px;
-        margin-left: 18px !important;
+        margin-right: 13px;
       }
 
     #support-image{
@@ -2359,14 +2357,15 @@
     }
 
     #footerIcons{
-        height: 28px;
-        width: 28px;
+        height: 25px;
+        width: 25px;
         margin-right: 0.4rem;
     }
 
     #footer_social_section{
-        margin-top: 4px !important;
+        margin-top: 9px !important;
         margin-right: 0px;
+        float: none;
     }
 
     #bdapps_android_logo{
