@@ -104,13 +104,13 @@
 
     #rulesHead {
         font-size: 33px;
-        font-weight: 500;
+        font-weight: 700;
         line-height: 20px;
     }
 
     #miscellaneous {
         font-size: 33px;
-        font-weight: 500;
+        font-weight: 700;
         line-height: 20px;
     }
 
@@ -2045,16 +2045,6 @@
     }
 
 
-
-    /* #roadshows_phase h4{
-        text-align: center;
-    } */
-
-    /* #roadshows_phase p {
-        font-size: 14px;
-        text-align: justify;
-    } */
-
     #aboutOfBdappsHeading {
         margin-top: 0px;
         font-size: 36px;
@@ -2210,8 +2200,8 @@
     }
 
     #footerIcons{
-        height: 37px;
-        width: 37px;
+        height: 31px;
+        width: 31px;
         margin-right: 0.5rem;
     }
 
@@ -2369,8 +2359,8 @@
     }
 
     #footerIcons{
-        height: 32px;
-        width: 32px;
+        height: 28px;
+        width: 28px;
         margin-right: 0.4rem;
     }
 
@@ -2407,14 +2397,9 @@
         height: 265px;
     }
 
-    #powered_by_robi_logo {
-        width: 82px;
-        height: 30px;
-    }
-
     #footerIcons {
-        height: 30px;
-        width: 30px;
+        height: 24px;
+        width: 24px;
     } 
 
   
@@ -2434,8 +2419,8 @@
     }
 
     #footerIcons {
-        height: 30px;
-        width: 30px;
+        height: 20px;
+        width: 20px;
     }   
 }
 
@@ -2804,9 +2789,9 @@
       }
 
       #footerIcons{
-        height: 29px;
-        width: 29px;
-      }
+        height: 21px;
+        width: 21px;
+      } 
 
       #bdapps_android_logo{
         width: 85%;
