@@ -219,7 +219,7 @@ body {
   font-family: 'Nunito';
   text-align: center;
   font-size: 36px;
-  color: #444444;
+  color: #555555;
   font-weight: 600;
 }
 
@@ -230,11 +230,13 @@ body {
 
 
 #overview{
-  color: #444444;
+  color: #000000;
   margin-top: 23px;
   font-size: 30px;
   font-weight: 900;
   font-family: 'Nunito';
+  margin-top: 46px;
+  margin-bottom: 0px;
 }
 
 #overview-text{
@@ -263,11 +265,12 @@ body {
 }
 #registrationSelectionText{
     text-align: left;
-    font-size: 33px;
+    font-size: 30px;
     font-weight: 700;
     color: #444444;
     margin-right: 5px;
-    margin-bottom: -30px;
+    margin-bottom: -41px;
+    margin-top: 13px;
 }
 
 #registrationSelectionText2{
@@ -314,6 +317,7 @@ body {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
+  font-weight: 700;
 
 }
 
@@ -799,7 +803,7 @@ table tr td {
   color: #FFFFFF;
   margin-top: 98px;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 300;
   margin-left: 10px;
 }
 
@@ -834,6 +838,11 @@ table tr td {
   font-size: 61px;
   padding-bottom: 2px;
   text-align: center;
+  font-weight: 700;
+}
+
+.roadshow_dates_text{
+  font-weight: 700;
 }
 
 #rules {
@@ -861,6 +870,7 @@ table tr td {
   font-family: 'Nunito';
   color: #444444;
   margin-left: 0.6rem;
+  margin-top: 15px;
 }
 
 #round {
