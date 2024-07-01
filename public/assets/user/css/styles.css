@@ -134,6 +134,12 @@ body {
 /* Navigation Bar end */
 
 
+#reg_section{
+  background: url("../img/registration_background.png") no-repeat;
+  background-size: cover;
+
+}
+
 
 /* Intro portion start*/
 

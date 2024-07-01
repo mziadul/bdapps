@@ -35,11 +35,11 @@
         background-color: #EEEEEE !important;
     } */
 
-    #reg_section{
+    /* #reg_section{
         background: url("/assets/user/img/registration_background.png") no-repeat;
         background-size: cover;
 
-    }
+    } */
     .team-regis {
         margin-top: 7.3rem;        
     }
