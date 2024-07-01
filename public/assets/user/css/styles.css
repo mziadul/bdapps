@@ -10,12 +10,11 @@ body {
 #powered_by_robi_logo{
   width: 258px;
   height: 62px;
-  margin-left: 391px;
 }
 
 #footer_social_section {
   margin-top: 13px !important;
-  margin-right: 103px;
+  float: right;
 }
 
 /* Navigation Bar start*/
@@ -221,6 +220,7 @@ body {
   text-align: center;
   font-size: 36px;
   color: #444444;
+  font-weight: 600;
 }
 
 #support-image{
@@ -264,7 +264,7 @@ body {
 #registrationSelectionText{
     text-align: left;
     font-size: 33px;
-    font-weight: 500;
+    font-weight: 700;
     color: #444444;
     margin-right: 5px;
     margin-bottom: -30px;
@@ -854,6 +854,7 @@ table tr td {
 #rulesHead {
   font-family: 'Nunito';
   color: #444444;
+  font-weight: 700;
 }
 
 #miscellaneous {
@@ -941,8 +942,8 @@ table tr td {
 }
 
 #footerIcons{
-  height: 43px;
-  width: 43px;
+  height: 36px;
+  width: 36px;
   margin-right: 0.6rem;
 }
 

@@ -34,7 +34,7 @@
     <meta name="description" content="bdapps Android Academy">
     <meta name="keywords" content="bdapps,Android,Academy 2024">
     <title>{{ !isset($title) ? 'bdapps Android Academy' : 'bdapps Android Academy - '.$title }}</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/user/logo/favicon.ico') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/user/logo/favicon1.png') }}">
 
     <meta property="og:title" content="bdapps Android Academy">
     <meta property="og:url" content="http://nh22.bdapps.com/">

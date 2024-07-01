@@ -36,7 +36,7 @@
     } */
 
     #reg_section{
-        background: url("/assets/user/img/reg_background.png") no-repeat;
+        background: url("/assets/user/img/registration_background.png") no-repeat;
         background-size: cover;
 
     }
