@@ -549,9 +549,13 @@ body {
 #bullets {
   font-family: 'Nunito';
   font-size: 25px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   color: #58595B;
+}
+
+.cke_notification_warning{
+  display: none !important;
 }
 
 /* Bullets end*/
