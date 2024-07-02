@@ -1,4 +1,12 @@
 
+@media screen and (min-width: 1920px) {
+    
+    #national_andriod_bootcamp_logo img{
+        height: 150px;
+        width: 80%;
+    }
+}
+
 @media screen and (min-width: 1151px) {
 
     #introportion {

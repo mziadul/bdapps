@@ -16,13 +16,14 @@
 
     #team-reg-submit{
         margin-top: 3rem;
-        margin-bottom: 10rem;
+        margin-bottom: 8rem;
         width: 11rem;
         height: 2.8rem;
     }
     #reg_text{
         color: #8F1D43;
         font-weight: 700;
+        margin-bottom: 28px;
     }
 
 
@@ -47,8 +48,8 @@
     #bdapps_android_logo{
         margin-top: 4rem;
         margin-bottom: 2rem;
-        width: 97%;
-        height: 163px;  
+        width: 94%;
+        height: 157px; 
     }
 
 
@@ -56,7 +57,7 @@
         border: 3px solid #cb878729;
         background: #FFFFFF;        
         border-radius: 20px;
-        padding: 15px;
+        padding: 35px;
     }
     .btn-nah{
 
@@ -96,6 +97,17 @@
         }
     }
 
+    #bdapps_android_logo{
+        height: 157px;
+        width: 94%;
+    }
+
+    @media screen and (min-width: 1920px){
+        #bdapps_android_logo{
+            height: 150px;
+            width: 80%;
+        }
+    }
 </style>
 @endsection
 
@@ -349,7 +361,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-md-4">
                                     <div class="text-center">
-                                        <button id="team-reg-submit" class="btn btn-danger btn-nah">Submit</button>
+                                        <button id="team-reg-submit" class="btn btn-danger btn-nah">Sign up</button>
                                     </div>
                                 </div>
                             </div>
