@@ -313,7 +313,7 @@
                 
                                         <div class="mb-3 mt-1 android_experience_fld">
                                             <label for="android_experience" class="form-label">
-                                            Describe your android app development (if above answer is yes)
+                                            Provide Link to your developed app/apps (playstore, github, drive link)
                                             </label>
                                             <textarea class="form-control android_experience" id="editor33" name="android_experience"
                                             placeholder="Your programming experience ..." required>{{ trim(old('android_experience')) }}</textarea>
