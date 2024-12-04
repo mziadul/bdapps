@@ -62,13 +62,13 @@
                 <div class="row justify-content-center">
                         <div class="col-md-4">
                             <div class="text-center" id="watch_video_img_div">
-                                <img id="watch_video_icon" src="{{ asset('assets/user/logo/watch_video_icon.png') }}" >
+                                {{-- <img id="watch_video_icon" src="{{ asset('assets/user/logo/watch_video_icon.png') }}" > --}}
                             </div>
                         </div>
                 </div>
 
                 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center mt-5">
 
                     <div class="col-md-4">
                         <div id="support_img_div">
@@ -79,7 +79,7 @@
                     <div class="col-md-8" id="overview_div">
                         <p id="overview">Overview</p>
                         <div>
-                            <p id="overview-text">The goal of the program is to create pioneer app developers who will lead the charge of creating a digitally enabled ecosystem for Smart Bangladesh. Individuals from any background, with a knack for app development can apply for the program. Through the program we will provide training for 150 shortlisted app developers from around the country.  The individual will receive  a two month long technical and business training on developing and monetizing mobile applications. <br><br>Participants will not only receive government sponsored certificates which will be a great addition to any developer’s portfolio but also, top performers will earn Prize Money, Promotional Bandwidth and Awards.</p>
+                            <p id="overview-text">The goal of the program is to create pioneer app developers who will lead the charge of creating a digitally enabled ecosystem for Smart Bangladesh. Individuals from any background, with a knack for app development can apply for the program. Through the program we will provide training for 150 shortlisted app developers from around the country.  The individual will receive  a two month long technical and business training on developing and monetizing mobile applications. <br><br>Participants will not only receive certificates which will be a great addition to any developer’s portfolio but also, top performers will earn Prize Money, Promotional Bandwidth and Awards.</p>
                         </div>
                     </div>
                 </div>
@@ -95,13 +95,13 @@
                         <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Digital-Bangladesh.png') }}">
                     </div> --}}
                     
-                    <div>
+                    {{-- <div>
                         <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/ict.png') }}">
-                    </div>
+                    </div> --}}
 
-                    <div>
+                    {{-- <div>
                         <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/mobile_game.png') }}">
-                    </div>
+                    </div> --}}
 
                     {{-- <div>
                         <img id="slideLogo" src="{{ asset('assets/user/logo/suppoBy/Startup-BD.png') }}">
@@ -165,7 +165,7 @@
                 <div class="col-md-8">
                     <p class="text-center" id="prize-money-benefit">Prize Money and Benefits</p>
                     <div>
-                        <p class="text-center" id="prize-money-text">When you graduate from the program you will become a certified android developer endorsed by <strong>Robi and ICT</strong> ministry, you will have the chance to win from a prize pool of 5,00,000 BDT and get a chance to host your app in <br>
+                        <p class="text-center" id="prize-money-text">When you graduate from the program you will become a certified android developer endorsed by <strong>Robi </strong>You will have the chance to win from a prize pool of 5,00,000 BDT and get a chance to host your app in <br>
                          <strong> My Robi and My Airtel App's</strong> showcase section.</p>
                     </div>
                 </div>
@@ -282,40 +282,44 @@
 
                     <ul class="nav nav-tabs " role="tablist">
                         <li class="nav-item ">
-                          <a class="nav-link active" data-bs-toggle="tab" href="#menu1">1 April 2024 - 31 May 2024</a>
+                          <a class="nav-link active" data-bs-toggle="tab" href="#menu1"> Phase 1</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" data-bs-toggle="tab" href="#menu2">1 June 2024 - 31 July 2024</a>
+                          <a class="nav-link" data-bs-toggle="tab" href="#menu2"> Phase 2</a>
                         </li>
                         <li class="nav-item ">
-                          <a class="nav-link" data-bs-toggle="tab" href="#menu3">1 August 2024 - 31 August 2024</a>
+                          <a class="nav-link" data-bs-toggle="tab" href="#menu3"> Phase 3</a>
                         </li>
 
                         <li class="nav-item ">
-                            <a class="nav-link" data-bs-toggle="tab" href="#menu4">September 2024</a>
+                            <a class="nav-link" data-bs-toggle="tab" href="#menu4"> Phase 4</a>
                         </li>
                     </ul>
                     
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div id="menu1" class="container tab-pane active"><br>
-                            <h3>Phase 1</h3>
-                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program.</p>
+                            <p>Phase 1 - Roadshows and Online registration</p>
+                            <p>(1 January 2024 - 28 February 2024)</p>
+                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program</p>
                         </div>
                         
                         <div id="menu2" class="container tab-pane fade"><br>
-                            <h3>Phase 2</h3>
-                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program.</p>
+                            <p>Phase 2 - Online Training</p>
+                            <p>(1 March 2024 - 30 April 2024)</p>
+                            <p>Selected individuals will go through a two month-long online training and assessment sessions to learn intermediate knowledge of app development and monetization.</p>
                           </div>
 
                           <div id="menu3" class="container tab-pane fade"><br>
-                            <h3>Phase 3</h3>
-                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program.</p>
+                            <p>Phase 3 - Development of Application</p>
+                            <p>(1 May 2024 - 31 May 2024)</p>
+                            <p>Participants will get a month to develop their application or polish their already existing application and make them monetization ready. They will get continued support from the trainers and bdapps admins.</p>
                           </div>
 
                           <div id="menu4" class="container tab-pane fade"><br>
-                            <h3>Phase 4</h3>
-                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program.</p>
+                            <p>Phase 4 - Closing ceremony and Award night</p>
+                            <p>(June 2024)</p>
+                            <p>Based on their attendance & performance during their training phase and quality of their submitted applications, the judges will choose the winners. The participants of the program will be invited to a Gala event where they will receive their certificates and winners will get their awards from our esteemed panel of guests.</p>
                           </div>
 
                     </div>
@@ -343,44 +347,40 @@
 
                         <tr>
                             <td>Rajshahi</td>
-                            <td>TBD</td>
-                            <td>Rajshahi University</td>
+                            <td>To Be Announced</td>
+                            <td>To Be Announced</td>
                         </tr>
 
-                        <tr>
-                            <td>Rangpur</td>
-                            <td>TBD</td>
-                            <td>Bangladesh Army University of Science and Technology</td>
-                        </tr>
+                        
 
                         <tr>
                             <td>Chittagong</td>
-                            <td>TBD</td>
-                            <td>Chittagong Independent University</td>
+                            <td>To Be Announced</td>
+                            <td>To Be Announced</td>
                         </tr>
 
                         <tr>
                             <td>Sylhet</td>
-                            <td>TBD</td>
-                            <td>Shahjalal University of Science & Technology (SUST)</td>
+                            <td>To Be Announced</td>
+                            <td>To Be Announced</td>
                         </tr>
 
                         <tr>
                             <td>Khulna</td>
-                            <td>TBD</td>
-                            <td>Khulna University</td>
+                            <td>To Be Announced</td>
+                            <td>To Be Announced</td>
                         </tr>
 
                         <tr>
                             <td>Barisal</td>
-                            <td>TBD</td>
-                            <td>Barisal University</td>
+                            <td>To Be Announced</td>
+                            <td>To Be Announced</td>
                         </tr>
 
                         <tr>
                             <td>Dhaka & Mymansingh</td>
-                            <td>TBD</td>
-                            <td>United International University</td>
+                            <td>To Be Announced</td>
+                            <td>To Be Announced</td>
                         </tr>
 
                     </table>
@@ -434,10 +434,10 @@
 
                     <div class="child2 fs-5">
                             <ul  id="rules">
-                                <li>&#8226 The registration is completely free of </li>
+                                <li>&#8226 The registration is completely free of cost.</li>
                                 <li>&#8226 Individuals with programming experience and/ or app development experience will be given preference during the selection process</li>
                                 <li>&#8226 The Participants will have to go through an interview process and sign a consent form to ensure their participants for the full duration of the program</li>
-                                <li>&#8226 By registering in the “Android Academy” program administered by bdapps, the participant agrees to be bound by the terms and conditions stated in these Rules and Guidelines of the program</li>
+                                <li>&#8226 By registering in the “National Android Development Bootcamp” program administered by bdapps, the participant agrees to be bound by the terms and conditions stated in these Rules and Guidelines of the program</li>
                             </ul>
                     </div>
                 </div>
