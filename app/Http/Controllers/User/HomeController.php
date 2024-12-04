@@ -12,6 +12,7 @@ use App\Models\User;
 class HomeController extends Controller
 {
     public function index(Request $request) {
+        $nav_tracking = 1;
         $traffic = new Traffic;
         $traffic->date = date('Y-m-d');
         $traffic->user_ip = $_SERVER['REMOTE_ADDR'];
@@ -19,14 +20,16 @@ class HomeController extends Controller
         $traffic->save();
 
         $tabIndex = $request->tab;
-        return view('user.pages.home', compact('tabIndex'));
+        return view('user.pages.home', compact('tabIndex','nav_tracking'));
     }
 
     public function registration(Request $request) {
         // dd('Registration');
         $title = 'Registration';
         $tabIndex = 7;
-        return view('user.pages.team-regis', compact('tabIndex', 'title'));
+        $nav_tracking = 2;
+        
+        return view('user.pages.team-regis', compact('tabIndex', 'title', 'nav_tracking'));
     }
 
     public function storeRegistration(Request $request) {
