@@ -10,19 +10,38 @@
                         <img id="logo" src="{{ asset('assets/user/logo/bdapps_ignite_logo.png') }}">
                     </a>
                     <div class="collapse navbar-collapse text-white" id="navcol-1">
-                        <ul class="navbar-nav " >
-                            <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 1 ? 'active':'' }}" href="#supportedBy">Overview</a></li>
 
-                            <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 4 ? 'active':'' }}" href="#prizeMoney">Prizes and benefits</a></li>
-    
-                            <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 2 ? 'active':'' }}" href="#phases">Timeline</a></li>
-    
-                            <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 3 ? 'active':'' }}" href="#ruleS">Rules and guidelines</a></li>
-    
-                            <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 4 ? 'active':'' }}" href="#aboutOfBdappsSection">About bdapps</a></li>
-    
-                            <a class="btn btn-light fw-bold" id="navregbtn" type="button" href="{{route('user.registration')}}">Register Now</a>
-                        </ul>
+                        @if( $nav_tracking == 1 )
+                            <ul class="navbar-nav " >
+                                <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 1 ? 'active':'' }}" href="#supportedBy">Overview</a></li>
+
+                                <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 4 ? 'active':'' }}" href="#prizeMoney">Prizes and benefits</a></li>
+        
+                                <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 2 ? 'active':'' }}" href="#phases">Timeline</a></li>
+        
+                                <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 3 ? 'active':'' }}" href="#ruleS">Rules and guidelines</a></li>
+        
+                                <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 4 ? 'active':'' }}" href="#aboutOfBdappsSection">About bdapps</a></li>
+        
+                                <a class="btn btn-light fw-bold" id="navregbtn" type="button" href="{{route('user.registration')}}">Register Now</a>
+                            </ul>
+                        @endif
+
+                        @if($nav_tracking == 2)
+                            <ul class="navbar-nav " >
+                                <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 1 ? 'active':'' }}" href="{{route('user.home', ['tab' => 1] )}}#supportedBy">Overview</a></li>
+
+                                <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 4 ? 'active':'' }}" href="{{route('user.home', ['tab' => 4] )}}#prizeMoney">Prizes and benefits</a></li>
+        
+                                <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 2 ? 'active':'' }}" href="{{route('user.home', ['tab' => 2] )}}#phases">Timeline</a></li>
+        
+                                <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 3 ? 'active':'' }}" href="{{route('user.home', ['tab' => 3] )}}#ruleS">Rules and guidelines</a></li>
+        
+                                <li class="nav-item" id="navItem"><a class="nav-link {{ isset($tabIndex) && $tabIndex == 4 ? 'active':'' }}" href="{{route('user.home', ['tab' => 4] )}}#aboutOfBdappsSection">About bdapps</a></li>
+        
+                                <a class="btn btn-light fw-bold" id="navregbtn" type="button" href="{{route('user.registration')}}">Register Now</a>
+                            </ul>
+                        @endif
                 </div>
             </div>
         </nav>
