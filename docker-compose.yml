@@ -5,6 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: bdapps_android_academy_app
     restart: unless-stopped
+    user: "${UID}:${GID}"
     ports:
       - "9000:9000"
     volumes:
