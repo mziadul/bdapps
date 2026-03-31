@@ -300,25 +300,25 @@
                     <div class="tab-content">
                         <div id="menu1" class="container tab-pane active"><br>
                             <p>Phase 1 - Roadshows and Online registration</p>
-                            <p>(1 January 2024 - 28 February 2024)</p>
-                            <p>During the promotional phase bdapps Team will be hosting roadshows in all Major Cities around the country. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. Deadline of registration is 15th May. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program</p>
+                            <p>(8 April 2025 - 30 April 2024)</p>
+                            <p>During the promotional phase bdapps Team will be hosting online and offline roadshows. Meanwhile aspiring participants can complete individual registration on the online form available in the website to take part in the Program. The deadline of registration is 30th April. During this time bdapps will interview the applicants and shortlist 150 individuals for the next phase of the program</p>
                         </div>
                         
                         <div id="menu2" class="container tab-pane fade"><br>
                             <p>Phase 2 - Online Training</p>
-                            <p>(1 March 2024 - 30 April 2024)</p>
-                            <p>Selected individuals will go through a two month-long online training and assessment sessions to learn intermediate knowledge of app development and monetization.</p>
+                            <p>(10 May 2026 - 05 July 2026)</p>
+                            <p>Selected individuals will go through Eight Weeks-long online training and assessment sessions to learn intermediate knowledge of app development and monetization. <a href="https://drive.google.com/drive/folders/1Hq4vZHncXhhNaAOzZT93L-ncqKTvsYZs?usp=sharing">[link to class schedule]</a></p>
                           </div>
 
                           <div id="menu3" class="container tab-pane fade"><br>
                             <p>Phase 3 - Development of Application</p>
-                            <p>(1 May 2024 - 31 May 2024)</p>
-                            <p>Participants will get a month to develop their application or polish their already existing application and make them monetization ready. They will get continued support from the trainers and bdapps admins.</p>
+                            <p>(6 July 2026 - 05 August 2026)</p>
+                            <p>Participants will get a month to develop their application or polish their already existing application and make them monetization ready with bdapps. They will get continued support from the trainers and bdapps admins.</p>
                           </div>
 
                           <div id="menu4" class="container tab-pane fade"><br>
-                            <p>Phase 4 - Closing ceremony and Award night</p>
-                            <p>(June 2024)</p>
+                            <p>Phase 4 - Closing and Award ceremony</p>
+                            <p>(August 2024)</p>
                             <p>Based on their attendance & performance during their training phase and quality of their submitted applications, the judges will choose the winners. The participants of the program will be invited to a Gala event where they will receive their certificates and winners will get their awards from our esteemed panel of guests.</p>
                           </div>
 
@@ -347,40 +347,38 @@
 
                         <tr>
                             <td>Rajshahi</td>
-                            <td>To Be Announced</td>
+                            <td>16 April</td>
                             <td>To Be Announced</td>
                         </tr>
 
-                        
+                        <tr>
+                            <td>Dhaka</td>
+                            <td>23 April</td>
+                            <td>To Be Announced</td>
+                        </tr>
 
                         <tr>
                             <td>Chittagong</td>
-                            <td>To Be Announced</td>
+                            <td>24 April</td>
                             <td>To Be Announced</td>
                         </tr>
 
                         <tr>
                             <td>Sylhet</td>
                             <td>To Be Announced</td>
-                            <td>To Be Announced</td>
+                            <td>Online</td>
                         </tr>
 
                         <tr>
                             <td>Khulna</td>
                             <td>To Be Announced</td>
-                            <td>To Be Announced</td>
+                            <td>Online</td>
                         </tr>
 
                         <tr>
                             <td>Barisal</td>
                             <td>To Be Announced</td>
-                            <td>To Be Announced</td>
-                        </tr>
-
-                        <tr>
-                            <td>Dhaka & Mymansingh</td>
-                            <td>To Be Announced</td>
-                            <td>To Be Announced</td>
+                            <td>Online</td>
                         </tr>
 
                     </table>

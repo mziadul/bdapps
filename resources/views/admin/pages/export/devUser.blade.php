@@ -38,16 +38,16 @@
 
             <td>{{ $data->home_address }}</td>
             <td>{{ $data->current_address }}</td>
-            <td>{!! $data->educational_background !!}</td>
+            <td>{{ strip_tags($data->educational_background) }}</td>
 
             <td>{{ $data->has_pc }}</td>
             <td>{{ $data->has_wifi }}</td>
             <td>{{ $data->has_programming_experience }}</td>
-            <td>{!! $data->programming_experience !!}</td>
+            <td>{{ strip_tags($data->programming_experience) }}</td>
             <td>{{ $data->programming_experience_rate }}</td>
 
             <td>{{ $data->has_android_experience }}</td>
-            <td>{!! $data->android_experience !!}</td>
+            <td>{{ strip_tags($data->android_experience) }}</td>
             <td>{{ $data->android_experience_rate }}</td>
             <td>{{ $data->allocate_time }}</td>
             <td>{{ $data->bear_cost }}</td>

@@ -353,6 +353,16 @@
                                             <input class="form-check-input" type="checkbox" id="bear_cost" name="bear_cost" value="yes" checked>
                                         </div>
                                     </div>
+
+                                    <div class="mb-3 mt-1">
+                                        <div class="form-check form-switch">
+                                            <label class="form-check-label" for="bear_cost">
+                                                I have seen the class schedule and I agree that I can attend all classes as per the given schedule:
+                                                <span class="res-star">*</span>
+                                            </label>
+                                            <input class="form-check-input" type="checkbox" id="agree_schedule" name="agree_schedule" value="yes" checked required>
+                                        </div>
+                                    </div>
                             
                                 </div>
                 
