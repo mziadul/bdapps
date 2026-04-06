@@ -70,9 +70,9 @@
                 
                 <div class="row justify-content-center mt-5">
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
                         <div id="support_img_div">
-                            <img id="support-image" src="{{ asset('assets/user/img/support-images.png') }}">
+                            <img id="support-image" style="max-width: 100%; height: auto;" src="{{ asset('assets/user/img/support-images.png') }}">
                         </div>
                     </div>
 
@@ -410,7 +410,7 @@
 
                     <div class="child2 fs-5">
                             <ul id="rules">
-                                <li>&#8226 The “bdapps Ignite - National Android Development Bootcamp” is open to all Bangladeshi citizens irrespective of age, gender, religion, educational background.</li>
+                                <li>&#8226 The “National Android Development Bootcamp” is open to all Bangladeshi citizens irrespective of age, gender, religion, educational background.</li>
                                 <li>&#8226 Participants have to apply in an individual capacity.</li>
                                 <li>&#8226 Participants must have access to a personal laptop or desktop computer. </li>
                                 <li>&#8226 Participants must have access to broadband internet or wifi.</li>
@@ -470,7 +470,7 @@
 
                     <div class="child2 fs-5">
                         <ul id="rules">
-                            <li>&#8226 The “bdapps Ignite - National Android Development Bootcamp” is open to all Bangladeshi citizens irrespective of age, gender, religion, educational background.</li>
+                            <li>&#8226 The “National Android Development Bootcamp” is open to all Bangladeshi citizens irrespective of age, gender, religion, educational background.</li>
                             <li>&#8226 Participants have to apply in an individual capacity.</li>
                             <li>&#8226 Participants must have access to a personal laptop or desktop computer. </li>
                             <li>&#8226 Participants must have access to broadband internet or wifi.</li>
