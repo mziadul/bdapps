@@ -26,9 +26,11 @@ pipeline {
 
         stage('Deploy (Local)') {
             steps {
-                echo 'Starting Laravel Server...'
-                // Run Laravel on port 8001 to avoid conflict with Next.js (3000)
-                sh 'nohup php artisan serve --host=0.0.0.0 --port=8001 > /dev/null 2>&1 &'
+                script {
+                    // JENKINS_NODE_COOKIE সেট করলে জেঙ্কিন্স বিল্ড শেষে এই প্রসেসটি মারবে না
+                    sh 'export JENKINS_NODE_COOKIE=dontKillMe && nohup php artisan serve --host=0.0.0.0 --port=8001 > laravel.log 2>&1 &'
+                    sh 'sleep 5' // সার্ভার চালু হওয়ার জন্য একটু সময় দিন
+                }
             }
         }
     }
