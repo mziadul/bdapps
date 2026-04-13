@@ -8,44 +8,30 @@ pipeline {
             }
         }
 
-        stage('Build & Up Containers') {
+        stage('Environment Setup') {
             steps {
-                // ১. আপনার দেওয়া Dockerfile ও Compose ফাইল ব্যবহার করে কন্টেইনার বিল্ড ও রান করবে
-                sh 'docker compose up -d --build'
-            }
-        }
-
-        stage('Install Dependencies') {
-            steps {
-                // ২. জেঙ্কিন্স 'app' কন্টেইনারের ভেতরে ঢুকে কম্পোজার রান করবে
-                sh 'docker compose exec -T app composer install --no-interaction --prefer-dist'
-                sh 'docker compose exec -T app php artisan key:generate --ansi || true'
-            }
-        }
-
-        stage('Database Migration') {
-            steps {
-                // ৩. আপনার লোকাল ডাটাবেসে টেবিল তৈরি করবে
-                sh 'docker compose exec -T app php artisan migrate --force'
+                // Copy .env.example if .env doesn't exist
+                sh 'cp .env.example .env || true'
+                sh 'composer install --no-interaction --prefer-dist --optimize-autoloader'
+                sh 'php artisan key:generate'
             }
         }
 
         stage('Run Tests') {
             steps {
-                // ৪. কন্টেইনারের ভেতরেই টেস্ট রান করবে
-                sh 'docker compose exec -T app php artisan test || true'
+                // '|| true' যোগ করলে টেস্ট ফেইল করলেও বিল্ড থামবে না
+                sh 'php artisan test || true' 
             }
         }
-    }
 
-    post {
-        success {
-            echo "Congratulations! Your App is live at http://localhost:8000"
-        }
-        always {
-            // ইচ্ছা করলে বিল্ড শেষে কন্টেইনার ডাউন করতে পারেন, তবে লাইভ রাখতে চাইলে করার দরকার নেই
-            // sh 'docker compose down' 
-            echo "Build Process Finished."
+        stage('Deploy (Local)') {
+            steps {
+                script {
+                    // JENKINS_NODE_COOKIE সেট করলে জেঙ্কিন্স বিল্ড শেষে এই প্রসেসটি মারবে না
+                    sh 'export JENKINS_NODE_COOKIE=dontKillMe && nohup php artisan serve --host=0.0.0.0 --port=8001 > laravel.log 2>&1 &'
+                    sh 'sleep 5' // সার্ভার চালু হওয়ার জন্য একটু সময় দিন
+                }
+            }
         }
     }
 }
